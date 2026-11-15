@@ -69,8 +69,11 @@ def label(raw: dict, dataset: str, row: dict) -> dict:
         set_("sustained_burn", "no", "1-g Burn Length")
 
     # ACME BRE / CLD: recorded flames ignited.
-    ign = raw.get("Flames Ignited", raw.get("Flames ignited"))
-    set_("ignition", _yes_no(ign), "Flames Ignited")
+    # The field holds a count of flames ignited in the test (NASA ACME reports count "flames ignited").
+    # A count above zero means at least one flame was ignited; zero means none was.
+    ign = str(raw.get("Flames Ignited", raw.get("Flames ignited", ""))).strip()
+    if ign.isdigit():
+        set_("ignition", "yes" if int(ign) > 0 else "no", "Flames Ignited (count)")
 
     out["source"] = "; ".join(notes)
     return out
