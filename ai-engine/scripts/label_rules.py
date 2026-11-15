@@ -55,11 +55,11 @@ def label(raw: dict, dataset: str, row: dict) -> dict:
     if se == "SE":
         set_("extinguished", "yes", "Self-ext")
 
-    # SPICE: a recorded ignition time and a recorded flame-off time.
+    # SPICE: a recorded ignition time means the run was ignited. "GMT Flame Off" is NOT used for extinction:
+    # the SPICE test procedure (DeBold, UMD thesis, Ch. 2) turns the fuel and igniter off at the end of each run,
+    # so the recorded time is when the operator stopped the flame, not when it went out on its own.
     if str(raw.get("GMT ignition", "")).strip():
         set_("ignition", "yes", "GMT ignition")
-    if str(raw.get("GMT Flame Off", "")).strip():
-        set_("extinguished", "yes", "GMT Flame Off")
 
     # SAFFIRE-II: 1-g burn length. "Complete" = the sample burned through; "~ 0" = it did not burn.
     burn = str(raw.get("1-g Burn Length", "")).strip().lower()

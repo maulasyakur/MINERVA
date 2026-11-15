@@ -1409,475 +1409,475 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 1407,ACME CFI-G (inverse),PSI-159,21277 M1,yes,unknown,unknown,Hot ignition
 1408,ACME CFI-G (inverse),PSI-159,21277 N1,yes,unknown,unknown,Hot ignition
 1409,ACME CFI-G (inverse),PSI-159,21277 P1,yes,unknown,unknown,Hot ignition
-1410,SPICE,PSI-107,d45_14:37:08,yes,unknown,yes,GMT ignition; GMT Flame Off
-1411,SPICE,PSI-107,d45_14:37:08,yes,unknown,yes,GMT ignition; GMT Flame Off
-1412,SPICE,PSI-107,d45_14:50:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1413,SPICE,PSI-107,d45_14:50:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1414,SPICE,PSI-107,d45_15:35:44,yes,unknown,yes,GMT ignition; GMT Flame Off
-1415,SPICE,PSI-107,d45_15:35:44,yes,unknown,yes,GMT ignition; GMT Flame Off
-1416,SPICE,PSI-107,d45_15:35:44,yes,unknown,yes,GMT ignition; GMT Flame Off
-1417,SPICE,PSI-107,d45_15:42:22,yes,unknown,yes,GMT ignition; GMT Flame Off
-1418,SPICE,PSI-107,d45_15:42:22,yes,unknown,yes,GMT ignition; GMT Flame Off
-1419,SPICE,PSI-107,d45_15:48:39,yes,unknown,yes,GMT ignition; GMT Flame Off
-1420,SPICE,PSI-107,d45_15:48:39,yes,unknown,yes,GMT ignition; GMT Flame Off
-1421,SPICE,PSI-107,d45_15:50:59,yes,unknown,yes,GMT ignition; GMT Flame Off
-1422,SPICE,PSI-107,d45_15:50:59,yes,unknown,yes,GMT ignition; GMT Flame Off
-1423,SPICE,PSI-107,d45_17:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1424,SPICE,PSI-107,d45_17:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1425,SPICE,PSI-107,d45_17:15:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1426,SPICE,PSI-107,d45_17:15:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1427,SPICE,PSI-107,d45_17:20:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1428,SPICE,PSI-107,d45_17:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1429,SPICE,PSI-107,d45_17:23:03,yes,unknown,yes,GMT ignition; GMT Flame Off
-1430,SPICE,PSI-107,d45_17:23:03,yes,unknown,yes,GMT ignition; GMT Flame Off
-1431,SPICE,PSI-107,d45_17:27:48,yes,unknown,yes,GMT ignition; GMT Flame Off
-1432,SPICE,PSI-107,d45_17:27:48,yes,unknown,yes,GMT ignition; GMT Flame Off
-1433,SPICE,PSI-107,d45_17:29:49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1434,SPICE,PSI-107,d45_17:29:48,yes,unknown,yes,GMT ignition; GMT Flame Off
-1435,SPICE,PSI-107,d48_14:32:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1436,SPICE,PSI-107,d48_14:33:57,yes,unknown,yes,GMT ignition; GMT Flame Off
+1410,SPICE,PSI-107,d45_14:37:08,yes,unknown,unknown,GMT ignition
+1411,SPICE,PSI-107,d45_14:37:08,yes,unknown,unknown,GMT ignition
+1412,SPICE,PSI-107,d45_14:50:07,yes,unknown,unknown,GMT ignition
+1413,SPICE,PSI-107,d45_14:50:07,yes,unknown,unknown,GMT ignition
+1414,SPICE,PSI-107,d45_15:35:44,yes,unknown,unknown,GMT ignition
+1415,SPICE,PSI-107,d45_15:35:44,yes,unknown,unknown,GMT ignition
+1416,SPICE,PSI-107,d45_15:35:44,yes,unknown,unknown,GMT ignition
+1417,SPICE,PSI-107,d45_15:42:22,yes,unknown,unknown,GMT ignition
+1418,SPICE,PSI-107,d45_15:42:22,yes,unknown,unknown,GMT ignition
+1419,SPICE,PSI-107,d45_15:48:39,yes,unknown,unknown,GMT ignition
+1420,SPICE,PSI-107,d45_15:48:39,yes,unknown,unknown,GMT ignition
+1421,SPICE,PSI-107,d45_15:50:59,yes,unknown,unknown,GMT ignition
+1422,SPICE,PSI-107,d45_15:50:59,yes,unknown,unknown,GMT ignition
+1423,SPICE,PSI-107,d45_17:11:46,yes,unknown,unknown,GMT ignition
+1424,SPICE,PSI-107,d45_17:11:46,yes,unknown,unknown,GMT ignition
+1425,SPICE,PSI-107,d45_17:15:05,yes,unknown,unknown,GMT ignition
+1426,SPICE,PSI-107,d45_17:15:05,yes,unknown,unknown,GMT ignition
+1427,SPICE,PSI-107,d45_17:20:46,yes,unknown,unknown,GMT ignition
+1428,SPICE,PSI-107,d45_17:20:47,yes,unknown,unknown,GMT ignition
+1429,SPICE,PSI-107,d45_17:23:03,yes,unknown,unknown,GMT ignition
+1430,SPICE,PSI-107,d45_17:23:03,yes,unknown,unknown,GMT ignition
+1431,SPICE,PSI-107,d45_17:27:48,yes,unknown,unknown,GMT ignition
+1432,SPICE,PSI-107,d45_17:27:48,yes,unknown,unknown,GMT ignition
+1433,SPICE,PSI-107,d45_17:29:49,yes,unknown,unknown,GMT ignition
+1434,SPICE,PSI-107,d45_17:29:48,yes,unknown,unknown,GMT ignition
+1435,SPICE,PSI-107,d48_14:32:05,yes,unknown,unknown,GMT ignition
+1436,SPICE,PSI-107,d48_14:33:57,yes,unknown,unknown,GMT ignition
 1437,SPICE,PSI-107,d48_14.34.57,yes,unknown,unknown,GMT ignition
-1438,SPICE,PSI-107,d48_14:43:57,yes,unknown,yes,GMT ignition; GMT Flame Off
-1439,SPICE,PSI-107,d48_14.43.58,yes,unknown,yes,GMT ignition; GMT Flame Off
-1440,SPICE,PSI-107,d48_14:48:19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1441,SPICE,PSI-107,d48_14:48:19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1442,SPICE,PSI-107,d48_14:48:19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1443,SPICE,PSI-107,d48_14:48:19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1444,SPICE,PSI-107,d48_14:48:19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1445,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1446,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1447,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1448,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1449,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1450,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1451,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1452,SPICE,PSI-107,d48_16:53:44,yes,unknown,yes,GMT ignition; GMT Flame Off
-1453,SPICE,PSI-107,d48_16.53.45,yes,unknown,yes,GMT ignition; GMT Flame Off
-1454,SPICE,PSI-107,d48_17:01:35,yes,unknown,yes,GMT ignition; GMT Flame Off
-1455,SPICE,PSI-107,d48_17:01:35,yes,unknown,yes,GMT ignition; GMT Flame Off
-1456,SPICE,PSI-107,d48_17.01.36,yes,unknown,yes,GMT ignition; GMT Flame Off
-1457,SPICE,PSI-107,d48_17.01.36,yes,unknown,yes,GMT ignition; GMT Flame Off
-1458,SPICE,PSI-107,d48_17:11:21,yes,unknown,yes,GMT ignition; GMT Flame Off
-1459,SPICE,PSI-107,d48_17:11:21,yes,unknown,yes,GMT ignition; GMT Flame Off
-1460,SPICE,PSI-107,d48_17.11.21,yes,unknown,yes,GMT ignition; GMT Flame Off
-1461,SPICE,PSI-107,d48_17.11.21,yes,unknown,yes,GMT ignition; GMT Flame Off
+1438,SPICE,PSI-107,d48_14:43:57,yes,unknown,unknown,GMT ignition
+1439,SPICE,PSI-107,d48_14.43.58,yes,unknown,unknown,GMT ignition
+1440,SPICE,PSI-107,d48_14:48:19,yes,unknown,unknown,GMT ignition
+1441,SPICE,PSI-107,d48_14:48:19,yes,unknown,unknown,GMT ignition
+1442,SPICE,PSI-107,d48_14:48:19,yes,unknown,unknown,GMT ignition
+1443,SPICE,PSI-107,d48_14:48:19,yes,unknown,unknown,GMT ignition
+1444,SPICE,PSI-107,d48_14:48:19,yes,unknown,unknown,GMT ignition
+1445,SPICE,PSI-107,d48_14.48.19,yes,unknown,unknown,GMT ignition
+1446,SPICE,PSI-107,d48_14.48.19,yes,unknown,unknown,GMT ignition
+1447,SPICE,PSI-107,d48_14.48.19,yes,unknown,unknown,GMT ignition
+1448,SPICE,PSI-107,d48_14.48.19,yes,unknown,unknown,GMT ignition
+1449,SPICE,PSI-107,d48_14.48.19,yes,unknown,unknown,GMT ignition
+1450,SPICE,PSI-107,d48_14.48.19,yes,unknown,unknown,GMT ignition
+1451,SPICE,PSI-107,d48_14.48.19,yes,unknown,unknown,GMT ignition
+1452,SPICE,PSI-107,d48_16:53:44,yes,unknown,unknown,GMT ignition
+1453,SPICE,PSI-107,d48_16.53.45,yes,unknown,unknown,GMT ignition
+1454,SPICE,PSI-107,d48_17:01:35,yes,unknown,unknown,GMT ignition
+1455,SPICE,PSI-107,d48_17:01:35,yes,unknown,unknown,GMT ignition
+1456,SPICE,PSI-107,d48_17.01.36,yes,unknown,unknown,GMT ignition
+1457,SPICE,PSI-107,d48_17.01.36,yes,unknown,unknown,GMT ignition
+1458,SPICE,PSI-107,d48_17:11:21,yes,unknown,unknown,GMT ignition
+1459,SPICE,PSI-107,d48_17:11:21,yes,unknown,unknown,GMT ignition
+1460,SPICE,PSI-107,d48_17.11.21,yes,unknown,unknown,GMT ignition
+1461,SPICE,PSI-107,d48_17.11.21,yes,unknown,unknown,GMT ignition
 1462,SPICE,PSI-107,d48_1744,yes,unknown,unknown,GMT ignition
 1463,SPICE,PSI-107,d48_1746,yes,unknown,unknown,GMT ignition
-1464,SPICE,PSI-107,d48_17.44.38,yes,unknown,yes,GMT ignition; GMT Flame Off
-1465,SPICE,PSI-107,d48_17.44.38,yes,unknown,yes,GMT ignition; GMT Flame Off
-1466,SPICE,PSI-107,d52_11:38:51,yes,unknown,yes,GMT ignition; GMT Flame Off
-1467,SPICE,PSI-107,d52_11:38:51,yes,unknown,yes,GMT ignition; GMT Flame Off
-1468,SPICE,PSI-107,d52_11.38.51,yes,unknown,yes,GMT ignition; GMT Flame Off
-1469,SPICE,PSI-107,d52_11.38.51,yes,unknown,yes,GMT ignition; GMT Flame Off
-1470,SPICE,PSI-107,d52_11:42:49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1471,SPICE,PSI-107,d52_11:42:49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1472,SPICE,PSI-107,d52_11.42.50,yes,unknown,yes,GMT ignition; GMT Flame Off
-1473,SPICE,PSI-107,d52_11.42.50,yes,unknown,yes,GMT ignition; GMT Flame Off
-1474,SPICE,PSI-107,d52_11:49:35,yes,unknown,yes,GMT ignition; GMT Flame Off
-1475,SPICE,PSI-107,d52_11:49:35,yes,unknown,yes,GMT ignition; GMT Flame Off
-1476,SPICE,PSI-107,d52_11.49.35,yes,unknown,yes,GMT ignition; GMT Flame Off
-1477,SPICE,PSI-107,d52_11.49.35,yes,unknown,yes,GMT ignition; GMT Flame Off
-1478,SPICE,PSI-107,d52_12.01.47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1479,SPICE,PSI-107,d52_12.01.47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1480,SPICE,PSI-107,d52_12:21:19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1481,SPICE,PSI-107,d52_12:21:19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1482,SPICE,PSI-107,d52_12.21.19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1483,SPICE,PSI-107,d52_12.21.19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1484,SPICE,PSI-107,d52_12:26:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1485,SPICE,PSI-107,d52_12:26:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1486,SPICE,PSI-107,d52_12.26.44,yes,unknown,yes,GMT ignition; GMT Flame Off
-1487,SPICE,PSI-107,d52_12.26.44,yes,unknown,yes,GMT ignition; GMT Flame Off
-1488,SPICE,PSI-107,d52_12.28.52,yes,unknown,yes,GMT ignition; GMT Flame Off
-1489,SPICE,PSI-107,d52_12.28.52,yes,unknown,yes,GMT ignition; GMT Flame Off
-1490,SPICE,PSI-107,d52_12:42:47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1491,SPICE,PSI-107,d52_12:42:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1464,SPICE,PSI-107,d48_17.44.38,yes,unknown,unknown,GMT ignition
+1465,SPICE,PSI-107,d48_17.44.38,yes,unknown,unknown,GMT ignition
+1466,SPICE,PSI-107,d52_11:38:51,yes,unknown,unknown,GMT ignition
+1467,SPICE,PSI-107,d52_11:38:51,yes,unknown,unknown,GMT ignition
+1468,SPICE,PSI-107,d52_11.38.51,yes,unknown,unknown,GMT ignition
+1469,SPICE,PSI-107,d52_11.38.51,yes,unknown,unknown,GMT ignition
+1470,SPICE,PSI-107,d52_11:42:49,yes,unknown,unknown,GMT ignition
+1471,SPICE,PSI-107,d52_11:42:49,yes,unknown,unknown,GMT ignition
+1472,SPICE,PSI-107,d52_11.42.50,yes,unknown,unknown,GMT ignition
+1473,SPICE,PSI-107,d52_11.42.50,yes,unknown,unknown,GMT ignition
+1474,SPICE,PSI-107,d52_11:49:35,yes,unknown,unknown,GMT ignition
+1475,SPICE,PSI-107,d52_11:49:35,yes,unknown,unknown,GMT ignition
+1476,SPICE,PSI-107,d52_11.49.35,yes,unknown,unknown,GMT ignition
+1477,SPICE,PSI-107,d52_11.49.35,yes,unknown,unknown,GMT ignition
+1478,SPICE,PSI-107,d52_12.01.47,yes,unknown,unknown,GMT ignition
+1479,SPICE,PSI-107,d52_12.01.47,yes,unknown,unknown,GMT ignition
+1480,SPICE,PSI-107,d52_12:21:19,yes,unknown,unknown,GMT ignition
+1481,SPICE,PSI-107,d52_12:21:19,yes,unknown,unknown,GMT ignition
+1482,SPICE,PSI-107,d52_12.21.19,yes,unknown,unknown,GMT ignition
+1483,SPICE,PSI-107,d52_12.21.19,yes,unknown,unknown,GMT ignition
+1484,SPICE,PSI-107,d52_12:26:14,yes,unknown,unknown,GMT ignition
+1485,SPICE,PSI-107,d52_12:26:14,yes,unknown,unknown,GMT ignition
+1486,SPICE,PSI-107,d52_12.26.44,yes,unknown,unknown,GMT ignition
+1487,SPICE,PSI-107,d52_12.26.44,yes,unknown,unknown,GMT ignition
+1488,SPICE,PSI-107,d52_12.28.52,yes,unknown,unknown,GMT ignition
+1489,SPICE,PSI-107,d52_12.28.52,yes,unknown,unknown,GMT ignition
+1490,SPICE,PSI-107,d52_12:42:47,yes,unknown,unknown,GMT ignition
+1491,SPICE,PSI-107,d52_12:42:47,yes,unknown,unknown,GMT ignition
 1492,SPICE,PSI-107,d52_12.42.47,yes,unknown,unknown,GMT ignition
 1493,SPICE,PSI-107,d52_12.42.47,yes,unknown,unknown,GMT ignition
-1494,SPICE,PSI-107,d52_13:02:02,yes,unknown,yes,GMT ignition; GMT Flame Off
-1495,SPICE,PSI-107,d52_13:02:02,yes,unknown,yes,GMT ignition; GMT Flame Off
-1496,SPICE,PSI-107,d52_13.02.02,yes,unknown,yes,GMT ignition; GMT Flame Off
-1497,SPICE,PSI-107,d52_13.02.02,yes,unknown,yes,GMT ignition; GMT Flame Off
-1498,SPICE,PSI-107,d52_13:04:25,yes,unknown,yes,GMT ignition; GMT Flame Off
-1499,SPICE,PSI-107,d52_13:04:25,yes,unknown,yes,GMT ignition; GMT Flame Off
-1500,SPICE,PSI-107,d52_13.04.25,yes,unknown,yes,GMT ignition; GMT Flame Off
-1501,SPICE,PSI-107,d52_13.04.25,yes,unknown,yes,GMT ignition; GMT Flame Off
-1502,SPICE,PSI-107,d52_16:09:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1503,SPICE,PSI-107,d52_no ku,yes,unknown,yes,GMT ignition; GMT Flame Off
-1504,SPICE,PSI-107,d52_no ku,yes,unknown,yes,GMT ignition; GMT Flame Off
-1505,SPICE,PSI-107,d52_16.14.05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1506,SPICE,PSI-107,d52_16.14.05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1507,SPICE,PSI-107,d52_16.22.17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1508,SPICE,PSI-107,d52_16.22.17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1509,SPICE,PSI-107,d52_16.22.17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1510,SPICE,PSI-107,d52_Ku              LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
-1511,SPICE,PSI-107,d52_Ku              LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
-1512,SPICE,PSI-107,d52_Ku              LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
-1513,SPICE,PSI-107,d52_17:10:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1514,SPICE,PSI-107,d52_17:10:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1515,SPICE,PSI-107,d52_17:10:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1516,SPICE,PSI-107,d52_17:10:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1517,SPICE,PSI-107,d52_17:25:47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1518,SPICE,PSI-107,d52_17:25:47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1519,SPICE,PSI-107,d52_17:25:47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1520,SPICE,PSI-107,d52_17.25.49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1521,SPICE,PSI-107,d52_17.25.49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1522,SPICE,PSI-107,d52_17.25.49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1523,SPICE,PSI-107,d52_17:30:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1524,SPICE,PSI-107,d52_17:30:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1525,SPICE,PSI-107,d52_17:30:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1526,SPICE,PSI-107,d52_17.30.18,yes,unknown,yes,GMT ignition; GMT Flame Off
-1527,SPICE,PSI-107,d52_17.30.18,yes,unknown,yes,GMT ignition; GMT Flame Off
-1528,SPICE,PSI-107,d52_17.30.18,yes,unknown,yes,GMT ignition; GMT Flame Off
-1529,SPICE,PSI-107,d52_17:47:11,yes,unknown,yes,GMT ignition; GMT Flame Off
-1530,SPICE,PSI-107,d52_17:47:11,yes,unknown,yes,GMT ignition; GMT Flame Off
-1531,SPICE,PSI-107,d52_17.47.12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1532,SPICE,PSI-107,d52_17.47.12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1533,SPICE,PSI-107,d52_17.47.12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1534,SPICE,PSI-107,d52_17:50:49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1535,SPICE,PSI-107,d52_17:50:49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1536,SPICE,PSI-107,d52_17.50.49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1537,SPICE,PSI-107,d52_17.50.49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1538,SPICE,PSI-107,d52_17.50.49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1539,SPICE,PSI-107,d52_17.50.49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1540,SPICE,PSI-107,d52_17.50.49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1541,SPICE,PSI-107,d52_17:58:09,yes,unknown,yes,GMT ignition; GMT Flame Off
-1542,SPICE,PSI-107,d52_17:58:09,yes,unknown,yes,GMT ignition; GMT Flame Off
-1543,SPICE,PSI-107,d52_17:58:09,yes,unknown,yes,GMT ignition; GMT Flame Off
-1544,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
-1545,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
-1546,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
-1547,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
-1548,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
-1549,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
-1550,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1551,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1552,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1553,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1554,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1555,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1556,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1557,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1558,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1559,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1560,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1561,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1562,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1563,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1564,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1565,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1566,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1567,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1568,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1569,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1570,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1571,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1572,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1573,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1574,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1575,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1576,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1577,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
-1578,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
-1579,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
-1580,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
-1581,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
-1582,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
-1583,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
-1584,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
-1585,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
-1586,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
-1587,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
-1588,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
-1589,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
-1590,SPICE,PSI-107,d55_10:01:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1591,SPICE,PSI-107,d55_10:01:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1592,SPICE,PSI-107,d55_10:01:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1593,SPICE,PSI-107,d55_10:01:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1594,SPICE,PSI-107,d55_10:15:39,yes,unknown,yes,GMT ignition; GMT Flame Off
-1595,SPICE,PSI-107,d55_10:15:39,yes,unknown,yes,GMT ignition; GMT Flame Off
-1596,SPICE,PSI-107,d55_10:15:39,yes,unknown,yes,GMT ignition; GMT Flame Off
-1597,SPICE,PSI-107,d55_10:15:39,yes,unknown,yes,GMT ignition; GMT Flame Off
-1598,SPICE,PSI-107,d55_10:25:40,yes,unknown,yes,GMT ignition; GMT Flame Off
-1599,SPICE,PSI-107,d55_10:25:40,yes,unknown,yes,GMT ignition; GMT Flame Off
-1600,SPICE,PSI-107,d55_10:25:40,yes,unknown,yes,GMT ignition; GMT Flame Off
-1601,SPICE,PSI-107,d55_10:25:40,yes,unknown,yes,GMT ignition; GMT Flame Off
-1602,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1603,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1604,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1605,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1606,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1607,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1608,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1609,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1610,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1611,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1612,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1613,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
-1614,SPICE,PSI-107,d55_10:52:20,yes,unknown,yes,GMT ignition; GMT Flame Off
-1615,SPICE,PSI-107,d55_10:52:20,yes,unknown,yes,GMT ignition; GMT Flame Off
-1616,SPICE,PSI-107,d55_10:52:20,yes,unknown,yes,GMT ignition; GMT Flame Off
-1617,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
-1618,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
-1619,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
-1620,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
-1621,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
-1622,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
-1623,SPICE,PSI-107,d58_9:37:52,yes,unknown,yes,GMT ignition; GMT Flame Off
-1624,SPICE,PSI-107,d58_9:37:52,yes,unknown,yes,GMT ignition; GMT Flame Off
-1625,SPICE,PSI-107,d58_9:37:52,yes,unknown,yes,GMT ignition; GMT Flame Off
-1626,SPICE,PSI-107,d58_9:37:52,yes,unknown,yes,GMT ignition; GMT Flame Off
-1627,SPICE,PSI-107,d58_9:44:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1628,SPICE,PSI-107,d58_9:44:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1629,SPICE,PSI-107,d58_9:44:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1630,SPICE,PSI-107,d58_9:44:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1631,SPICE,PSI-107,d58_9:44:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1632,SPICE,PSI-107,d58_9:47:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1633,SPICE,PSI-107,d58_9:47:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1634,SPICE,PSI-107,d58_9:47:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1635,SPICE,PSI-107,d58_9:47:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1636,SPICE,PSI-107,d58_9:47:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1637,SPICE,PSI-107,d58_9:55:18,yes,unknown,yes,GMT ignition; GMT Flame Off
-1638,SPICE,PSI-107,d58_9:55:18,yes,unknown,yes,GMT ignition; GMT Flame Off
-1639,SPICE,PSI-107,d58_9:55:18,yes,unknown,yes,GMT ignition; GMT Flame Off
-1640,SPICE,PSI-107,d58_9:55:18,yes,unknown,yes,GMT ignition; GMT Flame Off
-1641,SPICE,PSI-107,d58_9:55:18,yes,unknown,yes,GMT ignition; GMT Flame Off
-1642,SPICE,PSI-107,d58_Ku LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
-1643,SPICE,PSI-107,d58_Ku LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
-1644,SPICE,PSI-107,d58_Ku LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
-1645,SPICE,PSI-107,d58_10:13:22,yes,unknown,yes,GMT ignition; GMT Flame Off
-1646,SPICE,PSI-107,d58_10:13:22,yes,unknown,yes,GMT ignition; GMT Flame Off
-1647,SPICE,PSI-107,d58_10:13:22,yes,unknown,yes,GMT ignition; GMT Flame Off
-1648,SPICE,PSI-107,d58_10:18:27,yes,unknown,yes,GMT ignition; GMT Flame Off
-1649,SPICE,PSI-107,d58_10:18:27,yes,unknown,yes,GMT ignition; GMT Flame Off
-1650,SPICE,PSI-107,d58_10:18:27,yes,unknown,yes,GMT ignition; GMT Flame Off
-1651,SPICE,PSI-107,d58_10:36:19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1652,SPICE,PSI-107,d58_10:36:19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1653,SPICE,PSI-107,d58_10:36:19,yes,unknown,yes,GMT ignition; GMT Flame Off
-1654,SPICE,PSI-107,d58_10:41:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1655,SPICE,PSI-107,d58_10:41:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1656,SPICE,PSI-107,d58_10:41:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1657,SPICE,PSI-107,d58_11:23:08,yes,unknown,yes,GMT ignition; GMT Flame Off
-1658,SPICE,PSI-107,d58_11:23:08,yes,unknown,yes,GMT ignition; GMT Flame Off
-1659,SPICE,PSI-107,d58_11:25:49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1660,SPICE,PSI-107,d58_11:25:49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1661,SPICE,PSI-107,d58_11:25:49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1662,SPICE,PSI-107,d58_11:25:49,yes,unknown,yes,GMT ignition; GMT Flame Off
-1663,SPICE,PSI-107,d58_11:32:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1664,SPICE,PSI-107,d58_11:32:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1665,SPICE,PSI-107,d58_11:34:18,yes,unknown,yes,GMT ignition; GMT Flame Off
-1666,SPICE,PSI-107,d58_n/a,yes,unknown,yes,GMT ignition; GMT Flame Off
-1667,SPICE,PSI-107,d58_11:42:53,yes,unknown,yes,GMT ignition; GMT Flame Off
-1668,SPICE,PSI-107,d58_11:42:53,yes,unknown,yes,GMT ignition; GMT Flame Off
-1669,SPICE,PSI-107,d58_11:55:33,yes,unknown,yes,GMT ignition; GMT Flame Off
-1670,SPICE,PSI-107,d58_11:55:33,yes,unknown,yes,GMT ignition; GMT Flame Off
-1671,SPICE,PSI-107,d58_12:00:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1672,SPICE,PSI-107,d58_Ku LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
-1673,SPICE,PSI-107,d58_12:15:41,yes,unknown,yes,GMT ignition; GMT Flame Off
-1674,SPICE,PSI-107,d58_12:42:59,yes,unknown,yes,GMT ignition; GMT Flame Off
-1675,SPICE,PSI-107,d58_12:42:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1494,SPICE,PSI-107,d52_13:02:02,yes,unknown,unknown,GMT ignition
+1495,SPICE,PSI-107,d52_13:02:02,yes,unknown,unknown,GMT ignition
+1496,SPICE,PSI-107,d52_13.02.02,yes,unknown,unknown,GMT ignition
+1497,SPICE,PSI-107,d52_13.02.02,yes,unknown,unknown,GMT ignition
+1498,SPICE,PSI-107,d52_13:04:25,yes,unknown,unknown,GMT ignition
+1499,SPICE,PSI-107,d52_13:04:25,yes,unknown,unknown,GMT ignition
+1500,SPICE,PSI-107,d52_13.04.25,yes,unknown,unknown,GMT ignition
+1501,SPICE,PSI-107,d52_13.04.25,yes,unknown,unknown,GMT ignition
+1502,SPICE,PSI-107,d52_16:09:00,yes,unknown,unknown,GMT ignition
+1503,SPICE,PSI-107,d52_no ku,yes,unknown,unknown,GMT ignition
+1504,SPICE,PSI-107,d52_no ku,yes,unknown,unknown,GMT ignition
+1505,SPICE,PSI-107,d52_16.14.05,yes,unknown,unknown,GMT ignition
+1506,SPICE,PSI-107,d52_16.14.05,yes,unknown,unknown,GMT ignition
+1507,SPICE,PSI-107,d52_16.22.17,yes,unknown,unknown,GMT ignition
+1508,SPICE,PSI-107,d52_16.22.17,yes,unknown,unknown,GMT ignition
+1509,SPICE,PSI-107,d52_16.22.17,yes,unknown,unknown,GMT ignition
+1510,SPICE,PSI-107,d52_Ku              LOS,yes,unknown,unknown,GMT ignition
+1511,SPICE,PSI-107,d52_Ku              LOS,yes,unknown,unknown,GMT ignition
+1512,SPICE,PSI-107,d52_Ku              LOS,yes,unknown,unknown,GMT ignition
+1513,SPICE,PSI-107,d52_17:10:12,yes,unknown,unknown,GMT ignition
+1514,SPICE,PSI-107,d52_17:10:12,yes,unknown,unknown,GMT ignition
+1515,SPICE,PSI-107,d52_17:10:12,yes,unknown,unknown,GMT ignition
+1516,SPICE,PSI-107,d52_17:10:12,yes,unknown,unknown,GMT ignition
+1517,SPICE,PSI-107,d52_17:25:47,yes,unknown,unknown,GMT ignition
+1518,SPICE,PSI-107,d52_17:25:47,yes,unknown,unknown,GMT ignition
+1519,SPICE,PSI-107,d52_17:25:47,yes,unknown,unknown,GMT ignition
+1520,SPICE,PSI-107,d52_17.25.49,yes,unknown,unknown,GMT ignition
+1521,SPICE,PSI-107,d52_17.25.49,yes,unknown,unknown,GMT ignition
+1522,SPICE,PSI-107,d52_17.25.49,yes,unknown,unknown,GMT ignition
+1523,SPICE,PSI-107,d52_17:30:17,yes,unknown,unknown,GMT ignition
+1524,SPICE,PSI-107,d52_17:30:17,yes,unknown,unknown,GMT ignition
+1525,SPICE,PSI-107,d52_17:30:17,yes,unknown,unknown,GMT ignition
+1526,SPICE,PSI-107,d52_17.30.18,yes,unknown,unknown,GMT ignition
+1527,SPICE,PSI-107,d52_17.30.18,yes,unknown,unknown,GMT ignition
+1528,SPICE,PSI-107,d52_17.30.18,yes,unknown,unknown,GMT ignition
+1529,SPICE,PSI-107,d52_17:47:11,yes,unknown,unknown,GMT ignition
+1530,SPICE,PSI-107,d52_17:47:11,yes,unknown,unknown,GMT ignition
+1531,SPICE,PSI-107,d52_17.47.12,yes,unknown,unknown,GMT ignition
+1532,SPICE,PSI-107,d52_17.47.12,yes,unknown,unknown,GMT ignition
+1533,SPICE,PSI-107,d52_17.47.12,yes,unknown,unknown,GMT ignition
+1534,SPICE,PSI-107,d52_17:50:49,yes,unknown,unknown,GMT ignition
+1535,SPICE,PSI-107,d52_17:50:49,yes,unknown,unknown,GMT ignition
+1536,SPICE,PSI-107,d52_17.50.49,yes,unknown,unknown,GMT ignition
+1537,SPICE,PSI-107,d52_17.50.49,yes,unknown,unknown,GMT ignition
+1538,SPICE,PSI-107,d52_17.50.49,yes,unknown,unknown,GMT ignition
+1539,SPICE,PSI-107,d52_17.50.49,yes,unknown,unknown,GMT ignition
+1540,SPICE,PSI-107,d52_17.50.49,yes,unknown,unknown,GMT ignition
+1541,SPICE,PSI-107,d52_17:58:09,yes,unknown,unknown,GMT ignition
+1542,SPICE,PSI-107,d52_17:58:09,yes,unknown,unknown,GMT ignition
+1543,SPICE,PSI-107,d52_17:58:09,yes,unknown,unknown,GMT ignition
+1544,SPICE,PSI-107,d52_17.58.10,yes,unknown,unknown,GMT ignition
+1545,SPICE,PSI-107,d52_17.58.10,yes,unknown,unknown,GMT ignition
+1546,SPICE,PSI-107,d52_17.58.10,yes,unknown,unknown,GMT ignition
+1547,SPICE,PSI-107,d52_17.58.10,yes,unknown,unknown,GMT ignition
+1548,SPICE,PSI-107,d52_17.58.10,yes,unknown,unknown,GMT ignition
+1549,SPICE,PSI-107,d52_17.58.10,yes,unknown,unknown,GMT ignition
+1550,SPICE,PSI-107,d55_8:56:16,yes,unknown,unknown,GMT ignition
+1551,SPICE,PSI-107,d55_8:56:16,yes,unknown,unknown,GMT ignition
+1552,SPICE,PSI-107,d55_8:56:16,yes,unknown,unknown,GMT ignition
+1553,SPICE,PSI-107,d55_8:56:16,yes,unknown,unknown,GMT ignition
+1554,SPICE,PSI-107,d55_8:56:16,yes,unknown,unknown,GMT ignition
+1555,SPICE,PSI-107,d55_8:56:16,yes,unknown,unknown,GMT ignition
+1556,SPICE,PSI-107,d55_8:56:16,yes,unknown,unknown,GMT ignition
+1557,SPICE,PSI-107,d55_9:00:26,yes,unknown,unknown,GMT ignition
+1558,SPICE,PSI-107,d55_9:00:26,yes,unknown,unknown,GMT ignition
+1559,SPICE,PSI-107,d55_9:00:26,yes,unknown,unknown,GMT ignition
+1560,SPICE,PSI-107,d55_9:00:26,yes,unknown,unknown,GMT ignition
+1561,SPICE,PSI-107,d55_9:00:26,yes,unknown,unknown,GMT ignition
+1562,SPICE,PSI-107,d55_9:00:26,yes,unknown,unknown,GMT ignition
+1563,SPICE,PSI-107,d55_9:00:26,yes,unknown,unknown,GMT ignition
+1564,SPICE,PSI-107,d55_9:36:14,yes,unknown,unknown,GMT ignition
+1565,SPICE,PSI-107,d55_9:36:14,yes,unknown,unknown,GMT ignition
+1566,SPICE,PSI-107,d55_9:36:14,yes,unknown,unknown,GMT ignition
+1567,SPICE,PSI-107,d55_9:36:14,yes,unknown,unknown,GMT ignition
+1568,SPICE,PSI-107,d55_9:36:14,yes,unknown,unknown,GMT ignition
+1569,SPICE,PSI-107,d55_9:36:14,yes,unknown,unknown,GMT ignition
+1570,SPICE,PSI-107,d55_9:39:14,yes,unknown,unknown,GMT ignition
+1571,SPICE,PSI-107,d55_9:39:14,yes,unknown,unknown,GMT ignition
+1572,SPICE,PSI-107,d55_9:39:14,yes,unknown,unknown,GMT ignition
+1573,SPICE,PSI-107,d55_9:39:14,yes,unknown,unknown,GMT ignition
+1574,SPICE,PSI-107,d55_9:39:14,yes,unknown,unknown,GMT ignition
+1575,SPICE,PSI-107,d55_9:39:14,yes,unknown,unknown,GMT ignition
+1576,SPICE,PSI-107,d55_9:39:14,yes,unknown,unknown,GMT ignition
+1577,SPICE,PSI-107,d55_9:49:56,yes,unknown,unknown,GMT ignition
+1578,SPICE,PSI-107,d55_9:49:56,yes,unknown,unknown,GMT ignition
+1579,SPICE,PSI-107,d55_9:49:56,yes,unknown,unknown,GMT ignition
+1580,SPICE,PSI-107,d55_9:49:56,yes,unknown,unknown,GMT ignition
+1581,SPICE,PSI-107,d55_9:49:56,yes,unknown,unknown,GMT ignition
+1582,SPICE,PSI-107,d55_9:49:56,yes,unknown,unknown,GMT ignition
+1583,SPICE,PSI-107,d55_9:49:56,yes,unknown,unknown,GMT ignition
+1584,SPICE,PSI-107,d55_9:53:36,yes,unknown,unknown,GMT ignition
+1585,SPICE,PSI-107,d55_9:53:36,yes,unknown,unknown,GMT ignition
+1586,SPICE,PSI-107,d55_9:53:36,yes,unknown,unknown,GMT ignition
+1587,SPICE,PSI-107,d55_9:53:36,yes,unknown,unknown,GMT ignition
+1588,SPICE,PSI-107,d55_9:53:36,yes,unknown,unknown,GMT ignition
+1589,SPICE,PSI-107,d55_9:53:36,yes,unknown,unknown,GMT ignition
+1590,SPICE,PSI-107,d55_10:01:00,yes,unknown,unknown,GMT ignition
+1591,SPICE,PSI-107,d55_10:01:00,yes,unknown,unknown,GMT ignition
+1592,SPICE,PSI-107,d55_10:01:00,yes,unknown,unknown,GMT ignition
+1593,SPICE,PSI-107,d55_10:01:00,yes,unknown,unknown,GMT ignition
+1594,SPICE,PSI-107,d55_10:15:39,yes,unknown,unknown,GMT ignition
+1595,SPICE,PSI-107,d55_10:15:39,yes,unknown,unknown,GMT ignition
+1596,SPICE,PSI-107,d55_10:15:39,yes,unknown,unknown,GMT ignition
+1597,SPICE,PSI-107,d55_10:15:39,yes,unknown,unknown,GMT ignition
+1598,SPICE,PSI-107,d55_10:25:40,yes,unknown,unknown,GMT ignition
+1599,SPICE,PSI-107,d55_10:25:40,yes,unknown,unknown,GMT ignition
+1600,SPICE,PSI-107,d55_10:25:40,yes,unknown,unknown,GMT ignition
+1601,SPICE,PSI-107,d55_10:25:40,yes,unknown,unknown,GMT ignition
+1602,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1603,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1604,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1605,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1606,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1607,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1608,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1609,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1610,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1611,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1612,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1613,SPICE,PSI-107,d55_10:34:07,yes,unknown,unknown,GMT ignition
+1614,SPICE,PSI-107,d55_10:52:20,yes,unknown,unknown,GMT ignition
+1615,SPICE,PSI-107,d55_10:52:20,yes,unknown,unknown,GMT ignition
+1616,SPICE,PSI-107,d55_10:52:20,yes,unknown,unknown,GMT ignition
+1617,SPICE,PSI-107,d55_11:12:41,yes,unknown,unknown,GMT ignition
+1618,SPICE,PSI-107,d55_11:12:41,yes,unknown,unknown,GMT ignition
+1619,SPICE,PSI-107,d55_11:12:41,yes,unknown,unknown,GMT ignition
+1620,SPICE,PSI-107,d55_11:12:41,yes,unknown,unknown,GMT ignition
+1621,SPICE,PSI-107,d55_11:12:41,yes,unknown,unknown,GMT ignition
+1622,SPICE,PSI-107,d55_11:12:41,yes,unknown,unknown,GMT ignition
+1623,SPICE,PSI-107,d58_9:37:52,yes,unknown,unknown,GMT ignition
+1624,SPICE,PSI-107,d58_9:37:52,yes,unknown,unknown,GMT ignition
+1625,SPICE,PSI-107,d58_9:37:52,yes,unknown,unknown,GMT ignition
+1626,SPICE,PSI-107,d58_9:37:52,yes,unknown,unknown,GMT ignition
+1627,SPICE,PSI-107,d58_9:44:17,yes,unknown,unknown,GMT ignition
+1628,SPICE,PSI-107,d58_9:44:17,yes,unknown,unknown,GMT ignition
+1629,SPICE,PSI-107,d58_9:44:17,yes,unknown,unknown,GMT ignition
+1630,SPICE,PSI-107,d58_9:44:17,yes,unknown,unknown,GMT ignition
+1631,SPICE,PSI-107,d58_9:44:17,yes,unknown,unknown,GMT ignition
+1632,SPICE,PSI-107,d58_9:47:05,yes,unknown,unknown,GMT ignition
+1633,SPICE,PSI-107,d58_9:47:05,yes,unknown,unknown,GMT ignition
+1634,SPICE,PSI-107,d58_9:47:05,yes,unknown,unknown,GMT ignition
+1635,SPICE,PSI-107,d58_9:47:05,yes,unknown,unknown,GMT ignition
+1636,SPICE,PSI-107,d58_9:47:05,yes,unknown,unknown,GMT ignition
+1637,SPICE,PSI-107,d58_9:55:18,yes,unknown,unknown,GMT ignition
+1638,SPICE,PSI-107,d58_9:55:18,yes,unknown,unknown,GMT ignition
+1639,SPICE,PSI-107,d58_9:55:18,yes,unknown,unknown,GMT ignition
+1640,SPICE,PSI-107,d58_9:55:18,yes,unknown,unknown,GMT ignition
+1641,SPICE,PSI-107,d58_9:55:18,yes,unknown,unknown,GMT ignition
+1642,SPICE,PSI-107,d58_Ku LOS,yes,unknown,unknown,GMT ignition
+1643,SPICE,PSI-107,d58_Ku LOS,yes,unknown,unknown,GMT ignition
+1644,SPICE,PSI-107,d58_Ku LOS,yes,unknown,unknown,GMT ignition
+1645,SPICE,PSI-107,d58_10:13:22,yes,unknown,unknown,GMT ignition
+1646,SPICE,PSI-107,d58_10:13:22,yes,unknown,unknown,GMT ignition
+1647,SPICE,PSI-107,d58_10:13:22,yes,unknown,unknown,GMT ignition
+1648,SPICE,PSI-107,d58_10:18:27,yes,unknown,unknown,GMT ignition
+1649,SPICE,PSI-107,d58_10:18:27,yes,unknown,unknown,GMT ignition
+1650,SPICE,PSI-107,d58_10:18:27,yes,unknown,unknown,GMT ignition
+1651,SPICE,PSI-107,d58_10:36:19,yes,unknown,unknown,GMT ignition
+1652,SPICE,PSI-107,d58_10:36:19,yes,unknown,unknown,GMT ignition
+1653,SPICE,PSI-107,d58_10:36:19,yes,unknown,unknown,GMT ignition
+1654,SPICE,PSI-107,d58_10:41:14,yes,unknown,unknown,GMT ignition
+1655,SPICE,PSI-107,d58_10:41:14,yes,unknown,unknown,GMT ignition
+1656,SPICE,PSI-107,d58_10:41:14,yes,unknown,unknown,GMT ignition
+1657,SPICE,PSI-107,d58_11:23:08,yes,unknown,unknown,GMT ignition
+1658,SPICE,PSI-107,d58_11:23:08,yes,unknown,unknown,GMT ignition
+1659,SPICE,PSI-107,d58_11:25:49,yes,unknown,unknown,GMT ignition
+1660,SPICE,PSI-107,d58_11:25:49,yes,unknown,unknown,GMT ignition
+1661,SPICE,PSI-107,d58_11:25:49,yes,unknown,unknown,GMT ignition
+1662,SPICE,PSI-107,d58_11:25:49,yes,unknown,unknown,GMT ignition
+1663,SPICE,PSI-107,d58_11:32:00,yes,unknown,unknown,GMT ignition
+1664,SPICE,PSI-107,d58_11:32:00,yes,unknown,unknown,GMT ignition
+1665,SPICE,PSI-107,d58_11:34:18,yes,unknown,unknown,GMT ignition
+1666,SPICE,PSI-107,d58_n/a,yes,unknown,unknown,GMT ignition
+1667,SPICE,PSI-107,d58_11:42:53,yes,unknown,unknown,GMT ignition
+1668,SPICE,PSI-107,d58_11:42:53,yes,unknown,unknown,GMT ignition
+1669,SPICE,PSI-107,d58_11:55:33,yes,unknown,unknown,GMT ignition
+1670,SPICE,PSI-107,d58_11:55:33,yes,unknown,unknown,GMT ignition
+1671,SPICE,PSI-107,d58_12:00:46,yes,unknown,unknown,GMT ignition
+1672,SPICE,PSI-107,d58_Ku LOS,yes,unknown,unknown,GMT ignition
+1673,SPICE,PSI-107,d58_12:15:41,yes,unknown,unknown,GMT ignition
+1674,SPICE,PSI-107,d58_12:42:59,yes,unknown,unknown,GMT ignition
+1675,SPICE,PSI-107,d58_12:42:59,yes,unknown,unknown,GMT ignition
 1676,SPICE,PSI-107,d58_12:42:59,yes,unknown,unknown,GMT ignition
-1677,SPICE,PSI-107,d58_12:45:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1678,SPICE,PSI-107,d119_10:28:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1679,SPICE,PSI-107,d119_10:28:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1680,SPICE,PSI-107,d119_10:28:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1681,SPICE,PSI-107,d119_10:28:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1682,SPICE,PSI-107,d119_10:38:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1683,SPICE,PSI-107,d119_10:38:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1684,SPICE,PSI-107,d119_10:38:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1685,SPICE,PSI-107,d119_10:38:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1686,SPICE,PSI-107,d136_15:52:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1687,SPICE,PSI-107,d136_15:52:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1688,SPICE,PSI-107,d136_15:52:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1689,SPICE,PSI-107,d136_15:57:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1690,SPICE,PSI-107,d136_15:57:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1691,SPICE,PSI-107,d136_15:57:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1692,SPICE,PSI-107,d136_15:57:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1693,SPICE,PSI-107,d136_15:57:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1694,SPICE,PSI-107,d136_16:33:58,yes,unknown,yes,GMT ignition; GMT Flame Off
-1695,SPICE,PSI-107,d136_16:33:58,yes,unknown,yes,GMT ignition; GMT Flame Off
-1696,SPICE,PSI-107,d136_16:33:58,yes,unknown,yes,GMT ignition; GMT Flame Off
-1697,SPICE,PSI-107,d136_16:33:58,yes,unknown,yes,GMT ignition; GMT Flame Off
-1698,SPICE,PSI-107,d136_16:33:58,yes,unknown,yes,GMT ignition; GMT Flame Off
-1699,SPICE,PSI-107,d136_16:39:21,yes,unknown,yes,GMT ignition; GMT Flame Off
-1700,SPICE,PSI-107,d136_16:39:21,yes,unknown,yes,GMT ignition; GMT Flame Off
-1701,SPICE,PSI-107,d136_16:39:21,yes,unknown,yes,GMT ignition; GMT Flame Off
-1702,SPICE,PSI-107,d136_16:39:21,yes,unknown,yes,GMT ignition; GMT Flame Off
-1703,SPICE,PSI-107,d136_16:39:21,yes,unknown,yes,GMT ignition; GMT Flame Off
-1704,SPICE,PSI-107,d136_16:52:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1677,SPICE,PSI-107,d58_12:45:46,yes,unknown,unknown,GMT ignition
+1678,SPICE,PSI-107,d119_10:28:17,yes,unknown,unknown,GMT ignition
+1679,SPICE,PSI-107,d119_10:28:17,yes,unknown,unknown,GMT ignition
+1680,SPICE,PSI-107,d119_10:28:17,yes,unknown,unknown,GMT ignition
+1681,SPICE,PSI-107,d119_10:28:17,yes,unknown,unknown,GMT ignition
+1682,SPICE,PSI-107,d119_10:38:34,yes,unknown,unknown,GMT ignition
+1683,SPICE,PSI-107,d119_10:38:34,yes,unknown,unknown,GMT ignition
+1684,SPICE,PSI-107,d119_10:38:34,yes,unknown,unknown,GMT ignition
+1685,SPICE,PSI-107,d119_10:38:34,yes,unknown,unknown,GMT ignition
+1686,SPICE,PSI-107,d136_15:52:00,yes,unknown,unknown,GMT ignition
+1687,SPICE,PSI-107,d136_15:52:00,yes,unknown,unknown,GMT ignition
+1688,SPICE,PSI-107,d136_15:52:00,yes,unknown,unknown,GMT ignition
+1689,SPICE,PSI-107,d136_15:57:26,yes,unknown,unknown,GMT ignition
+1690,SPICE,PSI-107,d136_15:57:26,yes,unknown,unknown,GMT ignition
+1691,SPICE,PSI-107,d136_15:57:26,yes,unknown,unknown,GMT ignition
+1692,SPICE,PSI-107,d136_15:57:26,yes,unknown,unknown,GMT ignition
+1693,SPICE,PSI-107,d136_15:57:26,yes,unknown,unknown,GMT ignition
+1694,SPICE,PSI-107,d136_16:33:58,yes,unknown,unknown,GMT ignition
+1695,SPICE,PSI-107,d136_16:33:58,yes,unknown,unknown,GMT ignition
+1696,SPICE,PSI-107,d136_16:33:58,yes,unknown,unknown,GMT ignition
+1697,SPICE,PSI-107,d136_16:33:58,yes,unknown,unknown,GMT ignition
+1698,SPICE,PSI-107,d136_16:33:58,yes,unknown,unknown,GMT ignition
+1699,SPICE,PSI-107,d136_16:39:21,yes,unknown,unknown,GMT ignition
+1700,SPICE,PSI-107,d136_16:39:21,yes,unknown,unknown,GMT ignition
+1701,SPICE,PSI-107,d136_16:39:21,yes,unknown,unknown,GMT ignition
+1702,SPICE,PSI-107,d136_16:39:21,yes,unknown,unknown,GMT ignition
+1703,SPICE,PSI-107,d136_16:39:21,yes,unknown,unknown,GMT ignition
+1704,SPICE,PSI-107,d136_16:52:19,yes,unknown,unknown,GMT ignition
 1705,SPICE,PSI-107,d136_16:54:20,yes,unknown,unknown,GMT ignition
 1706,SPICE,PSI-107,d136_16:56:22,yes,unknown,unknown,GMT ignition
 1707,SPICE,PSI-107,d136_16:56:22,yes,unknown,unknown,GMT ignition
 1708,SPICE,PSI-107,d136_16:56:22,yes,unknown,unknown,GMT ignition
 1709,SPICE,PSI-107,d136_16:56:22,yes,unknown,unknown,GMT ignition
-1710,SPICE,PSI-107,d136_17:21:33,yes,unknown,yes,GMT ignition; GMT Flame Off
-1711,SPICE,PSI-107,d136_17:21:33,yes,unknown,yes,GMT ignition; GMT Flame Off
-1712,SPICE,PSI-107,d136_17:21:33,yes,unknown,yes,GMT ignition; GMT Flame Off
-1713,SPICE,PSI-107,d136_17:21:33,yes,unknown,yes,GMT ignition; GMT Flame Off
-1714,SPICE,PSI-107,d167_9:20:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1715,SPICE,PSI-107,d167_9:20:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1716,SPICE,PSI-107,d167_9:20:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1717,SPICE,PSI-107,d167_9:31:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1718,SPICE,PSI-107,d167_9:31:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1719,SPICE,PSI-107,d167_9:31:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1720,SPICE,PSI-107,d167_9:39:28,yes,unknown,yes,GMT ignition; GMT Flame Off
-1721,SPICE,PSI-107,d167_9:39:28,yes,unknown,yes,GMT ignition; GMT Flame Off
-1722,SPICE,PSI-107,d167_9:39:28,yes,unknown,yes,GMT ignition; GMT Flame Off
-1723,SPICE,PSI-107,d167_9:44:52,yes,unknown,yes,GMT ignition; GMT Flame Off
-1724,SPICE,PSI-107,d167_9:44:52,yes,unknown,yes,GMT ignition; GMT Flame Off
-1725,SPICE,PSI-107,d167_9:44:52,yes,unknown,yes,GMT ignition; GMT Flame Off
-1726,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1727,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1728,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1729,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1730,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1731,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1732,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1733,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1734,SPICE,PSI-107,d167_10:06:06,yes,unknown,yes,GMT ignition; GMT Flame Off
-1735,SPICE,PSI-107,d167_10:12:03,yes,unknown,yes,GMT ignition; GMT Flame Off
-1736,SPICE,PSI-107,d167_10:12:03,yes,unknown,yes,GMT ignition; GMT Flame Off
-1737,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
-1738,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
-1739,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
-1740,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
-1741,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
-1742,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
-1743,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
-1744,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
-1745,SPICE,PSI-107,d167_LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
-1746,SPICE,PSI-107,d167_LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
-1747,SPICE,PSI-107,d167_LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
-1748,SPICE,PSI-107,d168_8:50:41,yes,unknown,yes,GMT ignition; GMT Flame Off
-1749,SPICE,PSI-107,d168_8:50:41,yes,unknown,yes,GMT ignition; GMT Flame Off
-1750,SPICE,PSI-107,d168_8:50:41,yes,unknown,yes,GMT ignition; GMT Flame Off
-1751,SPICE,PSI-107,d168_9:03:26,yes,unknown,yes,GMT ignition; GMT Flame Off
-1752,SPICE,PSI-107,d168_9:49:13,yes,unknown,yes,GMT ignition; GMT Flame Off
-1753,SPICE,PSI-107,d168_9:49:13,yes,unknown,yes,GMT ignition; GMT Flame Off
-1754,SPICE,PSI-107,d168_9:49:13,yes,unknown,yes,GMT ignition; GMT Flame Off
-1755,SPICE,PSI-107,d168_9:52:25,yes,unknown,yes,GMT ignition; GMT Flame Off
-1756,SPICE,PSI-107,d168_9:56:09,yes,unknown,yes,GMT ignition; GMT Flame Off
-1757,SPICE,PSI-107,d168_10:42:48,yes,unknown,yes,GMT ignition; GMT Flame Off
-1758,SPICE,PSI-107,d168_11:16:48,yes,unknown,yes,GMT ignition; GMT Flame Off
-1759,SPICE,PSI-107,d168_11:30:21,yes,unknown,yes,GMT ignition; GMT Flame Off
-1760,SPICE,PSI-107,d168_11:41:18,yes,unknown,yes,GMT ignition; GMT Flame Off
-1761,SPICE,PSI-107,d173_10:37:43,yes,unknown,yes,GMT ignition; GMT Flame Off
-1762,SPICE,PSI-107,d173_10:37:43,yes,unknown,yes,GMT ignition; GMT Flame Off
-1763,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1764,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1765,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1766,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1767,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1768,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1769,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1770,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1771,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
-1772,SPICE,PSI-107,d173_11:08:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1773,SPICE,PSI-107,d173_11:08:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1774,SPICE,PSI-107,d173_11:08:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1775,SPICE,PSI-107,d173_11:08:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1776,SPICE,PSI-107,d173_11:08:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1777,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
-1778,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
-1779,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
-1780,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
-1781,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
-1782,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
-1783,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
-1784,SPICE,PSI-107,d173_11:48:23,yes,unknown,yes,GMT ignition; GMT Flame Off
-1785,SPICE,PSI-107,d173_11:48:23,yes,unknown,yes,GMT ignition; GMT Flame Off
-1786,SPICE,PSI-107,d173_11:48:23,yes,unknown,yes,GMT ignition; GMT Flame Off
-1787,SPICE,PSI-107,d173_11:48:23,yes,unknown,yes,GMT ignition; GMT Flame Off
-1788,SPICE,PSI-107,d173_11:48:23,yes,unknown,yes,GMT ignition; GMT Flame Off
-1789,SPICE,PSI-107,d173_12:00:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1790,SPICE,PSI-107,d173_12:00:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1791,SPICE,PSI-107,d173_12:00:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1792,SPICE,PSI-107,d173_12:00:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1793,SPICE,PSI-107,d173_12:00:14,yes,unknown,yes,GMT ignition; GMT Flame Off
-1794,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1795,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1796,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1797,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1798,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1799,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1800,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
-1801,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
-1802,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
-1803,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
-1804,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
-1805,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
-1806,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
-1807,SPICE,PSI-107,d173_12:39:29,yes,unknown,yes,GMT ignition; GMT Flame Off
-1808,SPICE,PSI-107,d173_12:39:29,yes,unknown,yes,GMT ignition; GMT Flame Off
-1809,SPICE,PSI-107,d173_12:39:29,yes,unknown,yes,GMT ignition; GMT Flame Off
-1810,SPICE,PSI-107,d173_12:39:29,yes,unknown,yes,GMT ignition; GMT Flame Off
-1811,SPICE,PSI-107,d174_10:02:10,yes,unknown,yes,GMT ignition; GMT Flame Off
-1812,SPICE,PSI-107,d174_10:33:23,yes,unknown,yes,GMT ignition; GMT Flame Off
-1813,SPICE,PSI-107,d174_10:33:23,yes,unknown,yes,GMT ignition; GMT Flame Off
-1814,SPICE,PSI-107,d174_10:45:25,yes,unknown,yes,GMT ignition; GMT Flame Off
-1815,SPICE,PSI-107,d174_10:45:25,yes,unknown,yes,GMT ignition; GMT Flame Off
-1816,SPICE,PSI-107,d174_10:45:25,yes,unknown,yes,GMT ignition; GMT Flame Off
-1817,SPICE,PSI-107,d174_10:48:31,yes,unknown,yes,GMT ignition; GMT Flame Off
-1818,SPICE,PSI-107,d174_10:48:31,yes,unknown,yes,GMT ignition; GMT Flame Off
-1819,SPICE,PSI-107,d174_11:04:43,yes,unknown,yes,GMT ignition; GMT Flame Off
-1820,SPICE,PSI-107,d174_11:04:43,yes,unknown,yes,GMT ignition; GMT Flame Off
-1821,SPICE,PSI-107,d174_11:04:43,yes,unknown,yes,GMT ignition; GMT Flame Off
-1822,SPICE,PSI-107,d174_11:13:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1823,SPICE,PSI-107,d174_11:13:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1824,SPICE,PSI-107,d174_11:13:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1825,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1826,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1827,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1828,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1829,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1830,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
-1831,SPICE,PSI-107,d174_11:24:30,yes,unknown,yes,GMT ignition; GMT Flame Off
-1832,SPICE,PSI-107,d174_11:24:30,yes,unknown,yes,GMT ignition; GMT Flame Off
-1833,SPICE,PSI-107,d174_11:24:30,yes,unknown,yes,GMT ignition; GMT Flame Off
-1834,SPICE,PSI-107,d174_11:24:30,yes,unknown,yes,GMT ignition; GMT Flame Off
-1835,SPICE,PSI-107,d174_11:34:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1836,SPICE,PSI-107,d174_11:34:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1837,SPICE,PSI-107,d174_11:34:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1838,SPICE,PSI-107,d174_11:34:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1839,SPICE,PSI-107,d174_11:34:16,yes,unknown,yes,GMT ignition; GMT Flame Off
-1840,SPICE,PSI-107,d174_11:38:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1841,SPICE,PSI-107,d174_11:38:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1842,SPICE,PSI-107,d174_11:38:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1843,SPICE,PSI-107,d174_11:38:05,yes,unknown,yes,GMT ignition; GMT Flame Off
-1844,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
-1845,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
-1846,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
-1847,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
-1848,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
-1849,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
-1850,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
-1851,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1852,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1853,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1854,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1855,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1856,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1857,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1858,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1859,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1860,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1861,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1862,SPICE,PSI-107,d174_12:06:43,yes,unknown,yes,GMT ignition; GMT Flame Off
-1863,SPICE,PSI-107,d174_12:11:20,yes,unknown,yes,GMT ignition; GMT Flame Off
-1864,SPICE,PSI-107,d174_12:34:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1865,SPICE,PSI-107,d174_12:34:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1866,SPICE,PSI-107,d174_12:34:00,yes,unknown,yes,GMT ignition; GMT Flame Off
-1867,SPICE,PSI-107,d174_12:36:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1868,SPICE,PSI-107,d174_12:36:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1869,SPICE,PSI-107,d174_12:36:12,yes,unknown,yes,GMT ignition; GMT Flame Off
-1870,SPICE,PSI-107,d174_12:43:03,yes,unknown,yes,GMT ignition; GMT Flame Off
-1871,SPICE,PSI-107,d174_12:43:03,yes,unknown,yes,GMT ignition; GMT Flame Off
-1872,SPICE,PSI-107,d174_12:43:03,yes,unknown,yes,GMT ignition; GMT Flame Off
-1873,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1874,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1875,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1876,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1877,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
-1878,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1710,SPICE,PSI-107,d136_17:21:33,yes,unknown,unknown,GMT ignition
+1711,SPICE,PSI-107,d136_17:21:33,yes,unknown,unknown,GMT ignition
+1712,SPICE,PSI-107,d136_17:21:33,yes,unknown,unknown,GMT ignition
+1713,SPICE,PSI-107,d136_17:21:33,yes,unknown,unknown,GMT ignition
+1714,SPICE,PSI-107,d167_9:20:12,yes,unknown,unknown,GMT ignition
+1715,SPICE,PSI-107,d167_9:20:12,yes,unknown,unknown,GMT ignition
+1716,SPICE,PSI-107,d167_9:20:12,yes,unknown,unknown,GMT ignition
+1717,SPICE,PSI-107,d167_9:31:17,yes,unknown,unknown,GMT ignition
+1718,SPICE,PSI-107,d167_9:31:17,yes,unknown,unknown,GMT ignition
+1719,SPICE,PSI-107,d167_9:31:17,yes,unknown,unknown,GMT ignition
+1720,SPICE,PSI-107,d167_9:39:28,yes,unknown,unknown,GMT ignition
+1721,SPICE,PSI-107,d167_9:39:28,yes,unknown,unknown,GMT ignition
+1722,SPICE,PSI-107,d167_9:39:28,yes,unknown,unknown,GMT ignition
+1723,SPICE,PSI-107,d167_9:44:52,yes,unknown,unknown,GMT ignition
+1724,SPICE,PSI-107,d167_9:44:52,yes,unknown,unknown,GMT ignition
+1725,SPICE,PSI-107,d167_9:44:52,yes,unknown,unknown,GMT ignition
+1726,SPICE,PSI-107,d167_9:59:46,yes,unknown,unknown,GMT ignition
+1727,SPICE,PSI-107,d167_9:59:46,yes,unknown,unknown,GMT ignition
+1728,SPICE,PSI-107,d167_9:59:46,yes,unknown,unknown,GMT ignition
+1729,SPICE,PSI-107,d167_9:59:46,yes,unknown,unknown,GMT ignition
+1730,SPICE,PSI-107,d167_9:59:46,yes,unknown,unknown,GMT ignition
+1731,SPICE,PSI-107,d167_9:59:46,yes,unknown,unknown,GMT ignition
+1732,SPICE,PSI-107,d167_9:59:46,yes,unknown,unknown,GMT ignition
+1733,SPICE,PSI-107,d167_9:59:46,yes,unknown,unknown,GMT ignition
+1734,SPICE,PSI-107,d167_10:06:06,yes,unknown,unknown,GMT ignition
+1735,SPICE,PSI-107,d167_10:12:03,yes,unknown,unknown,GMT ignition
+1736,SPICE,PSI-107,d167_10:12:03,yes,unknown,unknown,GMT ignition
+1737,SPICE,PSI-107,d167_11:04:59,yes,unknown,unknown,GMT ignition
+1738,SPICE,PSI-107,d167_11:04:59,yes,unknown,unknown,GMT ignition
+1739,SPICE,PSI-107,d167_11:04:59,yes,unknown,unknown,GMT ignition
+1740,SPICE,PSI-107,d167_11:04:59,yes,unknown,unknown,GMT ignition
+1741,SPICE,PSI-107,d167_11:04:59,yes,unknown,unknown,GMT ignition
+1742,SPICE,PSI-107,d167_11:04:59,yes,unknown,unknown,GMT ignition
+1743,SPICE,PSI-107,d167_11:04:59,yes,unknown,unknown,GMT ignition
+1744,SPICE,PSI-107,d167_11:04:59,yes,unknown,unknown,GMT ignition
+1745,SPICE,PSI-107,d167_LOS,yes,unknown,unknown,GMT ignition
+1746,SPICE,PSI-107,d167_LOS,yes,unknown,unknown,GMT ignition
+1747,SPICE,PSI-107,d167_LOS,yes,unknown,unknown,GMT ignition
+1748,SPICE,PSI-107,d168_8:50:41,yes,unknown,unknown,GMT ignition
+1749,SPICE,PSI-107,d168_8:50:41,yes,unknown,unknown,GMT ignition
+1750,SPICE,PSI-107,d168_8:50:41,yes,unknown,unknown,GMT ignition
+1751,SPICE,PSI-107,d168_9:03:26,yes,unknown,unknown,GMT ignition
+1752,SPICE,PSI-107,d168_9:49:13,yes,unknown,unknown,GMT ignition
+1753,SPICE,PSI-107,d168_9:49:13,yes,unknown,unknown,GMT ignition
+1754,SPICE,PSI-107,d168_9:49:13,yes,unknown,unknown,GMT ignition
+1755,SPICE,PSI-107,d168_9:52:25,yes,unknown,unknown,GMT ignition
+1756,SPICE,PSI-107,d168_9:56:09,yes,unknown,unknown,GMT ignition
+1757,SPICE,PSI-107,d168_10:42:48,yes,unknown,unknown,GMT ignition
+1758,SPICE,PSI-107,d168_11:16:48,yes,unknown,unknown,GMT ignition
+1759,SPICE,PSI-107,d168_11:30:21,yes,unknown,unknown,GMT ignition
+1760,SPICE,PSI-107,d168_11:41:18,yes,unknown,unknown,GMT ignition
+1761,SPICE,PSI-107,d173_10:37:43,yes,unknown,unknown,GMT ignition
+1762,SPICE,PSI-107,d173_10:37:43,yes,unknown,unknown,GMT ignition
+1763,SPICE,PSI-107,d173_10:41:34,yes,unknown,unknown,GMT ignition
+1764,SPICE,PSI-107,d173_10:41:34,yes,unknown,unknown,GMT ignition
+1765,SPICE,PSI-107,d173_10:41:34,yes,unknown,unknown,GMT ignition
+1766,SPICE,PSI-107,d173_10:41:34,yes,unknown,unknown,GMT ignition
+1767,SPICE,PSI-107,d173_10:41:34,yes,unknown,unknown,GMT ignition
+1768,SPICE,PSI-107,d173_10:41:34,yes,unknown,unknown,GMT ignition
+1769,SPICE,PSI-107,d173_10:41:34,yes,unknown,unknown,GMT ignition
+1770,SPICE,PSI-107,d173_10:41:34,yes,unknown,unknown,GMT ignition
+1771,SPICE,PSI-107,d173_10:41:34,yes,unknown,unknown,GMT ignition
+1772,SPICE,PSI-107,d173_11:08:12,yes,unknown,unknown,GMT ignition
+1773,SPICE,PSI-107,d173_11:08:12,yes,unknown,unknown,GMT ignition
+1774,SPICE,PSI-107,d173_11:08:12,yes,unknown,unknown,GMT ignition
+1775,SPICE,PSI-107,d173_11:08:12,yes,unknown,unknown,GMT ignition
+1776,SPICE,PSI-107,d173_11:08:12,yes,unknown,unknown,GMT ignition
+1777,SPICE,PSI-107,d173_11:21:38,yes,unknown,unknown,GMT ignition
+1778,SPICE,PSI-107,d173_11:21:38,yes,unknown,unknown,GMT ignition
+1779,SPICE,PSI-107,d173_11:21:38,yes,unknown,unknown,GMT ignition
+1780,SPICE,PSI-107,d173_11:21:38,yes,unknown,unknown,GMT ignition
+1781,SPICE,PSI-107,d173_11:21:38,yes,unknown,unknown,GMT ignition
+1782,SPICE,PSI-107,d173_11:21:38,yes,unknown,unknown,GMT ignition
+1783,SPICE,PSI-107,d173_11:21:38,yes,unknown,unknown,GMT ignition
+1784,SPICE,PSI-107,d173_11:48:23,yes,unknown,unknown,GMT ignition
+1785,SPICE,PSI-107,d173_11:48:23,yes,unknown,unknown,GMT ignition
+1786,SPICE,PSI-107,d173_11:48:23,yes,unknown,unknown,GMT ignition
+1787,SPICE,PSI-107,d173_11:48:23,yes,unknown,unknown,GMT ignition
+1788,SPICE,PSI-107,d173_11:48:23,yes,unknown,unknown,GMT ignition
+1789,SPICE,PSI-107,d173_12:00:14,yes,unknown,unknown,GMT ignition
+1790,SPICE,PSI-107,d173_12:00:14,yes,unknown,unknown,GMT ignition
+1791,SPICE,PSI-107,d173_12:00:14,yes,unknown,unknown,GMT ignition
+1792,SPICE,PSI-107,d173_12:00:14,yes,unknown,unknown,GMT ignition
+1793,SPICE,PSI-107,d173_12:00:14,yes,unknown,unknown,GMT ignition
+1794,SPICE,PSI-107,d173_12:11:46,yes,unknown,unknown,GMT ignition
+1795,SPICE,PSI-107,d173_12:11:46,yes,unknown,unknown,GMT ignition
+1796,SPICE,PSI-107,d173_12:11:46,yes,unknown,unknown,GMT ignition
+1797,SPICE,PSI-107,d173_12:11:46,yes,unknown,unknown,GMT ignition
+1798,SPICE,PSI-107,d173_12:11:46,yes,unknown,unknown,GMT ignition
+1799,SPICE,PSI-107,d173_12:11:46,yes,unknown,unknown,GMT ignition
+1800,SPICE,PSI-107,d173_12:11:46,yes,unknown,unknown,GMT ignition
+1801,SPICE,PSI-107,d173_12:23:30,yes,unknown,unknown,GMT ignition
+1802,SPICE,PSI-107,d173_12:23:30,yes,unknown,unknown,GMT ignition
+1803,SPICE,PSI-107,d173_12:23:30,yes,unknown,unknown,GMT ignition
+1804,SPICE,PSI-107,d173_12:23:30,yes,unknown,unknown,GMT ignition
+1805,SPICE,PSI-107,d173_12:23:30,yes,unknown,unknown,GMT ignition
+1806,SPICE,PSI-107,d173_12:23:30,yes,unknown,unknown,GMT ignition
+1807,SPICE,PSI-107,d173_12:39:29,yes,unknown,unknown,GMT ignition
+1808,SPICE,PSI-107,d173_12:39:29,yes,unknown,unknown,GMT ignition
+1809,SPICE,PSI-107,d173_12:39:29,yes,unknown,unknown,GMT ignition
+1810,SPICE,PSI-107,d173_12:39:29,yes,unknown,unknown,GMT ignition
+1811,SPICE,PSI-107,d174_10:02:10,yes,unknown,unknown,GMT ignition
+1812,SPICE,PSI-107,d174_10:33:23,yes,unknown,unknown,GMT ignition
+1813,SPICE,PSI-107,d174_10:33:23,yes,unknown,unknown,GMT ignition
+1814,SPICE,PSI-107,d174_10:45:25,yes,unknown,unknown,GMT ignition
+1815,SPICE,PSI-107,d174_10:45:25,yes,unknown,unknown,GMT ignition
+1816,SPICE,PSI-107,d174_10:45:25,yes,unknown,unknown,GMT ignition
+1817,SPICE,PSI-107,d174_10:48:31,yes,unknown,unknown,GMT ignition
+1818,SPICE,PSI-107,d174_10:48:31,yes,unknown,unknown,GMT ignition
+1819,SPICE,PSI-107,d174_11:04:43,yes,unknown,unknown,GMT ignition
+1820,SPICE,PSI-107,d174_11:04:43,yes,unknown,unknown,GMT ignition
+1821,SPICE,PSI-107,d174_11:04:43,yes,unknown,unknown,GMT ignition
+1822,SPICE,PSI-107,d174_11:13:17,yes,unknown,unknown,GMT ignition
+1823,SPICE,PSI-107,d174_11:13:17,yes,unknown,unknown,GMT ignition
+1824,SPICE,PSI-107,d174_11:13:17,yes,unknown,unknown,GMT ignition
+1825,SPICE,PSI-107,d174_11:20:47,yes,unknown,unknown,GMT ignition
+1826,SPICE,PSI-107,d174_11:20:47,yes,unknown,unknown,GMT ignition
+1827,SPICE,PSI-107,d174_11:20:47,yes,unknown,unknown,GMT ignition
+1828,SPICE,PSI-107,d174_11:20:47,yes,unknown,unknown,GMT ignition
+1829,SPICE,PSI-107,d174_11:20:47,yes,unknown,unknown,GMT ignition
+1830,SPICE,PSI-107,d174_11:20:47,yes,unknown,unknown,GMT ignition
+1831,SPICE,PSI-107,d174_11:24:30,yes,unknown,unknown,GMT ignition
+1832,SPICE,PSI-107,d174_11:24:30,yes,unknown,unknown,GMT ignition
+1833,SPICE,PSI-107,d174_11:24:30,yes,unknown,unknown,GMT ignition
+1834,SPICE,PSI-107,d174_11:24:30,yes,unknown,unknown,GMT ignition
+1835,SPICE,PSI-107,d174_11:34:16,yes,unknown,unknown,GMT ignition
+1836,SPICE,PSI-107,d174_11:34:16,yes,unknown,unknown,GMT ignition
+1837,SPICE,PSI-107,d174_11:34:16,yes,unknown,unknown,GMT ignition
+1838,SPICE,PSI-107,d174_11:34:16,yes,unknown,unknown,GMT ignition
+1839,SPICE,PSI-107,d174_11:34:16,yes,unknown,unknown,GMT ignition
+1840,SPICE,PSI-107,d174_11:38:05,yes,unknown,unknown,GMT ignition
+1841,SPICE,PSI-107,d174_11:38:05,yes,unknown,unknown,GMT ignition
+1842,SPICE,PSI-107,d174_11:38:05,yes,unknown,unknown,GMT ignition
+1843,SPICE,PSI-107,d174_11:38:05,yes,unknown,unknown,GMT ignition
+1844,SPICE,PSI-107,d174_11:46:06,yes,unknown,unknown,GMT ignition
+1845,SPICE,PSI-107,d174_11:46:06,yes,unknown,unknown,GMT ignition
+1846,SPICE,PSI-107,d174_11:46:06,yes,unknown,unknown,GMT ignition
+1847,SPICE,PSI-107,d174_11:46:06,yes,unknown,unknown,GMT ignition
+1848,SPICE,PSI-107,d174_11:46:06,yes,unknown,unknown,GMT ignition
+1849,SPICE,PSI-107,d174_11:46:06,yes,unknown,unknown,GMT ignition
+1850,SPICE,PSI-107,d174_11:46:06,yes,unknown,unknown,GMT ignition
+1851,SPICE,PSI-107,d174_11:50:17,yes,unknown,unknown,GMT ignition
+1852,SPICE,PSI-107,d174_11:50:17,yes,unknown,unknown,GMT ignition
+1853,SPICE,PSI-107,d174_11:50:17,yes,unknown,unknown,GMT ignition
+1854,SPICE,PSI-107,d174_11:50:17,yes,unknown,unknown,GMT ignition
+1855,SPICE,PSI-107,d174_11:50:17,yes,unknown,unknown,GMT ignition
+1856,SPICE,PSI-107,d174_11:50:17,yes,unknown,unknown,GMT ignition
+1857,SPICE,PSI-107,d174_11:50:17,yes,unknown,unknown,GMT ignition
+1858,SPICE,PSI-107,d174_11:50:17,yes,unknown,unknown,GMT ignition
+1859,SPICE,PSI-107,d174_11:50:17,yes,unknown,unknown,GMT ignition
+1860,SPICE,PSI-107,d174_11:50:17,yes,unknown,unknown,GMT ignition
+1861,SPICE,PSI-107,d174_11:50:17,yes,unknown,unknown,GMT ignition
+1862,SPICE,PSI-107,d174_12:06:43,yes,unknown,unknown,GMT ignition
+1863,SPICE,PSI-107,d174_12:11:20,yes,unknown,unknown,GMT ignition
+1864,SPICE,PSI-107,d174_12:34:00,yes,unknown,unknown,GMT ignition
+1865,SPICE,PSI-107,d174_12:34:00,yes,unknown,unknown,GMT ignition
+1866,SPICE,PSI-107,d174_12:34:00,yes,unknown,unknown,GMT ignition
+1867,SPICE,PSI-107,d174_12:36:12,yes,unknown,unknown,GMT ignition
+1868,SPICE,PSI-107,d174_12:36:12,yes,unknown,unknown,GMT ignition
+1869,SPICE,PSI-107,d174_12:36:12,yes,unknown,unknown,GMT ignition
+1870,SPICE,PSI-107,d174_12:43:03,yes,unknown,unknown,GMT ignition
+1871,SPICE,PSI-107,d174_12:43:03,yes,unknown,unknown,GMT ignition
+1872,SPICE,PSI-107,d174_12:43:03,yes,unknown,unknown,GMT ignition
+1873,SPICE,PSI-107,d174_12:46:17,yes,unknown,unknown,GMT ignition
+1874,SPICE,PSI-107,d174_12:46:17,yes,unknown,unknown,GMT ignition
+1875,SPICE,PSI-107,d174_12:46:17,yes,unknown,unknown,GMT ignition
+1876,SPICE,PSI-107,d174_12:46:17,yes,unknown,unknown,GMT ignition
+1877,SPICE,PSI-107,d174_12:46:17,yes,unknown,unknown,GMT ignition
+1878,SPICE,PSI-107,d174_12:46:17,yes,unknown,unknown,GMT ignition
 1879,ACME BRE,PSI-20,2019-Feb-8,unknown,unknown,unknown,
 1880,ACME BRE,PSI-20,2019-Feb-20,unknown,unknown,unknown,
 1881,ACME BRE,PSI-20,2019-Feb-25,unknown,unknown,unknown,
