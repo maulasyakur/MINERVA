@@ -10,7 +10,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app ./app
 
-RUN useradd --create-home appuser
+RUN useradd --create-home appuser \
+ && mkdir -p /srv/ai-engine/data \
+ && chown appuser /srv/ai-engine/data
 USER appuser
 
 EXPOSE 8000

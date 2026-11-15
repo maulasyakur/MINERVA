@@ -87,7 +87,7 @@ async function handleGenerate(req, res) {
         body: JSON.stringify({ prompt }), signal: AbortSignal.timeout(90000)
       });
       const j = await r.json().catch(() => ({}));
-      return send(res, r.ok ? 200 : r.status === 503 ? 503 : 502, r.ok ? j : { error: 'model unavailable' });
+      return r.ok ? send(res, 200, j) : send(res, r.status, { error: j.error || 'AI unavailable', code: j.code || 'upstream' });
     }
     if (!BASE) return send(res, 503, { error: 'RUNPOD_BASE_URL is not set' });
     const text = await callModel(prompt);
@@ -116,7 +116,7 @@ async function handleAsk(req, res) {
       body: JSON.stringify({ question, top_k: topK }), signal: AbortSignal.timeout(90000)
     });
     const j = await r.json().catch(() => ({}));
-    if (!r.ok) return send(res, r.status === 503 ? 503 : 502, { error: 'AI unavailable' });
+    if (!r.ok) return passError(r, res, 'AI unavailable');
     send(res, 200, j);
   } catch (e) {
     console.error('[ask]', e.message);
@@ -140,12 +140,18 @@ async function handleColumns(req, res) {
       body: JSON.stringify({ headers, use_llm: body.use_llm !== false }), signal: AbortSignal.timeout(90000)
     });
     const j = await r.json().catch(() => ({}));
-    if (!r.ok) return send(res, 502, { error: 'mapping unavailable' });
+    if (!r.ok) return passError(r, res, 'mapping unavailable');
     send(res, 200, j);
   } catch (e) {
     console.error('[columns]', e.message);
     send(res, 502, { error: 'mapping unavailable' });
   }
+}
+
+// Pass an engine error through with its status and code. The engine already keeps details out of its messages.
+async function passError(r, res, fallback) {
+  const j = await r.json().catch(() => ({}));
+  send(res, r.status, { error: j.error || fallback, code: j.code || 'upstream' });
 }
 
 // Word report for a scenario: forwarded to the ai-engine /report endpoint; the .docx is passed through.
@@ -163,7 +169,7 @@ async function handleReport(req, res) {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ scenario, narrative }), signal: AbortSignal.timeout(60000)
     });
-    if (!r.ok) return send(res, 502, { error: 'report unavailable' });
+    if (!r.ok) return passError(r, res, 'report unavailable');
     const buf = Buffer.from(await r.arrayBuffer());
     res.writeHead(200, {
       'Content-Type': r.headers.get('content-type') || 'application/octet-stream',

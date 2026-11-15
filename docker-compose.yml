@@ -12,6 +12,7 @@ services:
       DATASET_PATH: /srv/dataset-psi/merged_psi_combustion_v2.csv
     volumes:
       - ./dataset-psi:/srv/dataset-psi:ro
+      - ai-audit:/srv/ai-engine/data   # audit trail of model answers (kept across restarts)
     ports:
       - "127.0.0.1:8000:8000"
     restart: unless-stopped
@@ -26,3 +27,6 @@ services:
     ports:
       - "127.0.0.1:8765:8765"
     restart: unless-stopped
+
+volumes:
+  ai-audit:

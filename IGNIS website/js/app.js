@@ -369,6 +369,8 @@ function renderResults(){
 
   // data outcome
   $('confTag').textContent = conf.t; $('confTag').className = 'tag ' + conf.c;
+  // Tooltip: say what the label is based on (the number of recorded runs close to this scenario).
+  $('confTag').title = `Based on ${lastEval.m.close} recorded run(s) close to this scenario. High: 10 or more; Moderate: 3 to 9; Low: 1 to 2; Outside tested range: none. Gravity not tested lowers the label one step.`;
   $('outLabel').textContent = sum.label; $('outBig').textContent = sum.big; $('outSub').textContent = sum.sub;
   const avg = m.near.length ? Math.round(m.near.reduce((a,x) => a + simPct(x.d), 0)/m.near.length) : 0;
   $('outKv').innerHTML = [['Nearest runs used', `${m.near.length} · average match ${avg}%`], ['Runs in close range', String(m.close)], ...sum.kv].map(([k,v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
@@ -560,7 +562,8 @@ async function askAI(){
   } catch (err){
     if (err && err.name === 'AbortError') return;
     $('r-ai-src').textContent = err && err.code === 'rate_limited' ? 'AI is busy; showing the rule-based interpretation. Try again in a minute.'
-      : err && err.code === 'not_granted' ? 'AI access was not granted; showing the rule-based interpretation.' : 'AI interpretation failed; showing the rule-based interpretation.';
+      : err && err.code === 'not_granted' ? 'AI access was not granted; showing the rule-based interpretation.'
+      : err && err.message ? `${err.message} Showing the rule-based interpretation.` : 'AI interpretation failed; showing the rule-based interpretation.';
     if (err && err.code === 'not_granted'){ sampleFn = null; $('r-ai-btn').hidden = true; }
     renderAI(fallbackText(lastEval));
   } finally { $('r-ai-btn').disabled = false; $('r-ai-btn').textContent = 'Regenerate AI answer'; }
@@ -637,7 +640,11 @@ async function mapHeaders(e){
     if (!r.ok) throw new Error(j.error || 'HTTP ' + r.status);
     list.innerHTML = '';
     put(`Method: ${j.method === 'llm' ? 'AI' : 'rules'}`);
-    for (const [field, header] of Object.entries(j.mapping)) put(`${field} → ${header || '(not found)'}`);
+    for (const [field, header] of Object.entries(j.mapping)){
+      const c = (j.confidence || {})[field];
+      const note = !header ? '' : c === undefined ? '' : c >= .8 ? ` (confidence ${Math.round(c * 100)}%)` : ` (confidence ${Math.round(c * 100)}%: check this column)`;
+      put(`${field} → ${header || '(not found)'}${note}`);
+    }
     await rankCsv(file, j.mapping);
   } catch (err){
     list.innerHTML = '';
@@ -741,7 +748,7 @@ if (window.claude && typeof window.claude.use === 'function'){
 async function gemmaSample(prompt, {signal} = {}){
   const r = await fetch('/api/generate', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({prompt}), signal});
   const j = await r.json().catch(() => ({}));
-  if (!r.ok){ const e = new Error(j.error || 'HTTP ' + r.status); e.code = r.status === 503 ? 'not_configured' : 'failed'; throw e; }
+  if (!r.ok){ const e = new Error(j.error || 'HTTP ' + r.status); e.code = j.code || 'failed'; throw e; }
   return {text: j.text};
 }
 

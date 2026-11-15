@@ -36,6 +36,7 @@ class ColumnMapRequest(BaseModel):
 class ColumnMapResponse(BaseModel):
     mapping: dict[str, Optional[str]]
     method: Literal["llm", "rules"]
+    confidence: dict[str, float] = {}
 
 
 class AskRequest(BaseModel):
