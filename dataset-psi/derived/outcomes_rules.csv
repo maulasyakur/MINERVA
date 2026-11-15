@@ -1,0 +1,1930 @@
+row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
+0,BASS,PSI-26,1,unknown,unknown,unknown,
+1,BASS,PSI-26,42,unknown,unknown,unknown,
+2,BASS,PSI-26,18,unknown,unknown,unknown,
+3,BASS,PSI-26,7,unknown,unknown,unknown,
+4,BASS,PSI-26,8,unknown,unknown,unknown,
+5,BASS,PSI-26,43,unknown,unknown,unknown,
+6,BASS,PSI-26,44,unknown,unknown,unknown,
+7,BASS,PSI-26,45,unknown,unknown,unknown,
+8,BASS,PSI-26,19,unknown,unknown,unknown,
+9,BASS,PSI-26,20,unknown,unknown,unknown,
+10,BASS,PSI-26,21,unknown,unknown,unknown,
+11,BASS,PSI-26,4,unknown,unknown,unknown,
+12,BASS,PSI-26,10,unknown,unknown,unknown,
+13,BASS,PSI-26,12,unknown,unknown,unknown,
+14,BASS,PSI-26,54,unknown,unknown,unknown,
+15,BASS,PSI-26,55,unknown,unknown,unknown,
+16,BASS,PSI-26,56,unknown,unknown,unknown,
+17,BASS,PSI-26,57,unknown,unknown,unknown,
+18,BASS,PSI-26,110,unknown,unknown,unknown,
+19,BASS,PSI-26,30,unknown,unknown,unknown,
+20,BASS,PSI-26,31,unknown,unknown,unknown,
+21,BASS,PSI-26,32,unknown,unknown,unknown,
+22,BASS,PSI-26,33,unknown,unknown,unknown,
+23,BASS,PSI-26,12-R,unknown,unknown,unknown,
+24,BASS,PSI-26,12-R2,unknown,unknown,unknown,
+25,BASS,PSI-26,46,unknown,unknown,unknown,
+26,BASS,PSI-26,47,unknown,unknown,unknown,
+27,BASS,PSI-26,48,unknown,unknown,unknown,
+28,BASS,PSI-26,49,unknown,unknown,unknown,
+29,BASS,PSI-26,22,unknown,unknown,unknown,
+30,BASS,PSI-26,23,unknown,unknown,unknown,
+31,BASS,PSI-26,24,unknown,unknown,unknown,
+32,BASS,PSI-26,25,unknown,unknown,unknown,
+33,BASS,PSI-26,58,unknown,unknown,unknown,
+34,BASS,PSI-26,59,unknown,unknown,unknown,
+35,BASS,PSI-26,60,unknown,unknown,unknown,
+36,BASS,PSI-26,61,unknown,unknown,unknown,
+37,BASS,PSI-26,5,unknown,unknown,unknown,
+38,BASS,PSI-26,14,unknown,unknown,unknown,
+39,BASS,PSI-26,66,unknown,unknown,unknown,
+40,BASS,PSI-26,67,unknown,unknown,unknown,
+41,BASS,PSI-26,34,unknown,unknown,unknown,
+42,BASS,PSI-26,35,unknown,unknown,unknown,
+43,BASS,PSI-26,16,unknown,unknown,unknown,
+44,BASS,PSI-26,5b,unknown,unknown,unknown,
+45,BASS,PSI-26,6,unknown,unknown,unknown,
+46,BASS,PSI-26,82,unknown,unknown,unknown,
+47,BASS,PSI-26,82a,unknown,unknown,unknown,
+48,BASS,PSI-26,82b,unknown,unknown,unknown,
+49,BASS,PSI-26,68,unknown,unknown,unknown,
+50,BASS,PSI-26,69,unknown,unknown,unknown,
+51,BASS,PSI-26,111,unknown,unknown,unknown,
+52,BASS,PSI-26,112,unknown,unknown,unknown,
+53,BASS,PSI-26,113,unknown,unknown,unknown,
+54,BASS,PSI-26,2,unknown,unknown,unknown,
+55,BASS,PSI-26,3,unknown,unknown,unknown,
+56,BASS,PSI-26,15,unknown,unknown,unknown,
+57,BASS,PSI-26,13,unknown,unknown,unknown,
+58,BASS,PSI-26,17,unknown,unknown,unknown,
+59,BASS,PSI-26,114,unknown,unknown,unknown,
+60,BASS,PSI-26,62,unknown,unknown,unknown,
+61,BASS,PSI-26,63,unknown,unknown,unknown,
+62,BASS,PSI-26,64,unknown,unknown,unknown,
+63,BASS,PSI-26,65,unknown,unknown,unknown,
+64,BASS,PSI-26,118,unknown,unknown,unknown,
+65,BASS,PSI-26,,unknown,unknown,unknown,
+66,BASS,PSI-26,11,unknown,unknown,unknown,
+67,BASS,PSI-26,9,unknown,unknown,unknown,
+68,BASS,PSI-26,102,unknown,unknown,unknown,
+69,BASS,PSI-26,83a,unknown,unknown,unknown,
+70,BASS,PSI-26,83b,unknown,unknown,unknown,
+71,BASS,PSI-26,83c,unknown,unknown,unknown,
+72,BASS,PSI-26,84a,unknown,unknown,unknown,
+73,BASS,PSI-26,84b,unknown,unknown,unknown,
+74,BASS,PSI-26,86a,unknown,unknown,unknown,
+75,BASS,PSI-26,86b,unknown,unknown,unknown,
+76,BASS,PSI-26,86c,unknown,unknown,unknown,
+77,BASS,PSI-26,70,unknown,unknown,unknown,
+78,BASS,PSI-26,71,unknown,unknown,unknown,
+79,BASS,PSI-26,74,unknown,unknown,unknown,
+80,BASS,PSI-26,75,unknown,unknown,unknown,
+81,BASS,PSI-26,98,unknown,unknown,unknown,
+82,BASS,PSI-26,99,unknown,unknown,unknown,
+83,BASS,PSI-26,114,unknown,unknown,unknown,
+84,BASS,PSI-26,115,unknown,unknown,unknown,
+85,BASS,PSI-26,116,unknown,unknown,unknown,
+86,BASS,PSI-26,117,unknown,unknown,unknown,
+87,BASS,PSI-26,117a,unknown,unknown,unknown,
+88,BASS,PSI-26,100,unknown,unknown,unknown,
+89,BASS,PSI-26,85,unknown,unknown,unknown,
+90,BASS,PSI-26,93,unknown,unknown,unknown,
+91,BASS,PSI-26,26,unknown,unknown,unknown,
+92,BASS,PSI-26,27,unknown,unknown,unknown,
+93,BASS,PSI-26,28,unknown,unknown,unknown,
+94,BASS,PSI-26,87,unknown,unknown,unknown,
+95,BASS,PSI-26,103,unknown,unknown,unknown,
+96,BASS,PSI-26,104,unknown,unknown,unknown,
+97,BASS,PSI-26,105,unknown,unknown,unknown,
+98,BASS,PSI-26,38,unknown,unknown,unknown,
+99,BASS,PSI-26,39,unknown,unknown,unknown,
+100,BASS,PSI-26,40,unknown,unknown,unknown,
+101,BASS,PSI-26,72,unknown,unknown,unknown,
+102,BASS,PSI-26,73,unknown,unknown,unknown,
+103,BASS,PSI-26,118,unknown,unknown,unknown,
+104,BASS,PSI-26,119,unknown,unknown,unknown,
+105,BASS,PSI-26,89,unknown,unknown,unknown,
+106,BASS,PSI-26,95,unknown,unknown,unknown,
+107,BASS,PSI-26,92,unknown,unknown,unknown,
+108,BASS,PSI-26,78,unknown,unknown,unknown,
+109,BASS,PSI-26,50,unknown,unknown,unknown,
+110,BASS,PSI-26,51,unknown,unknown,unknown,
+111,BASS,PSI-26,52,unknown,unknown,unknown,
+112,BASS,PSI-26,53,unknown,unknown,unknown,
+113,BASS,PSI-26,106,unknown,unknown,unknown,
+114,BASS,PSI-26,107,unknown,unknown,unknown,
+115,BASS,PSI-26,108,unknown,unknown,unknown,
+116,BASS,PSI-26,109,unknown,unknown,unknown,
+117,BASS,PSI-26,79,unknown,unknown,unknown,
+118,BASS,PSI-26,80,unknown,unknown,unknown,
+119,BASS,PSI-26,75,unknown,unknown,unknown,
+120,BASS,PSI-26,53,unknown,unknown,unknown,
+121,BASS,PSI-26,53a,unknown,unknown,unknown,
+122,BASS-II,PSI-25,B1,unknown,unknown,unknown,
+123,BASS-II,PSI-25,B2,unknown,unknown,unknown,
+124,BASS-II,PSI-25,B3,unknown,unknown,unknown,
+125,BASS-II,PSI-25,B4,unknown,unknown,unknown,
+126,BASS-II,PSI-25,B5,unknown,unknown,unknown,
+127,BASS-II,PSI-25,B6,unknown,unknown,unknown,
+128,BASS-II,PSI-25,B7,unknown,unknown,unknown,
+129,BASS-II,PSI-25,B8,unknown,unknown,unknown,
+130,BASS-II,PSI-25,B9,unknown,unknown,unknown,
+131,BASS-II,PSI-25,B10,unknown,unknown,unknown,
+132,BASS-II,PSI-25,B11,unknown,unknown,unknown,
+133,BASS-II,PSI-25,B12,unknown,unknown,unknown,
+134,BASS-II,PSI-25,B13,unknown,unknown,unknown,
+135,BASS-II,PSI-25,B14,unknown,unknown,unknown,
+136,BASS-II,PSI-25,B15,unknown,unknown,unknown,
+137,BASS-II,PSI-25,B16,unknown,unknown,unknown,
+138,BASS-II,PSI-25,B17,unknown,unknown,unknown,
+139,BASS-II,PSI-25,B18,unknown,unknown,unknown,
+140,BASS-II,PSI-25,B19,unknown,unknown,unknown,
+141,BASS-II,PSI-25,B20,unknown,unknown,unknown,
+142,BASS-II,PSI-25,B21,unknown,unknown,unknown,
+143,BASS-II,PSI-25,B22,unknown,unknown,unknown,
+144,BASS-II,PSI-25,F1,unknown,unknown,unknown,
+145,BASS-II,PSI-25,F2,unknown,unknown,unknown,
+146,BASS-II,PSI-25,F3,unknown,unknown,unknown,
+147,BASS-II,PSI-25,F4,unknown,unknown,unknown,
+148,BASS-II,PSI-25,M1,unknown,unknown,unknown,
+149,BASS-II,PSI-25,M2,unknown,unknown,unknown,
+150,BASS-II,PSI-25,M3,unknown,unknown,unknown,
+151,BASS-II,PSI-25,M4,unknown,unknown,unknown,
+152,BASS-II,PSI-25,M5,unknown,unknown,unknown,
+153,BASS-II,PSI-25,M6,unknown,unknown,unknown,
+154,BASS-II,PSI-25,M7,unknown,unknown,unknown,
+155,BASS-II,PSI-25,M8,unknown,unknown,unknown,
+156,BASS-II,PSI-25,M9,unknown,unknown,unknown,
+157,BASS-II,PSI-25,M10,unknown,unknown,unknown,
+158,BASS-II,PSI-25,M11,unknown,unknown,unknown,
+159,BASS-II,PSI-25,M12,unknown,unknown,unknown,
+160,BASS-II,PSI-25,M13,unknown,unknown,unknown,
+161,BASS-II,PSI-25,M14,unknown,unknown,unknown,
+162,BASS-II,PSI-25,M15,unknown,unknown,unknown,
+163,BASS-II,PSI-25,M16,unknown,unknown,unknown,
+164,BASS-II,PSI-25,M17,unknown,unknown,unknown,
+165,BASS-II,PSI-25,M18,unknown,unknown,unknown,
+166,BASS-II,PSI-25,M19,unknown,unknown,unknown,
+167,BASS-II,PSI-25,M20,unknown,unknown,unknown,
+168,BASS-II,PSI-25,O1,unknown,unknown,unknown,
+169,BASS-II,PSI-25,O2,unknown,unknown,unknown,
+170,BASS-II,PSI-25,O3a,unknown,unknown,unknown,
+171,BASS-II,PSI-25,O3b,unknown,unknown,unknown,
+172,BASS-II,PSI-25,O4,unknown,unknown,unknown,
+173,BASS-II,PSI-25,O5a,unknown,unknown,unknown,
+174,BASS-II,PSI-25,O5b,unknown,unknown,unknown,
+175,BASS-II,PSI-25,O6,unknown,unknown,unknown,
+176,BASS-II,PSI-25,O7,unknown,unknown,unknown,
+177,BASS-II,PSI-25,O8a,unknown,unknown,unknown,
+178,BASS-II,PSI-25,O8b,unknown,unknown,unknown,
+179,BASS-II,PSI-25,O9,unknown,unknown,unknown,
+180,BASS-II,PSI-25,O10,unknown,unknown,unknown,
+181,BASS-II,PSI-25,O11,unknown,unknown,unknown,
+182,BASS-II,PSI-25,O12,unknown,unknown,unknown,
+183,BASS-II,PSI-25,O13a,unknown,unknown,unknown,
+184,BASS-II,PSI-25,O13b,unknown,unknown,unknown,
+185,BASS-II,PSI-25,O14,unknown,unknown,unknown,
+186,BASS-II,PSI-25,O15a,unknown,unknown,unknown,
+187,BASS-II,PSI-25,O15b,unknown,unknown,unknown,
+188,BASS-II,PSI-25,O16,unknown,unknown,unknown,
+189,BASS-II,PSI-25,O17,unknown,unknown,unknown,
+190,BASS-II,PSI-25,O18,unknown,unknown,unknown,
+191,BASS-II,PSI-25,O19,unknown,unknown,unknown,
+192,BASS-II,PSI-25,O20,unknown,unknown,unknown,
+193,BASS-II,PSI-25,O21,unknown,unknown,unknown,
+194,BASS-II,PSI-25,O22,unknown,unknown,unknown,
+195,BASS-II,PSI-25,P1,unknown,unknown,unknown,
+196,BASS-II,PSI-25,P2,unknown,unknown,unknown,
+197,BASS-II,PSI-25,P3a,unknown,unknown,unknown,
+198,BASS-II,PSI-25,P3b,unknown,unknown,unknown,
+199,BASS-II,PSI-25,P4,unknown,unknown,unknown,
+200,BASS-II,PSI-25,P5,unknown,unknown,unknown,
+201,BASS-II,PSI-25,P6,unknown,unknown,unknown,
+202,BASS-II,PSI-25,P8,unknown,unknown,unknown,
+203,BASS-II,PSI-25,P9,unknown,unknown,unknown,
+204,BASS-II,PSI-25,P10,unknown,unknown,unknown,
+205,BASS-II,PSI-25,P12,unknown,unknown,unknown,
+206,BASS-II,PSI-25,P13a,unknown,unknown,unknown,
+207,BASS-II,PSI-25,P13b,unknown,unknown,unknown,
+208,BASS-II,PSI-25,P14,unknown,unknown,unknown,
+209,BASS-II,PSI-25,P15,unknown,unknown,unknown,
+210,BASS-II,PSI-25,P16,unknown,unknown,unknown,
+211,BASS-II,PSI-25,P17,unknown,unknown,unknown,
+212,BASS-II,PSI-25,P18,unknown,unknown,unknown,
+213,BASS-II,PSI-25,P19,unknown,unknown,unknown,
+214,BASS-II,PSI-25,P20,unknown,unknown,unknown,
+215,BASS-II,PSI-25,P21a,unknown,unknown,unknown,
+216,BASS-II,PSI-25,P21b,unknown,unknown,unknown,
+217,BASS-II,PSI-25,P22a,unknown,unknown,unknown,
+218,BASS-II,PSI-25,P22b,unknown,unknown,unknown,
+219,BASS-II,PSI-25,P23,unknown,unknown,unknown,
+220,BASS-II,PSI-25,P24,unknown,unknown,unknown,
+221,BASS-II,PSI-25,P25,unknown,unknown,unknown,
+222,BASS-II,PSI-25,T1,unknown,unknown,unknown,
+223,BASS-II,PSI-25,T2,unknown,unknown,unknown,
+224,BASS-II,PSI-25,T3,unknown,unknown,unknown,
+225,BASS-II,PSI-25,T4,unknown,unknown,unknown,
+226,BASS-II,PSI-25,T5,unknown,unknown,unknown,
+227,BASS-II,PSI-25,T6,unknown,unknown,unknown,
+228,BASS-II,PSI-25,T7,unknown,unknown,unknown,
+229,BASS-II,PSI-25,T9,unknown,unknown,unknown,
+230,BASS-II,PSI-25,T10,unknown,unknown,unknown,
+231,BASS-II,PSI-25,T11,unknown,unknown,unknown,
+232,BASS-II,PSI-25,T12,unknown,unknown,unknown,
+233,BASS-II,PSI-25,T13,unknown,unknown,unknown,
+234,BASS-II,PSI-25,T14,unknown,unknown,unknown,
+235,BASS-II,PSI-25,T15,unknown,unknown,unknown,
+236,BASS-II,PSI-25,T16,unknown,unknown,unknown,
+237,BASS-II,PSI-25,T17,unknown,unknown,unknown,
+238,BASS-II,PSI-25,T18,unknown,unknown,unknown,
+239,BASS-II,PSI-25,T19,unknown,unknown,unknown,
+240,BASS-II,PSI-25,T20,unknown,unknown,unknown,
+241,BASS-II,PSI-25,T21,unknown,unknown,unknown,
+242,BASS-II,PSI-25,T22,unknown,unknown,unknown,
+243,BASS-II,PSI-25,T23,unknown,unknown,unknown,
+244,BASS-II,PSI-25,T24,unknown,unknown,unknown,
+245,BASS-II,PSI-25,T25,unknown,unknown,unknown,
+246,BASS-II,PSI-25,T26,unknown,unknown,unknown,
+247,BASS-II,PSI-25,T27,unknown,unknown,unknown,
+248,BASS-II,PSI-25,T28a,unknown,unknown,unknown,
+249,BASS-II,PSI-25,T28b,unknown,unknown,unknown,
+250,BASS-II,PSI-25,T29,unknown,unknown,unknown,
+251,SAFFIRE-I,PSI-98,S1,unknown,unknown,unknown,
+252,SAFFIRE-I,PSI-98,S2,unknown,unknown,unknown,
+253,SAFFIRE-II,PSI-99,2-1,unknown,yes,unknown,1-g Burn Length
+254,SAFFIRE-II,PSI-99,2-2,unknown,unknown,unknown,
+255,SAFFIRE-II,PSI-99,2-3,unknown,no,unknown,1-g Burn Length
+256,SAFFIRE-II,PSI-99,2-4,unknown,yes,unknown,1-g Burn Length
+257,SAFFIRE-II,PSI-99,2-5,unknown,yes,unknown,1-g Burn Length
+258,SAFFIRE-II,PSI-99,2-6,unknown,yes,unknown,1-g Burn Length
+259,SAFFIRE-II,PSI-99,2-7,unknown,no,unknown,1-g Burn Length
+260,SAFFIRE-II,PSI-99,2-8,unknown,yes,unknown,1-g Burn Length
+261,SAFFIRE-II,PSI-99,2-9,unknown,yes,unknown,1-g Burn Length
+262,SAFFIRE-III,PSI-100,S1,unknown,unknown,unknown,
+263,SAFFIRE-III,PSI-100,S2,unknown,unknown,unknown,
+264,FLEX,PSI-69,1 / 20CAL08,unknown,unknown,no,Test end
+265,FLEX,PSI-69,2 / 20CAL10,unknown,unknown,yes,Test end
+266,FLEX,PSI-69,3 / 20CAL12,unknown,unknown,yes,Test end
+267,FLEX,PSI-69,4 / 30CAL02,unknown,unknown,yes,Test end
+268,FLEX,PSI-69,5 / 30CAL03,unknown,unknown,yes,Test end
+269,FLEX,PSI-69,6 / 40CAL01,unknown,unknown,yes,Test end
+270,FLEX,PSI-69,7 / 20CAL13,unknown,unknown,no,Test end
+271,FLEX,PSI-69,8 / 30CAL06,unknown,unknown,no,Test end
+272,FLEX,PSI-69,9 / 30CAL07,unknown,unknown,no,Test end
+273,FLEX,PSI-69,10 / 256F002,unknown,unknown,yes,Test end
+274,FLEX,PSI-69,11 / 256R001,unknown,unknown,yes,Test end
+275,FLEX,PSI-69,12 / 264F003,unknown,unknown,no,Test end
+276,FLEX,PSI-69,13 / 256R002,unknown,unknown,yes,Test end
+277,FLEX,PSI-69,14 / 256F007,unknown,unknown,yes,Test end
+278,FLEX,PSI-69,15 / 256F008,unknown,unknown,yes,Test end
+279,FLEX,PSI-69,16 / 256F009,unknown,unknown,yes,Test end
+280,FLEX,PSI-69,17 / 240R003,unknown,unknown,no,Test end
+281,FLEX,PSI-69,18 / 248F001,unknown,unknown,yes,Test end
+282,FLEX,PSI-69,19 / 196F001,unknown,unknown,no,Test end
+283,FLEX,PSI-69,20 / 192F001,unknown,unknown,unknown,
+284,FLEX,PSI-69,21 / 192F002,unknown,unknown,no,Test end
+285,FLEX,PSI-69,22 / 192F003,unknown,unknown,no,Test end
+286,FLEX,PSI-69,23 / 196F002,unknown,unknown,no,Test end
+287,FLEX,PSI-69,24 / 196F003,unknown,unknown,no,Test end
+288,FLEX,PSI-69,25 / 191R001,unknown,unknown,unknown,
+289,FLEX,PSI-69,26 / 191F001,unknown,unknown,no,Test end
+290,FLEX,PSI-69,27 / 195F001,unknown,unknown,no,Test end
+291,FLEX,PSI-69,28 / 195F002,unknown,unknown,no,Test end
+292,FLEX,PSI-69,29 / 178R001,unknown,unknown,unknown,
+293,FLEX,PSI-69,30 / 178F001,unknown,unknown,yes,Test end
+294,FLEX,PSI-69,31 / 182F001,unknown,unknown,no,Test end
+295,FLEX,PSI-69,32 / 182F002,unknown,unknown,unknown,
+296,FLEX,PSI-69,33 / 177R002,unknown,unknown,yes,Test end
+297,FLEX,PSI-69,34 / 177F001,unknown,unknown,yes,Test end
+298,FLEX,PSI-69,35 / 181F001,unknown,unknown,yes,Test end
+299,FLEX,PSI-69,36 / 190R002,unknown,unknown,yes,Test end
+300,FLEX,PSI-69,37 / 220R001,unknown,unknown,no,Test end
+301,FLEX,PSI-69,38 / 220R002,unknown,unknown,no,Test end
+302,FLEX,PSI-69,39 / 224F001,unknown,unknown,no,Test end
+303,FLEX,PSI-69,40 / 219R001,unknown,unknown,no,Test end
+304,FLEX,PSI-69,41 / 219F001,unknown,unknown,no,Test end
+305,FLEX,PSI-69,42 / 223F001,unknown,unknown,no,Test end
+306,FLEX,PSI-69,43 / 223F002,unknown,unknown,no,Test end
+307,FLEX,PSI-69,44 / 206F001,unknown,unknown,no,Test end
+308,FLEX,PSI-69,45 / 206R001,unknown,unknown,yes,Test end
+309,FLEX,PSI-69,46 / 205R001,unknown,unknown,no,Test end
+310,FLEX,PSI-69,47 / 209F001,unknown,unknown,unknown,
+311,FLEX,PSI-69,48 / 205F001,unknown,unknown,no,Test end
+312,FLEX,PSI-69,49 / 209F003,unknown,unknown,yes,Test end
+313,FLEX,PSI-69,50 / 209F004,unknown,unknown,yes,Test end
+314,FLEX,PSI-69,51 / 209F005,unknown,unknown,unknown,
+315,FLEX,PSI-69,52 / 210F002,unknown,unknown,no,Test end
+316,FLEX,PSI-69,53 / 209F002,unknown,unknown,no,Test end
+317,FLEX,PSI-69,54 / 190F003,unknown,unknown,yes,Test end
+318,FLEX,PSI-69,55 / 218F001,unknown,unknown,no,Test end
+319,FLEX,PSI-69,56 / 194F001,unknown,unknown,unknown,
+320,FLEX,PSI-69,57 / 303F001,unknown,unknown,yes,Test end
+321,FLEX,PSI-69,58 / 176F001,unknown,unknown,yes,Test end
+322,FLEX,PSI-69,59 / 176R001,unknown,unknown,yes,Test end
+323,FLEX,PSI-69,60 / 204F001,unknown,unknown,yes,Test end
+324,FLEX,PSI-69,61 / 204R001,unknown,unknown,yes,Test end
+325,FLEX,PSI-69,62 / 301F001,unknown,unknown,yes,Test end
+326,FLEX,PSI-69,63 / 301F002,unknown,unknown,unknown,
+327,FLEX,PSI-69,64 / 302F001,unknown,unknown,yes,Test end
+328,FLEX,PSI-69,65 / 189R001,unknown,unknown,yes,Test end
+329,FLEX,PSI-69,66 / 189F001,unknown,unknown,yes,Test end
+330,FLEX,PSI-69,67 / 189F002,unknown,unknown,yes,Test end
+331,FLEX,PSI-69,68 / 189R003,unknown,unknown,yes,Test end
+332,FLEX,PSI-69,69 / 193R002,unknown,unknown,unknown,
+333,FLEX,PSI-69,70 / 193F001,unknown,unknown,yes,Test end
+334,FLEX,PSI-69,71 / 189R002,unknown,unknown,yes,Test end
+335,FLEX,PSI-69,72 / 193R001,unknown,unknown,unknown,
+336,FLEX,PSI-69,73 / 193F001,unknown,unknown,yes,Test end
+337,FLEX,PSI-69,74 / 221F001,unknown,unknown,unknown,
+338,FLEX,PSI-69,75 / 203R002,unknown,unknown,yes,Test end
+339,FLEX,PSI-69,76 / 203F001,unknown,unknown,yes,Test end
+340,FLEX,PSI-69,77 / 175R001,unknown,unknown,yes,Test end
+341,FLEX,PSI-69,78 / 175F001,unknown,unknown,yes,Test end
+342,FLEX,PSI-69,79 / 179F001,unknown,unknown,yes,Test end
+343,FLEX,PSI-69,80 / 207F001,unknown,unknown,yes,Test end
+344,FLEX,PSI-69,81 / 207F002,unknown,unknown,yes,Test end
+345,FLEX,PSI-69,82 / 304F001,unknown,unknown,yes,Test end
+346,FLEX,PSI-69,83 / 304F002,unknown,unknown,yes,Test end
+347,FLEX,PSI-69,84 / 304R001,unknown,unknown,yes,Test end
+348,FLEX,PSI-69,85 / 304R002,unknown,unknown,yes,Test end
+349,FLEX,PSI-69,86 / 305F002,unknown,unknown,yes,Test end
+350,FLEX,PSI-69,87 / 305F003,unknown,unknown,yes,Test end
+351,FLEX,PSI-69,88 / 053R001,unknown,unknown,no,Test end
+352,FLEX,PSI-69,89 / 053F001,unknown,unknown,no,Test end
+353,FLEX,PSI-69,90 / 141R001,unknown,unknown,no,Test end
+354,FLEX,PSI-69,91 / 141F001,unknown,unknown,no,Test end
+355,FLEX,PSI-69,92 / 061F002,unknown,unknown,no,Test end
+356,FLEX,PSI-69,93 / 149F001,unknown,unknown,no,Test end
+357,FLEX,PSI-69,94 / C08H101,unknown,unknown,yes,Test end
+358,FLEX,PSI-69,95 / C08H201,unknown,unknown,yes,Test end
+359,FLEX,PSI-69,96 / C08H301,unknown,unknown,no,Test end
+360,FLEX,PSI-69,97 / C08M101,unknown,unknown,unknown,
+361,FLEX,PSI-69,98 / C09M201,unknown,unknown,yes,Test end
+362,FLEX,PSI-69,99 / C09M101,unknown,unknown,yes,Test end
+363,FLEX,PSI-69,100 / C09H101,unknown,unknown,yes,Test end
+364,FLEX,PSI-69,101 / C09H201,unknown,unknown,yes,Test end
+365,FLEX,PSI-69,102 / C10H101,unknown,unknown,yes,Test end
+366,FLEX,PSI-69,103 / C10H201,unknown,unknown,yes,Test end
+367,FLEX,PSI-69,104 / C08M201,unknown,unknown,yes,Test end
+368,FLEX,PSI-69,105 / C08M301,unknown,unknown,no,Test end
+369,FLEX,PSI-69,106 / C09M401,unknown,unknown,no,Test end
+370,FLEX,PSI-69,107 / C08M401,unknown,unknown,no,Test end
+371,FLEX,PSI-69,108 / C09M301,unknown,unknown,unknown,
+372,FLEX,PSI-69,109 / C10M102,unknown,unknown,yes,Test end
+373,FLEX,PSI-69,110 / C10M201,unknown,unknown,yes,Test end
+374,FLEX,PSI-69,111 / C10M303,unknown,unknown,unknown,
+375,FLEX,PSI-69,112 / C10M401,unknown,unknown,unknown,
+376,FLEX,PSI-69,113 / C11M101,unknown,unknown,yes,Test end
+377,FLEX,PSI-69,114 / C11M201,unknown,unknown,yes,Test end
+378,FLEX,PSI-69,115 / C11M301,unknown,unknown,yes,Test end
+379,FLEX,PSI-69,116 / C11M401,unknown,unknown,yes,Test end
+380,FLEX,PSI-69,117 / C11H101,unknown,unknown,yes,Test end
+381,FLEX,PSI-69,118 / C11H201,unknown,unknown,yes,Test end
+382,FLEX,PSI-69,119 / C12H103,unknown,unknown,yes,Test end
+383,FLEX,PSI-69,120 / C12H201,unknown,unknown,yes,Test end
+384,FLEX,PSI-69,121 / C12M101,unknown,unknown,yes,Test end
+385,FLEX,PSI-69,122 / C12M201,unknown,unknown,yes,Test end
+386,FLEX,PSI-69,123 / C12M301,unknown,unknown,yes,Test end
+387,FLEX,PSI-69,124 / C12M401,unknown,unknown,yes,Test end
+388,FLEX,PSI-69,125 / C13M103,unknown,unknown,yes,Test end
+389,FLEX,PSI-69,126 / C13M201,unknown,unknown,yes,Test end
+390,FLEX,PSI-69,127 / C13M301,unknown,unknown,yes,Test end
+391,FLEX,PSI-69,128 / C13M401,unknown,unknown,yes,Test end
+392,FLEX,PSI-69,129 / C13H102,unknown,unknown,yes,Test end
+393,FLEX,PSI-69,130 / C13H201,unknown,unknown,yes,Test end
+394,FLEX,PSI-69,131 / C21H101,unknown,unknown,no,Test end
+395,FLEX,PSI-69,132 / C21H201,unknown,unknown,no,Test end
+396,FLEX,PSI-69,133 / C21H301,unknown,unknown,no,Test end
+397,FLEX,PSI-69,134 / C21H401,unknown,unknown,yes,Test end
+398,FLEX,PSI-69,135 / C21H501,unknown,unknown,unknown,
+399,FLEX,PSI-69,136 / C21H302,unknown,unknown,unknown,
+400,FLEX,PSI-69,137 / C21H303,unknown,unknown,no,Test end
+401,FLEX,PSI-69,138 / C21H304,unknown,unknown,no,Test end
+402,FLEX,PSI-69,139 / C21H305,unknown,unknown,no,Test end
+403,FLEX,PSI-69,140 / C14M101,unknown,unknown,yes,Test end
+404,FLEX,PSI-69,141 / C14M201,unknown,unknown,yes,Test end
+405,FLEX,PSI-69,142 / C14M301,unknown,unknown,yes,Test end
+406,FLEX,PSI-69,143 / C14M302,unknown,unknown,yes,Test end
+407,FLEX,PSI-69,144 / C01M101,unknown,unknown,yes,Test end
+408,FLEX,PSI-69,145 / C01M201,unknown,unknown,yes,Test end
+409,FLEX,PSI-69,146 / C01M301,unknown,unknown,yes,Test end
+410,FLEX,PSI-69,147 / C13M102,unknown,unknown,yes,Test end
+411,FLEX,PSI-69,148 / C01H101,unknown,unknown,no,Test end
+412,FLEX,PSI-69,149 / C01H201,unknown,unknown,no,Test end
+413,FLEX,PSI-69,150 / C01H302,unknown,unknown,yes,Test end
+414,FLEX,PSI-69,151 / C03M101,unknown,unknown,unknown,
+415,FLEX,PSI-69,152 / C03M201,unknown,unknown,yes,Test end
+416,FLEX,PSI-69,153 / C03M301,unknown,unknown,yes,Test end
+417,FLEX,PSI-69,154 / C03H101,unknown,unknown,yes,Test end
+418,FLEX,PSI-69,155 / C03H201,unknown,unknown,yes,Test end
+419,FLEX,PSI-69,156 / C03H401,unknown,unknown,unknown,
+420,FLEX,PSI-69,157 / C05M101,unknown,unknown,yes,Test end
+421,FLEX,PSI-69,158 / C05M201,unknown,unknown,yes,Test end
+422,FLEX,PSI-69,159 / C05M301,unknown,unknown,yes,Test end
+423,FLEX,PSI-69,160 / C05M401,unknown,unknown,yes,Test end
+424,FLEX,PSI-69,161 / C06M101,unknown,unknown,yes,Test end
+425,FLEX,PSI-69,162 / C06M201,unknown,unknown,yes,Test end
+426,FLEX,PSI-69,163 / C06M301,unknown,unknown,yes,Test end
+427,FLEX,PSI-69,164 / C06M401,unknown,unknown,yes,Test end
+428,FLEX,PSI-69,165 / C03H302,unknown,unknown,yes,Test end
+429,FLEX,PSI-69,166 / C07M101,unknown,unknown,yes,Test end
+430,FLEX,PSI-69,167 / C07M201,unknown,unknown,yes,Test end
+431,FLEX,PSI-69,168 / C15M101,unknown,unknown,no,Test end
+432,FLEX,PSI-69,169 / C15M201,unknown,unknown,yes,Test end
+433,FLEX,PSI-69,170 / C15M301,unknown,unknown,yes,Test end
+434,FLEX,PSI-69,171 / C03H501,unknown,unknown,yes,Test end
+435,FLEX,PSI-69,172 / C03H601,unknown,unknown,yes,Test end
+436,FLEX,PSI-69,173 / C03H701,unknown,unknown,no,Test end
+437,FLEX,PSI-69,174 / C08H502,unknown,unknown,no,Test end
+438,FLEX,PSI-69,175 / C08H601,unknown,unknown,no,Test end
+439,FLEX,PSI-69,176 / C08M501,unknown,unknown,yes,Test end
+440,FLEX,PSI-69,177 / C08M601,unknown,unknown,yes,Test end
+441,FLEX,PSI-69,178 / C09H501,unknown,unknown,yes,Test end
+442,FLEX,PSI-69,179 / C09H601,unknown,unknown,no,Test end
+443,FLEX,PSI-69,180 / C02H101,unknown,unknown,yes,Test end
+444,FLEX,PSI-69,181 / C02H201,unknown,unknown,yes,Test end
+445,FLEX,PSI-69,182 / C02H202,unknown,unknown,no,Test end
+446,FLEX,PSI-69,183 / C09M501,unknown,unknown,yes,Test end
+447,FLEX,PSI-69,184 / C09M502,unknown,unknown,yes,Test end
+448,FLEX,PSI-69,185 / C09M601,unknown,unknown,yes,Test end
+449,FLEX,PSI-69,186 / C09M701,unknown,unknown,yes,Test end
+450,FLEX,PSI-69,187 / C02M101,unknown,unknown,yes,Test end
+451,FLEX,PSI-69,188 / C02M201,unknown,unknown,yes,Test end
+452,FLEX,PSI-69,189 / C03M501,unknown,unknown,yes,Test end
+453,FLEX,PSI-69,190 / C03M601,unknown,unknown,yes,Test end
+454,FLEX,PSI-69,191 / C03M701,unknown,unknown,yes,Test end
+455,FLEX,PSI-69,192 / C04M101,unknown,unknown,yes,Test end
+456,FLEX,PSI-69,193 / C04M201,unknown,unknown,yes,Test end
+457,FLEX,PSI-69,194 / C04H101,unknown,unknown,yes,Test end
+458,FLEX,PSI-69,195 / C04H201,unknown,unknown,yes,Test end
+459,FLEX,PSI-69,196 / C01H501,unknown,unknown,yes,Test end
+460,FLEX,PSI-69,197 / C01H601,unknown,unknown,yes,Test end
+461,FLEX,PSI-69,198 / C01H701,unknown,unknown,no,Test end
+462,FLEX,PSI-69,199 / C01M501,unknown,unknown,yes,Test end
+463,FLEX,PSI-69,200 / C01M602,unknown,unknown,yes,Test end
+464,FLEX,PSI-69,201 / C01M603,unknown,unknown,yes,Test end
+465,FLEX,PSI-69,202 / N01M101,unknown,unknown,yes,Test end
+466,FLEX,PSI-69,203 / N01M201,unknown,unknown,yes,Test end
+467,FLEX,PSI-69,204 / N01H101,unknown,unknown,no,Test end
+468,FLEX,PSI-69,205 / N01H102,unknown,unknown,no,Test end
+469,FLEX,PSI-69,206 / N01H201,unknown,unknown,no,Test end
+470,FLEX,PSI-69,207 / N01H202,unknown,unknown,unknown,
+471,FLEX,PSI-69,208 / N01H301,unknown,unknown,unknown,
+472,FLEX,PSI-69,209 / N02H101,unknown,unknown,yes,Test end
+473,FLEX,PSI-69,210 / N02H201,unknown,unknown,yes,Test end
+474,FLEX,PSI-69,211 / N02H203,unknown,unknown,yes,Test end
+475,FLEX,PSI-69,212 / N03H101,unknown,unknown,yes,Test end
+476,FLEX,PSI-69,213 / N04H101,unknown,unknown,yes,Test end
+477,FLEX,PSI-69,214 / N04H201,unknown,unknown,yes,Test end
+478,FLEX,PSI-69,215 / N04M101,unknown,unknown,yes,Test end
+479,FLEX,PSI-69,216 / N04M201,unknown,unknown,yes,Test end
+480,FLEX,PSI-69,217 / N05M101,unknown,unknown,yes,Test end
+481,FLEX,PSI-69,218 / N05M201,unknown,unknown,yes,Test end
+482,FLEX,PSI-69,219 / N06M101,unknown,unknown,yes,Test end
+483,FLEX,PSI-69,220 / N06M201,unknown,unknown,yes,Test end
+484,FLEX,PSI-69,221 / N06M202,unknown,unknown,yes,Test end
+485,FLEX,PSI-69,222 / H01M102,unknown,unknown,yes,Test end
+486,FLEX,PSI-69,223 / H01M104,unknown,unknown,yes,Test end
+487,FLEX,PSI-69,224 / H01H102,unknown,unknown,unknown,
+488,FLEX,PSI-69,225 / H02M101,unknown,unknown,yes,Test end
+489,FLEX,PSI-69,226 / H03M101,unknown,unknown,yes,Test end
+490,FLEX,PSI-69,227 / H03M201,unknown,unknown,yes,Test end
+491,FLEX,PSI-69,228 / N01H401,unknown,unknown,yes,Test end
+492,FLEX,PSI-69,229 / N01H502,unknown,unknown,no,Test end
+493,FLEX,PSI-69,230 / N01H601,unknown,unknown,yes,Test end
+494,FLEX,PSI-69,231 / H02H101,unknown,unknown,no,Test end
+495,FLEX,PSI-69,232 / H03H101,unknown,unknown,yes,Test end
+496,FLEX,PSI-69,233 / H03H201,unknown,unknown,unknown,
+497,FLEX,PSI-69,234 / H03H202,unknown,unknown,unknown,
+498,FLEX,PSI-69,235 / H04H101,unknown,unknown,yes,Test end
+499,FLEX,PSI-69,236 / H04H201,unknown,unknown,yes,Test end
+500,FLEX,PSI-69,237 / H04H302,unknown,unknown,no,Test end
+501,FLEX,PSI-69,238 / H04H303,unknown,unknown,unknown,
+502,FLEX,PSI-69,239 / H04M101,unknown,unknown,yes,Test end
+503,FLEX,PSI-69,240 / H04M202,unknown,unknown,yes,Test end
+504,FLEX,PSI-69,241 / H05M102,unknown,unknown,yes,Test end
+505,FLEX,PSI-69,242 / H05M202,unknown,unknown,yes,Test end
+506,FLEX,PSI-69,243 / H05H103,unknown,unknown,yes,Test end
+507,FLEX,PSI-69,244 / H06M102,unknown,unknown,yes,Test end
+508,FLEX,PSI-69,245 / H06M201,unknown,unknown,yes,Test end
+509,FLEX,PSI-69,246 / H07M101,unknown,unknown,yes,Test end
+510,FLEX,PSI-69,247 / H07M202,unknown,unknown,yes,Test end
+511,FLEX,PSI-69,248 / H08M101,unknown,unknown,yes,Test end
+512,FLEX,PSI-69,249 / H10H101,unknown,unknown,yes,Test end
+513,FLEX,PSI-69,250 / H11H101,unknown,unknown,unknown,
+514,FLEX,PSI-69,251 / H10M101,unknown,unknown,yes,Test end
+515,FLEX,PSI-69,252 / H10M102,unknown,unknown,no,Test end
+516,FLEX,PSI-69,253 / H11M101,unknown,unknown,yes,Test end
+517,FLEX,PSI-69,254 / H11M102,unknown,unknown,no,Test end
+518,FLEX,PSI-69,255 / H12M101,unknown,unknown,yes,Test end
+519,FLEX,PSI-69,256 / H12M102,unknown,unknown,yes,Test end
+520,FLEX,PSI-69,257 / H12M201,unknown,unknown,yes,Test end
+521,FLEX,PSI-69,258 / H12H101,unknown,unknown,yes,Test end
+522,FLEX,PSI-69,259 / H12H201,unknown,unknown,yes,Test end
+523,FLEX,PSI-69,260 / H13H101,unknown,unknown,yes,Test end
+524,FLEX,PSI-69,261 / H13H201,unknown,unknown,yes,Test end
+525,FLEX,PSI-69,262 / H13M102,unknown,unknown,yes,Test end
+526,FLEX,PSI-69,263 / H13M201,unknown,unknown,yes,Test end
+527,FLEX,PSI-69,264 / H14M101,unknown,unknown,yes,Test end
+528,FLEX,PSI-69,265 / H14M201,unknown,unknown,yes,Test end
+529,FLEX,PSI-69,266 / H14M202,unknown,unknown,yes,Test end
+530,FLEX,PSI-69,267 / H14H101,unknown,unknown,yes,Test end
+531,FLEX,PSI-69,268 / H14H201,unknown,unknown,yes,Test end
+532,FLEX,PSI-69,269 / H15H101,unknown,unknown,yes,Test end
+533,FLEX,PSI-69,270 / H15H201,unknown,unknown,unknown,
+534,FLEX,PSI-69,271 / H15M102,unknown,unknown,yes,Test end
+535,FLEX,PSI-69,272 / H15M201,unknown,unknown,yes,Test end
+536,FLEX,PSI-69,273 / H19H101,unknown,unknown,yes,Test end
+537,FLEX,PSI-69,274 / H19H201,unknown,unknown,yes,Test end
+538,FLEX-2,PSI-68,(design row),unknown,unknown,unknown,
+539,FLEX-2,PSI-68,(design row),unknown,unknown,unknown,
+540,FLEX-2,PSI-68,(design row),unknown,unknown,unknown,
+541,FLEX-2,PSI-68,(design row),unknown,unknown,unknown,
+542,FLEX-2,PSI-68,(design row),unknown,unknown,unknown,
+543,FLEX-2,PSI-68,(design row),unknown,unknown,unknown,
+544,FLEX-2,PSI-68,(design row),unknown,unknown,unknown,
+545,FLEX-2,PSI-68,(design row),unknown,unknown,unknown,
+546,SAME,PSI-102,1,unknown,unknown,unknown,
+547,SAME,PSI-102,2,unknown,unknown,unknown,
+548,SAME,PSI-102,3,unknown,unknown,unknown,
+549,SAME,PSI-102,4,unknown,unknown,unknown,
+550,SAME,PSI-102,5,unknown,unknown,unknown,
+551,SAME,PSI-102,6,unknown,unknown,unknown,
+552,SAME,PSI-102,7,unknown,unknown,unknown,
+553,SAME,PSI-102,8,unknown,unknown,unknown,
+554,SAME-R,PSI-101,51,unknown,unknown,unknown,
+555,SAME-R,PSI-101,51a,unknown,unknown,unknown,
+556,SAME-R,PSI-101,61,unknown,unknown,unknown,
+557,SAME-R,PSI-101,61a,unknown,unknown,unknown,
+558,SAME-R,PSI-101,62,unknown,unknown,unknown,
+559,SAME-R,PSI-101,62a,unknown,unknown,unknown,
+560,SAME-R,PSI-101,70,unknown,unknown,unknown,
+561,SAME-R,PSI-101,73,unknown,unknown,unknown,
+562,SAME-R,PSI-101,73a,unknown,unknown,unknown,
+563,SAME-R,PSI-101,75,unknown,unknown,unknown,
+564,SAME-R,PSI-101,75a,unknown,unknown,unknown,
+565,SAME-R,PSI-101,77,unknown,unknown,unknown,
+566,SAME-R,PSI-101,77a,unknown,unknown,unknown,
+567,SAME-R,PSI-101,85,unknown,unknown,unknown,
+568,SAME-R,PSI-101,85a,unknown,unknown,unknown,
+569,SAME-R,PSI-101,90,unknown,unknown,unknown,
+570,SAME-R,PSI-101,90a,unknown,unknown,unknown,
+571,SAME-R,PSI-101,92,unknown,unknown,unknown,
+572,SAME-R,PSI-101,93,unknown,unknown,unknown,
+573,SAME-R,PSI-101,93a,unknown,unknown,unknown,
+574,SAME-R,PSI-101,94,unknown,unknown,unknown,
+575,SAME-R,PSI-101,94a,unknown,unknown,unknown,
+576,SAME-R,PSI-101,101,unknown,unknown,unknown,
+577,SAME-R,PSI-101,101a,unknown,unknown,unknown,
+578,SAME-R,PSI-101,102,unknown,unknown,unknown,
+579,SAME-R,PSI-101,102a,unknown,unknown,unknown,
+580,SAME-R,PSI-101,108,unknown,unknown,unknown,
+581,SAME-R,PSI-101,108a,unknown,unknown,unknown,
+582,SAME-R,PSI-101,114,unknown,unknown,unknown,
+583,SAME-R,PSI-101,48,unknown,unknown,unknown,
+584,SAME-R,PSI-101,53,unknown,unknown,unknown,
+585,SAME-R,PSI-101,59,unknown,unknown,unknown,
+586,SAME-R,PSI-101,59a,unknown,unknown,unknown,
+587,SAME-R,PSI-101,60,unknown,unknown,unknown,
+588,SAME-R,PSI-101,60a,unknown,unknown,unknown,
+589,SAME-R,PSI-101,65,unknown,unknown,unknown,
+590,SAME-R,PSI-101,65a,unknown,unknown,unknown,
+591,SAME-R,PSI-101,66,unknown,unknown,unknown,
+592,SAME-R,PSI-101,66a,unknown,unknown,unknown,
+593,SAME-R,PSI-101,67,unknown,unknown,unknown,
+594,SAME-R,PSI-101,72,unknown,unknown,unknown,
+595,SAME-R,PSI-101,86,unknown,unknown,unknown,
+596,SAME-R,PSI-101,86a,unknown,unknown,unknown,
+597,SAME-R,PSI-101,91,unknown,unknown,unknown,
+598,SAME-R,PSI-101,99,unknown,unknown,unknown,
+599,SAME-R,PSI-101,99a,unknown,unknown,unknown,
+600,SAME-R,PSI-101,103,unknown,unknown,unknown,
+601,SAME-R,PSI-101,103a,unknown,unknown,unknown,
+602,SAME-R,PSI-101,104,unknown,unknown,unknown,
+603,SAME-R,PSI-101,104a,unknown,unknown,unknown,
+604,SAME-R,PSI-101,109,unknown,unknown,unknown,
+605,SAME-R,PSI-101,49,unknown,unknown,unknown,
+606,SAME-R,PSI-101,54,unknown,unknown,unknown,
+607,SAME-R,PSI-101,55,unknown,unknown,unknown,
+608,SAME-R,PSI-101,55a,unknown,unknown,unknown,
+609,SAME-R,PSI-101,57,unknown,unknown,unknown,
+610,SAME-R,PSI-101,68,unknown,unknown,unknown,
+611,SAME-R,PSI-101,78,unknown,unknown,unknown,
+612,SAME-R,PSI-101,78a,unknown,unknown,unknown,
+613,SAME-R,PSI-101,80,unknown,unknown,unknown,
+614,SAME-R,PSI-101,80a,unknown,unknown,unknown,
+615,SAME-R,PSI-101,82,unknown,unknown,unknown,
+616,SAME-R,PSI-101,82a,unknown,unknown,unknown,
+617,SAME-R,PSI-101,88,unknown,unknown,unknown,
+618,SAME-R,PSI-101,96,unknown,unknown,unknown,
+619,SAME-R,PSI-101,96a,unknown,unknown,unknown,
+620,SAME-R,PSI-101,98,unknown,unknown,unknown,
+621,SAME-R,PSI-101,98a,unknown,unknown,unknown,
+622,SAME-R,PSI-101,106,unknown,unknown,unknown,
+623,SAME-R,PSI-101,106a,unknown,unknown,unknown,
+624,SAME-R,PSI-101,110,unknown,unknown,unknown,
+625,SAME-R,PSI-101,50,unknown,unknown,unknown,
+626,SAME-R,PSI-101,56,unknown,unknown,unknown,
+627,SAME-R,PSI-101,57,unknown,unknown,unknown,
+628,SAME-R,PSI-101,58,unknown,unknown,unknown,
+629,SAME-R,PSI-101,58a,unknown,unknown,unknown,
+630,SAME-R,PSI-101,69,unknown,unknown,unknown,
+631,SAME-R,PSI-101,79,unknown,unknown,unknown,
+632,SAME-R,PSI-101,79a,unknown,unknown,unknown,
+633,SAME-R,PSI-101,81,unknown,unknown,unknown,
+634,SAME-R,PSI-101,81a,unknown,unknown,unknown,
+635,SAME-R,PSI-101,83,unknown,unknown,unknown,
+636,SAME-R,PSI-101,83a,unknown,unknown,unknown,
+637,SAME-R,PSI-101,89,unknown,unknown,unknown,
+638,SAME-R,PSI-101,100,unknown,unknown,unknown,
+639,SAME-R,PSI-101,100a,unknown,unknown,unknown,
+640,SAME-R,PSI-101,105,unknown,unknown,unknown,
+641,SAME-R,PSI-101,105a,unknown,unknown,unknown,
+642,SAME-R,PSI-101,111,unknown,unknown,unknown,
+643,SAME-R,PSI-101,52,unknown,unknown,unknown,
+644,SAME-R,PSI-101,63,unknown,unknown,unknown,
+645,SAME-R,PSI-101,63a,unknown,unknown,unknown,
+646,SAME-R,PSI-101,64,unknown,unknown,unknown,
+647,SAME-R,PSI-101,64a,unknown,unknown,unknown,
+648,SAME-R,PSI-101,71,unknown,unknown,unknown,
+649,SAME-R,PSI-101,74,unknown,unknown,unknown,
+650,SAME-R,PSI-101,74a,unknown,unknown,unknown,
+651,SAME-R,PSI-101,76,unknown,unknown,unknown,
+652,SAME-R,PSI-101,76a,unknown,unknown,unknown,
+653,SAME-R,PSI-101,84,unknown,unknown,unknown,
+654,SAME-R,PSI-101,84a,unknown,unknown,unknown,
+655,SAME-R,PSI-101,87,unknown,unknown,unknown,
+656,SAME-R,PSI-101,95,unknown,unknown,unknown,
+657,SAME-R,PSI-101,95a,unknown,unknown,unknown,
+658,SAME-R,PSI-101,97,unknown,unknown,unknown,
+659,SAME-R,PSI-101,97a,unknown,unknown,unknown,
+660,SAME-R,PSI-101,107,unknown,unknown,unknown,
+661,SAME-R,PSI-101,107a,unknown,unknown,unknown,
+662,SAME-R,PSI-101,113,unknown,unknown,unknown,
+663,CFI,PSI-39,1206 / f068a03,unknown,unknown,unknown,
+664,CFI,PSI-39,1207 / f068a07,unknown,unknown,unknown,
+665,CFI,PSI-39,1208 / f068a08,unknown,unknown,unknown,
+666,CFI,PSI-39,1209 / f068a09,unknown,unknown,unknown,
+667,CFI,PSI-39,1210 / f068a11,unknown,unknown,unknown,
+668,CFI,PSI-39,1211 / f080a01,unknown,unknown,unknown,
+669,CFI,PSI-39,1213 / f086a04,unknown,unknown,unknown,
+670,CFI,PSI-39,1215 / f086a06,unknown,unknown,unknown,
+671,CFI,PSI-39,1216 / f086a07,unknown,unknown,unknown,
+672,CFI,PSI-39,1217 / f086a08,unknown,unknown,unknown,
+673,CFI,PSI-39,1218 / f090a03,unknown,unknown,unknown,
+674,CFI,PSI-39,1219 / f090a04,unknown,unknown,unknown,
+675,CFI,PSI-39,1220 / f090a05,unknown,unknown,unknown,
+676,CFI,PSI-39,1221 / f090a06,unknown,unknown,unknown,
+677,CFI,PSI-39,1222 / f090a07,unknown,unknown,unknown,
+678,CFI,PSI-39,1223 / f090a08,unknown,unknown,unknown,
+679,CFI,PSI-39,1224 / f090a09,unknown,unknown,unknown,
+680,CFI,PSI-39,1225 / f090a10,unknown,unknown,unknown,
+681,CFI,PSI-39,1226 / f090a11,unknown,unknown,unknown,
+682,CFI,PSI-39,1227 / f095a01,unknown,unknown,unknown,
+683,CFI,PSI-39,1228 / f095a02,unknown,unknown,unknown,
+684,CFI,PSI-39,1229 / f095a04,unknown,unknown,unknown,
+685,CFI,PSI-39,1285 / f173e01,unknown,unknown,unknown,
+686,CFI,PSI-39,1286 / f173e02,unknown,unknown,unknown,
+687,CFI,PSI-39,1287 / f173e03,unknown,unknown,unknown,
+688,CFI,PSI-39,1288 / f173e05,unknown,unknown,unknown,
+689,CFI,PSI-39,1289 / f173e06,unknown,unknown,unknown,
+690,CFI,PSI-39,1295 / f179e01,unknown,unknown,unknown,
+691,CFI,PSI-39,1296 / f179e02,unknown,unknown,unknown,
+692,CFI,PSI-39,1297 / f179e05,unknown,unknown,unknown,
+693,CFI,PSI-39,1290 / f177d01,unknown,unknown,unknown,
+694,CFI,PSI-39,1291 / f177d02,unknown,unknown,unknown,
+695,CFI,PSI-39,1292 / f177d03,unknown,unknown,unknown,
+696,CFI,PSI-39,1293 / f177d04,unknown,unknown,unknown,
+697,CFI,PSI-39,1294 / f177d05,unknown,unknown,unknown,
+698,CFI,PSI-39,1300 / f180d01,unknown,unknown,unknown,
+699,CFI,PSI-39,1301 / f180d02,unknown,unknown,unknown,
+700,CFI,PSI-39,1310 / f186d01,unknown,unknown,unknown,
+701,CFI,PSI-39,1311 / f186d02,unknown,unknown,unknown,
+702,CFI,PSI-39,1312 / f186d04,unknown,unknown,unknown,
+703,CFI,PSI-39,1313 / f186d05,unknown,unknown,unknown,
+704,CFI,PSI-39,1314 / f186d06,unknown,unknown,unknown,
+705,CFI,PSI-39,1320 / f191d02,unknown,unknown,unknown,
+706,CFI,PSI-39,1321 / f191d03,unknown,unknown,unknown,
+707,CFI,PSI-39,1322 / f191d04,unknown,unknown,unknown,
+708,CFI,PSI-39,1323 / f191d05,unknown,unknown,unknown,
+709,CFI,PSI-39,1328 / f195d01,unknown,unknown,unknown,
+710,CFI,PSI-39,1329 / f195d02,unknown,unknown,unknown,
+711,CFI,PSI-39,1330 / f195d07,unknown,unknown,unknown,
+712,CFI,PSI-39,1331 / f195d10,unknown,unknown,unknown,
+713,CFI,PSI-39,1332 / f195d11,unknown,unknown,unknown,
+714,CFI,PSI-39,1335 / f200d01,unknown,unknown,unknown,
+715,CFI,PSI-39,1336 / f200d03,unknown,unknown,unknown,
+716,CFI,PSI-39,1337 / f200d04,unknown,unknown,unknown,
+717,CFI,PSI-39,1338 / f200d05,unknown,unknown,unknown,
+718,CFI,PSI-39,1340 / f202e02,unknown,unknown,unknown,
+719,CFI,PSI-39,1341 / f205d01,unknown,unknown,unknown,
+720,CFI,PSI-39,1342 / f205d02,unknown,unknown,unknown,
+721,CFI,PSI-39,1346 / f208d01,unknown,unknown,unknown,
+722,CFI,PSI-39,1347 / f208d02,unknown,unknown,unknown,
+723,CFI,PSI-39,1348 / f208d03,unknown,unknown,unknown,
+724,CFI,PSI-39,1349 / f208d04,unknown,unknown,unknown,
+725,CFI,PSI-39,1356 / f213d02,unknown,unknown,unknown,
+726,CFI,PSI-39,1357 / f213d03,unknown,unknown,unknown,
+727,CFI,PSI-39,1358 / f213d04,unknown,unknown,unknown,
+728,CFI,PSI-39,1362 / f221e06,unknown,unknown,unknown,
+729,CFI,PSI-39,1363 / f222d01,unknown,unknown,unknown,
+730,CFI,PSI-39,1364 / f222d02,unknown,unknown,unknown,
+731,CFI,PSI-39,1365 / f222d03,unknown,unknown,unknown,
+732,CFI,PSI-39,1366 / f222d04,unknown,unknown,unknown,
+733,CFI,PSI-39,1367 / f226e01,unknown,unknown,unknown,
+734,CFI,PSI-39,1368 / f226e02,unknown,unknown,unknown,
+735,CFI,PSI-39,1369 / f226e03,unknown,unknown,unknown,
+736,CFI,PSI-39,1373 / f228e01,unknown,unknown,unknown,
+737,CFI,PSI-39,1374 / f228e02,unknown,unknown,unknown,
+738,CFI,PSI-39,1383 / f233d01,unknown,unknown,unknown,
+739,CFI,PSI-39,1384 / f233d02,unknown,unknown,unknown,
+740,CFI,PSI-39,1386 / f233d04,unknown,unknown,unknown,
+741,CFI,PSI-39,1387 / f233d05,unknown,unknown,unknown,
+742,CFI,PSI-39,1285 / f173e01,unknown,unknown,unknown,
+743,CFI,PSI-39,1286 / f173e02,unknown,unknown,unknown,
+744,CFI,PSI-39,1287 / f173e03,unknown,unknown,unknown,
+745,CFI,PSI-39,1288 / f173e05,unknown,unknown,unknown,
+746,CFI,PSI-39,1289 / f173e06,unknown,unknown,unknown,
+747,CFI,PSI-39,1295 / f179e01,unknown,unknown,unknown,
+748,CFI,PSI-39,1296 / f179e02,unknown,unknown,unknown,
+749,CFI,PSI-39,1297 / f179e05,unknown,unknown,unknown,
+750,ACME Flame Design (normal),PSI-10,19115A1,unknown,unknown,unknown,
+751,ACME Flame Design (normal),PSI-10,19115D2,unknown,unknown,unknown,
+752,ACME Flame Design (normal),PSI-10,19115B1,unknown,unknown,unknown,
+753,ACME Flame Design (normal),PSI-10,19115B2,unknown,unknown,unknown,
+754,ACME Flame Design (normal),PSI-10,19115F1,unknown,unknown,unknown,
+755,ACME Flame Design (normal),PSI-10,19115G1,unknown,unknown,unknown,
+756,ACME Flame Design (normal),PSI-10,19115K1,unknown,unknown,unknown,
+757,ACME Flame Design (normal),PSI-10,19115L1,unknown,unknown,unknown,
+758,ACME Flame Design (normal),PSI-10,19115N1,unknown,unknown,unknown,
+759,ACME Flame Design (normal),PSI-10,19115M4,unknown,unknown,unknown,
+760,ACME Flame Design (normal),PSI-10,19115Q1,unknown,unknown,unknown,
+761,ACME Flame Design (normal),PSI-10,19123A1,unknown,unknown,unknown,
+762,ACME Flame Design (normal),PSI-10,19123A2,unknown,unknown,unknown,
+763,ACME Flame Design (normal),PSI-10,19123A3,unknown,unknown,unknown,
+764,ACME Flame Design (normal),PSI-10,19123A4,unknown,unknown,unknown,
+765,ACME Flame Design (normal),PSI-10,19123C1,unknown,unknown,unknown,
+766,ACME Flame Design (normal),PSI-10,19123F1,unknown,unknown,unknown,
+767,ACME Flame Design (normal),PSI-10,19123F2,unknown,unknown,unknown,
+768,ACME Flame Design (normal),PSI-10,19123F3,unknown,unknown,unknown,
+769,ACME Flame Design (normal),PSI-10,19123K1,unknown,unknown,unknown,
+770,ACME Flame Design (normal),PSI-10,19123B1,unknown,unknown,unknown,
+771,ACME Flame Design (normal),PSI-10,19123D1,unknown,unknown,unknown,
+772,ACME Flame Design (normal),PSI-10,19123J1,unknown,unknown,unknown,
+773,ACME Flame Design (normal),PSI-10,19123L1,unknown,unknown,unknown,
+774,ACME Flame Design (normal),PSI-10,19123L2,unknown,unknown,unknown,
+775,ACME Flame Design (normal),PSI-10,19123L3,unknown,unknown,unknown,
+776,ACME Flame Design (normal),PSI-10,19123L4,unknown,unknown,unknown,
+777,ACME Flame Design (normal),PSI-10,19123L5,unknown,unknown,unknown,
+778,ACME Flame Design (normal),PSI-10,19123L6,unknown,unknown,unknown,
+779,ACME Flame Design (normal),PSI-10,19123L7,unknown,unknown,unknown,
+780,ACME Flame Design (normal),PSI-10,19137A1,unknown,unknown,unknown,
+781,ACME Flame Design (normal),PSI-10,19137B1,unknown,unknown,unknown,
+782,ACME Flame Design (normal),PSI-10,19137C1,unknown,unknown,unknown,
+783,ACME Flame Design (normal),PSI-10,19137D1,unknown,unknown,unknown,
+784,ACME Flame Design (normal),PSI-10,19137F1,unknown,unknown,unknown,
+785,ACME Flame Design (normal),PSI-10,19137F2,unknown,unknown,unknown,
+786,ACME Flame Design (normal),PSI-10,19137F3,unknown,unknown,unknown,
+787,ACME Flame Design (normal),PSI-10,19137G1,unknown,unknown,unknown,
+788,ACME Flame Design (normal),PSI-10,19137H1,unknown,unknown,unknown,
+789,ACME Flame Design (normal),PSI-10,19137J1,unknown,unknown,unknown,
+790,ACME Flame Design (normal),PSI-10,19137K1,unknown,unknown,unknown,
+791,ACME Flame Design (normal),PSI-10,19137K2,unknown,unknown,unknown,
+792,ACME Flame Design (normal),PSI-10,19137L1,unknown,unknown,unknown,
+793,ACME Flame Design (normal),PSI-10,19137L2,unknown,unknown,unknown,
+794,ACME Flame Design (normal),PSI-10,19137L3,unknown,unknown,unknown,
+795,ACME Flame Design (normal),PSI-10,19137L4,unknown,unknown,unknown,
+796,ACME Flame Design (normal),PSI-10,19137L5,unknown,unknown,unknown,
+797,ACME Flame Design (normal),PSI-10,19137L6,unknown,unknown,unknown,
+798,ACME Flame Design (normal),PSI-10,19137L7,unknown,unknown,unknown,
+799,ACME Flame Design (normal),PSI-10,19137L8,unknown,unknown,unknown,
+800,ACME Flame Design (normal),PSI-10,19142G1,unknown,unknown,unknown,
+801,ACME Flame Design (normal),PSI-10,19142G2,unknown,unknown,unknown,
+802,ACME Flame Design (normal),PSI-10,19142G3,unknown,unknown,unknown,
+803,ACME Flame Design (normal),PSI-10,19142F1,unknown,unknown,unknown,
+804,ACME Flame Design (normal),PSI-10,19142J2,unknown,unknown,unknown,
+805,ACME Flame Design (normal),PSI-10,19142G4,unknown,unknown,unknown,
+806,ACME Flame Design (normal),PSI-10,19142G5,unknown,unknown,unknown,
+807,ACME Flame Design (normal),PSI-10,19142J3,unknown,unknown,unknown,
+808,ACME Flame Design (normal),PSI-10,19150A1,unknown,unknown,unknown,
+809,ACME Flame Design (normal),PSI-10,19150A3,unknown,unknown,unknown,
+810,ACME Flame Design (normal),PSI-10,19150A4,unknown,unknown,unknown,
+811,ACME Flame Design (normal),PSI-10,19150A5,unknown,unknown,unknown,
+812,ACME Flame Design (normal),PSI-10,19150B2,unknown,unknown,unknown,
+813,ACME Flame Design (normal),PSI-10,19150C1,unknown,unknown,unknown,
+814,ACME Flame Design (normal),PSI-10,19150B3,unknown,unknown,unknown,
+815,ACME Flame Design (normal),PSI-10,19150D2,unknown,unknown,unknown,
+816,ACME Flame Design (normal),PSI-10,19150F1,unknown,unknown,unknown,
+817,ACME Flame Design (normal),PSI-10,19150G2,unknown,unknown,unknown,
+818,ACME Flame Design (normal),PSI-10,19150H1,unknown,unknown,unknown,
+819,ACME Flame Design (normal),PSI-10,19150J1,unknown,unknown,unknown,
+820,ACME Flame Design (normal),PSI-10,19150G3,unknown,unknown,unknown,
+821,ACME Flame Design (normal),PSI-10,19150N1,unknown,unknown,unknown,
+822,ACME Flame Design (normal),PSI-10,19150S1,unknown,unknown,unknown,
+823,ACME Flame Design (normal),PSI-10,19156B2,unknown,unknown,unknown,
+824,ACME Flame Design (normal),PSI-10,19156B4,unknown,unknown,unknown,
+825,ACME Flame Design (normal),PSI-10,19156K1,unknown,unknown,unknown,
+826,ACME Flame Design (normal),PSI-10,19156C1,unknown,unknown,unknown,
+827,ACME Flame Design (normal),PSI-10,19156C2,unknown,unknown,unknown,
+828,ACME Flame Design (normal),PSI-10,19156C3,unknown,unknown,unknown,
+829,ACME Flame Design (normal),PSI-10,19156J1,unknown,unknown,unknown,
+830,ACME Flame Design (normal),PSI-10,19156J2,unknown,unknown,unknown,
+831,ACME Flame Design (normal),PSI-10,19156J3,unknown,unknown,unknown,
+832,ACME Flame Design (normal),PSI-10,19156J4,unknown,unknown,unknown,
+833,ACME Flame Design (normal),PSI-10,19156J5,unknown,unknown,unknown,
+834,ACME Flame Design (normal),PSI-10,19156J6,unknown,unknown,unknown,
+835,ACME Flame Design (normal),PSI-10,19156J7,unknown,unknown,unknown,
+836,ACME Flame Design (normal),PSI-10,19171D1,unknown,unknown,unknown,
+837,ACME Flame Design (normal),PSI-10,19171D2,unknown,unknown,unknown,
+838,ACME Flame Design (normal),PSI-10,19171D3,unknown,unknown,unknown,
+839,ACME Flame Design (normal),PSI-10,19171D4,unknown,unknown,unknown,
+840,ACME Flame Design (normal),PSI-10,19171D5,unknown,unknown,unknown,
+841,ACME Flame Design (normal),PSI-10,19171S1,unknown,unknown,unknown,
+842,ACME Flame Design (normal),PSI-10,19171B1,unknown,unknown,unknown,
+843,ACME Flame Design (normal),PSI-10,19171B3,unknown,unknown,unknown,
+844,ACME Flame Design (normal),PSI-10,19171J1,unknown,unknown,unknown,
+845,ACME Flame Design (normal),PSI-10,19171J2,unknown,unknown,unknown,
+846,ACME Flame Design (normal),PSI-10,19171J3,unknown,unknown,unknown,
+847,ACME Flame Design (normal),PSI-10,19171J4,unknown,unknown,unknown,
+848,ACME Flame Design (normal),PSI-10,19175A2,unknown,unknown,unknown,
+849,ACME Flame Design (normal),PSI-10,19175A3,unknown,unknown,unknown,
+850,ACME Flame Design (normal),PSI-10,19175A4,unknown,unknown,unknown,
+851,ACME Flame Design (normal),PSI-10,19175B1,unknown,unknown,unknown,
+852,ACME Flame Design (normal),PSI-10,19175B4,unknown,unknown,unknown,
+853,ACME Flame Design (normal),PSI-10,19175B5,unknown,unknown,unknown,
+854,ACME Flame Design (normal),PSI-10,19175B6,unknown,unknown,unknown,
+855,ACME Flame Design (normal),PSI-10,19175B7,unknown,unknown,unknown,
+856,ACME Flame Design (normal),PSI-10,19175B8,unknown,unknown,unknown,
+857,ACME Flame Design (normal),PSI-10,19175B9,unknown,unknown,unknown,
+858,ACME Flame Design (normal),PSI-10,19175N1,unknown,unknown,unknown,
+859,ACME Flame Design (normal),PSI-10,19175N2,unknown,unknown,unknown,
+860,ACME Flame Design (normal),PSI-10,19175N3,unknown,unknown,unknown,
+861,ACME Flame Design (normal),PSI-10,19182G1,unknown,unknown,unknown,
+862,ACME Flame Design (normal),PSI-10,19182G2,unknown,unknown,unknown,
+863,ACME Flame Design (normal),PSI-10,19182G3,unknown,unknown,unknown,
+864,ACME Flame Design (normal),PSI-10,19182G6,unknown,unknown,unknown,
+865,ACME Flame Design (normal),PSI-10,19182G7,unknown,unknown,unknown,
+866,ACME Flame Design (normal),PSI-10,19182G8,unknown,unknown,unknown,
+867,ACME Flame Design (normal),PSI-10,19182G9,unknown,unknown,unknown,
+868,ACME Flame Design (normal),PSI-10,19182N1,unknown,unknown,unknown,
+869,ACME Flame Design (normal),PSI-10,19182N2,unknown,unknown,unknown,
+870,ACME Flame Design (normal),PSI-10,19182N3,unknown,unknown,unknown,
+871,ACME Flame Design (normal),PSI-10,19182A1,unknown,unknown,unknown,
+872,ACME Flame Design (normal),PSI-10,19182C1,unknown,unknown,unknown,
+873,ACME Flame Design (normal),PSI-10,19182C2,unknown,unknown,unknown,
+874,ACME Flame Design (normal),PSI-10,19182N4,unknown,unknown,unknown,
+875,ACME Flame Design (normal),PSI-10,19182F1,unknown,unknown,unknown,
+876,ACME Flame Design (normal),PSI-10,19189A1,unknown,unknown,unknown,
+877,ACME Flame Design (normal),PSI-10,19189A2,unknown,unknown,unknown,
+878,ACME Flame Design (normal),PSI-10,19189A3,unknown,unknown,unknown,
+879,ACME Flame Design (normal),PSI-10,19189D1,unknown,unknown,unknown,
+880,ACME Flame Design (normal),PSI-10,19189A4,unknown,unknown,unknown,
+881,ACME Flame Design (normal),PSI-10,19189D2,unknown,unknown,unknown,
+882,ACME Flame Design (normal),PSI-10,19189D3,unknown,unknown,unknown,
+883,ACME Flame Design (normal),PSI-10,19189H1,unknown,unknown,unknown,
+884,ACME Flame Design (normal),PSI-10,19189J1,unknown,unknown,unknown,
+885,ACME Flame Design (normal),PSI-10,19189J2,unknown,unknown,unknown,
+886,ACME Flame Design (normal),PSI-10,19189J3,unknown,unknown,unknown,
+887,ACME Flame Design (normal),PSI-10,19189K1,unknown,unknown,unknown,
+888,ACME Flame Design (normal),PSI-10,19189K2,unknown,unknown,unknown,
+889,ACME Flame Design (normal),PSI-10,19189K3,unknown,unknown,unknown,
+890,ACME Flame Design (normal),PSI-10,19189P1,unknown,unknown,unknown,
+891,ACME Flame Design (normal),PSI-10,19196A1,unknown,unknown,unknown,
+892,ACME Flame Design (normal),PSI-10,19196A2,unknown,unknown,unknown,
+893,ACME Flame Design (normal),PSI-10,19196A3,unknown,unknown,unknown,
+894,ACME Flame Design (normal),PSI-10,19196B1,unknown,unknown,unknown,
+895,ACME Flame Design (normal),PSI-10,19196B2,unknown,unknown,unknown,
+896,ACME Flame Design (normal),PSI-10,19196B3,unknown,unknown,unknown,
+897,ACME Flame Design (normal),PSI-10,19196B4,unknown,unknown,unknown,
+898,ACME Flame Design (normal),PSI-10,19196C1,unknown,unknown,unknown,
+899,ACME Flame Design (normal),PSI-10,19196C2,unknown,unknown,unknown,
+900,ACME Flame Design (normal),PSI-10,19196D1,unknown,unknown,unknown,
+901,ACME Flame Design (normal),PSI-10,19196D2,unknown,unknown,unknown,
+902,ACME Flame Design (normal),PSI-10,19196F1,unknown,unknown,unknown,
+903,ACME Flame Design (normal),PSI-10,19196N1,unknown,unknown,unknown,
+904,ACME Flame Design (normal),PSI-10,19200A1,unknown,unknown,unknown,
+905,ACME Flame Design (normal),PSI-10,19200A2,unknown,unknown,unknown,
+906,ACME Flame Design (normal),PSI-10,19200A3,unknown,unknown,unknown,
+907,ACME Flame Design (normal),PSI-10,19200A4,unknown,unknown,unknown,
+908,ACME Flame Design (normal),PSI-10,19200A5,unknown,unknown,unknown,
+909,ACME Flame Design (normal),PSI-10,19200A6,unknown,unknown,unknown,
+910,ACME Flame Design (normal),PSI-10,19200A7,unknown,unknown,unknown,
+911,ACME Flame Design (normal),PSI-10,19200A8,unknown,unknown,unknown,
+912,ACME Flame Design (normal),PSI-10,19200K1,unknown,unknown,unknown,
+913,ACME Flame Design (normal),PSI-10,19200H1,unknown,unknown,unknown,
+914,ACME Flame Design (normal),PSI-10,19200H2,unknown,unknown,unknown,
+915,ACME Flame Design (normal),PSI-10,19200H3,unknown,unknown,unknown,
+916,ACME Flame Design (normal),PSI-10,19206A1,unknown,unknown,unknown,
+917,ACME Flame Design (normal),PSI-10,19206A5,unknown,unknown,unknown,
+918,ACME Flame Design (normal),PSI-10,19206G1,unknown,unknown,unknown,
+919,ACME Flame Design (normal),PSI-10,19206G2,unknown,unknown,unknown,
+920,ACME Flame Design (normal),PSI-10,19206G3,unknown,unknown,unknown,
+921,ACME Flame Design (normal),PSI-10,19206G4,unknown,unknown,unknown,
+922,ACME Flame Design (normal),PSI-10,19206G5,unknown,unknown,unknown,
+923,ACME Flame Design (normal),PSI-10,19206L2,unknown,unknown,unknown,
+924,ACME Flame Design (normal),PSI-10,19206L3,unknown,unknown,unknown,
+925,ACME Flame Design (normal),PSI-10,19206L4,unknown,unknown,unknown,
+926,ACME Flame Design (normal),PSI-10,19206L6,unknown,unknown,unknown,
+927,ACME Flame Design (normal),PSI-10,19206G7,unknown,unknown,unknown,
+928,ACME Flame Design (normal),PSI-10,19206K1,unknown,unknown,unknown,
+929,ACME Flame Design (normal),PSI-10,19206K2,unknown,unknown,unknown,
+930,ACME Flame Design (normal),PSI-10,19206G8,unknown,unknown,unknown,
+931,ACME Flame Design (normal),PSI-10,19206G9,unknown,unknown,unknown,
+932,ACME Flame Design (normal),PSI-10,19206N1,unknown,unknown,unknown,
+933,ACME Flame Design (normal),PSI-10,19206H1,unknown,unknown,unknown,
+934,ACME Flame Design (normal),PSI-10,19206H2,unknown,unknown,unknown,
+935,ACME Flame Design (normal),PSI-10,19206H3,unknown,unknown,unknown,
+936,ACME Flame Design (normal),PSI-10,19206H4,unknown,unknown,unknown,
+937,ACME Flame Design (normal),PSI-10,21301A1,unknown,unknown,unknown,
+938,ACME Flame Design (normal),PSI-10,21301A2,unknown,unknown,unknown,
+939,ACME Flame Design (normal),PSI-10,21301A3,unknown,unknown,unknown,
+940,ACME Flame Design (normal),PSI-10,21301A4,unknown,unknown,unknown,
+941,ACME Flame Design (normal),PSI-10,21301A5,unknown,unknown,unknown,
+942,ACME Flame Design (normal),PSI-10,21301A6,unknown,unknown,unknown,
+943,ACME Flame Design (normal),PSI-10,21301C1,unknown,unknown,unknown,
+944,ACME Flame Design (normal),PSI-10,21301C2,unknown,unknown,unknown,
+945,ACME Flame Design (normal),PSI-10,21301D1,unknown,unknown,unknown,
+946,ACME Flame Design (normal),PSI-10,21301D2,unknown,unknown,unknown,
+947,ACME Flame Design (normal),PSI-10,21301A7,unknown,unknown,unknown,
+948,ACME Flame Design (normal),PSI-10,21301A8,unknown,unknown,unknown,
+949,ACME Flame Design (normal),PSI-10,21301A9,unknown,unknown,unknown,
+950,ACME Flame Design (normal),PSI-10,21301H1,unknown,unknown,unknown,
+951,ACME Flame Design (normal),PSI-10,21301H2,unknown,unknown,unknown,
+952,ACME Flame Design (normal),PSI-10,21301H3,unknown,unknown,unknown,
+953,ACME Flame Design (normal),PSI-10,21301J1,unknown,unknown,unknown,
+954,ACME Flame Design (normal),PSI-10,21301J2,unknown,unknown,unknown,
+955,ACME Flame Design (normal),PSI-10,21301J3,unknown,unknown,unknown,
+956,ACME Flame Design (normal),PSI-10,21301J4,unknown,unknown,unknown,
+957,ACME Flame Design (inverse),PSI-10,21328A1,unknown,unknown,unknown,
+958,ACME Flame Design (inverse),PSI-10,21328A2,unknown,unknown,unknown,
+959,ACME Flame Design (inverse),PSI-10,21328D1,unknown,unknown,unknown,
+960,ACME Flame Design (inverse),PSI-10,21328N1,unknown,unknown,unknown,
+961,ACME Flame Design (inverse),PSI-10,21328N2,unknown,unknown,unknown,
+962,ACME Flame Design (inverse),PSI-10,21328N3,unknown,unknown,unknown,
+963,ACME Flame Design (inverse),PSI-10,21328N4,unknown,unknown,unknown,
+964,ACME Flame Design (inverse),PSI-10,21328N5,unknown,unknown,unknown,
+965,ACME Flame Design (inverse),PSI-10,21328P1,unknown,unknown,unknown,
+966,ACME Flame Design (inverse),PSI-10,21340A1,unknown,unknown,unknown,
+967,ACME Flame Design (inverse),PSI-10,21340A2,unknown,unknown,unknown,
+968,ACME Flame Design (inverse),PSI-10,21340B1,unknown,unknown,unknown,
+969,ACME Flame Design (inverse),PSI-10,21340B2,unknown,unknown,unknown,
+970,ACME Flame Design (inverse),PSI-10,21340C1,unknown,unknown,unknown,
+971,ACME Flame Design (inverse),PSI-10,21340C2,unknown,unknown,unknown,
+972,ACME Flame Design (inverse),PSI-10,21340C3,unknown,unknown,unknown,
+973,ACME Flame Design (inverse),PSI-10,21340C4,unknown,unknown,unknown,
+974,ACME Flame Design (inverse),PSI-10,21340C5,unknown,unknown,unknown,
+975,ACME Flame Design (inverse),PSI-10,21340C6,unknown,unknown,unknown,
+976,ACME Flame Design (inverse),PSI-10,21340C7,unknown,unknown,unknown,
+977,ACME Flame Design (inverse),PSI-10,21340M1,unknown,unknown,unknown,
+978,ACME Flame Design (inverse),PSI-10,21340M2,unknown,unknown,unknown,
+979,ACME Flame Design (inverse),PSI-10,21349A1,unknown,unknown,unknown,
+980,ACME Flame Design (inverse),PSI-10,21349B1,unknown,unknown,unknown,
+981,ACME Flame Design (inverse),PSI-10,21349D2,unknown,unknown,unknown,
+982,ACME Flame Design (inverse),PSI-10,21349D3,unknown,unknown,unknown,
+983,ACME Flame Design (inverse),PSI-10,21349M1,unknown,unknown,unknown,
+984,ACME Flame Design (inverse),PSI-10,21349M2,unknown,unknown,unknown,
+985,ACME Flame Design (inverse),PSI-10,21349M3,unknown,unknown,unknown,
+986,ACME Flame Design (inverse),PSI-10,21349M4,unknown,unknown,unknown,
+987,ACME Flame Design (inverse),PSI-10,21349M5,unknown,unknown,unknown,
+988,ACME Flame Design (inverse),PSI-10,21349M6,unknown,unknown,unknown,
+989,ACME Flame Design (inverse),PSI-10,21349M7,unknown,unknown,unknown,
+990,ACME Flame Design (inverse),PSI-10,21349N1,unknown,unknown,unknown,
+991,ACME Flame Design (inverse),PSI-10,21349N2,unknown,unknown,unknown,
+992,ACME Flame Design (inverse),PSI-10,21349N3,unknown,unknown,unknown,
+993,ACME Flame Design (inverse),PSI-10,21349N4,unknown,unknown,unknown,
+994,ACME Flame Design (inverse),PSI-10,21361A1,unknown,unknown,unknown,
+995,ACME Flame Design (inverse),PSI-10,21361B1,unknown,unknown,unknown,
+996,ACME Flame Design (inverse),PSI-10,21361C1,unknown,unknown,unknown,
+997,ACME Flame Design (inverse),PSI-10,21361C2,unknown,unknown,unknown,
+998,ACME Flame Design (inverse),PSI-10,21361D1,unknown,unknown,unknown,
+999,ACME Flame Design (inverse),PSI-10,21361D2,unknown,unknown,unknown,
+1000,ACME Flame Design (inverse),PSI-10,21361F1,unknown,unknown,unknown,
+1001,ACME Flame Design (inverse),PSI-10,21361F2,unknown,unknown,unknown,
+1002,ACME Flame Design (inverse),PSI-10,21361F3,unknown,unknown,unknown,
+1003,ACME Flame Design (inverse),PSI-10,21361F4,unknown,unknown,unknown,
+1004,ACME Flame Design (inverse),PSI-10,21361F5,unknown,unknown,unknown,
+1005,ACME Flame Design (inverse),PSI-10,21361F6,unknown,unknown,unknown,
+1006,ACME Flame Design (inverse),PSI-10,21361G1,unknown,unknown,unknown,
+1007,ACME Flame Design (inverse),PSI-10,21361G2,unknown,unknown,unknown,
+1008,ACME Flame Design (inverse),PSI-10,21361G3,unknown,unknown,unknown,
+1009,ACME Flame Design (inverse),PSI-10,21361G4,unknown,unknown,unknown,
+1010,ACME Flame Design (inverse),PSI-10,21361G5,unknown,unknown,unknown,
+1011,ACME Flame Design (inverse),PSI-10,21361M1,unknown,unknown,unknown,
+1012,ACME Flame Design (inverse),PSI-10,21361M2,unknown,unknown,unknown,
+1013,ACME Flame Design (inverse),PSI-10,21361M3,unknown,unknown,unknown,
+1014,ACME Flame Design (inverse),PSI-10,22018A1,unknown,unknown,unknown,
+1015,ACME Flame Design (inverse),PSI-10,22018B1,unknown,unknown,unknown,
+1016,ACME Flame Design (inverse),PSI-10,22018C1,unknown,unknown,unknown,
+1017,ACME Flame Design (inverse),PSI-10,22018D1,unknown,unknown,unknown,
+1018,ACME Flame Design (inverse),PSI-10,22018F1,unknown,unknown,unknown,
+1019,ACME Flame Design (inverse),PSI-10,22018G1,unknown,unknown,unknown,
+1020,ACME Flame Design (inverse),PSI-10,22018G2,unknown,unknown,unknown,
+1021,ACME Flame Design (inverse),PSI-10,22018G3,unknown,unknown,unknown,
+1022,ACME Flame Design (inverse),PSI-10,22018H2,unknown,unknown,unknown,
+1023,ACME Flame Design (inverse),PSI-10,22018J1,unknown,unknown,unknown,
+1024,ACME Flame Design (inverse),PSI-10,22018J2,unknown,unknown,unknown,
+1025,ACME Flame Design (inverse),PSI-10,22018J4,unknown,unknown,unknown,
+1026,ACME Flame Design (inverse),PSI-10,22024A1,unknown,unknown,unknown,
+1027,ACME Flame Design (inverse),PSI-10,22024A2,unknown,unknown,unknown,
+1028,ACME Flame Design (inverse),PSI-10,22024B1,unknown,unknown,unknown,
+1029,ACME Flame Design (inverse),PSI-10,22024C1,unknown,unknown,unknown,
+1030,ACME Flame Design (inverse),PSI-10,22024D1,unknown,unknown,unknown,
+1031,ACME Flame Design (inverse),PSI-10,22024F1,unknown,unknown,unknown,
+1032,ACME Flame Design (inverse),PSI-10,22024B2,unknown,unknown,unknown,
+1033,ACME Flame Design (inverse),PSI-10,22024B3,unknown,unknown,unknown,
+1034,ACME Flame Design (inverse),PSI-10,22024G1,unknown,unknown,unknown,
+1035,ACME Flame Design (inverse),PSI-10,22024H1,unknown,unknown,unknown,
+1036,ACME Flame Design (inverse),PSI-10,22024J1,unknown,unknown,unknown,
+1037,ACME Flame Design (inverse),PSI-10,22024K1,unknown,unknown,unknown,
+1038,ACME Flame Design (inverse),PSI-10,22024L1,unknown,unknown,unknown,
+1039,ACME Flame Design (inverse),PSI-10,22024L2,unknown,unknown,unknown,
+1040,ACME Flame Design (inverse),PSI-10,22024L3,unknown,unknown,unknown,
+1041,ACME Flame Design (inverse),PSI-10,22024H2,unknown,unknown,unknown,
+1042,ACME Flame Design (inverse),PSI-10,22042M1,unknown,unknown,unknown,
+1043,ACME Flame Design (inverse),PSI-10,22024M2,unknown,unknown,unknown,
+1044,ACME Flame Design (inverse),PSI-10,22024K2,unknown,unknown,unknown,
+1045,ACME Flame Design (inverse),PSI-10,22024K3,unknown,unknown,unknown,
+1046,ACME Flame Design (inverse),PSI-10,22027B1,unknown,unknown,unknown,
+1047,ACME Flame Design (inverse),PSI-10,22027B2,unknown,unknown,unknown,
+1048,ACME Flame Design (inverse),PSI-10,22027B3,unknown,unknown,unknown,
+1049,ACME Flame Design (inverse),PSI-10,22027B4,unknown,unknown,unknown,
+1050,ACME Flame Design (inverse),PSI-10,22027B5,unknown,unknown,unknown,
+1051,ACME Flame Design (inverse),PSI-10,22027B6,unknown,unknown,unknown,
+1052,ACME Flame Design (inverse),PSI-10,22027B7,unknown,unknown,unknown,
+1053,ACME Flame Design (inverse),PSI-10,22027D1,unknown,unknown,unknown,
+1054,ACME Flame Design (inverse),PSI-10,22027D2,unknown,unknown,unknown,
+1055,ACME Flame Design (inverse),PSI-10,22027D3,unknown,unknown,unknown,
+1056,ACME Flame Design (inverse),PSI-10,22027D4,unknown,unknown,unknown,
+1057,ACME Flame Design (inverse),PSI-10,22027D5,unknown,unknown,unknown,
+1058,ACME Flame Design (inverse),PSI-10,22027D6,unknown,unknown,unknown,
+1059,ACME Flame Design (inverse),PSI-10,22027B8,unknown,unknown,unknown,
+1060,ACME Flame Design (inverse),PSI-10,22027C1,unknown,unknown,unknown,
+1061,ACME Flame Design (inverse),PSI-10,22027C2,unknown,unknown,unknown,
+1062,ACME Flame Design (inverse),PSI-10,22035A1,unknown,unknown,unknown,
+1063,ACME Flame Design (inverse),PSI-10,22035B1,unknown,unknown,unknown,
+1064,ACME Flame Design (inverse),PSI-10,22035C1,unknown,unknown,unknown,
+1065,ACME Flame Design (inverse),PSI-10,22035D1,unknown,unknown,unknown,
+1066,ACME Flame Design (inverse),PSI-10,22035D3,unknown,unknown,unknown,
+1067,ACME Flame Design (inverse),PSI-10,22035F1,unknown,unknown,unknown,
+1068,ACME Flame Design (inverse),PSI-10,22035G1,unknown,unknown,unknown,
+1069,ACME Flame Design (inverse),PSI-10,22035G2,unknown,unknown,unknown,
+1070,ACME Flame Design (inverse),PSI-10,22035J1,unknown,unknown,unknown,
+1071,ACME Flame Design (inverse),PSI-10,22035J2,unknown,unknown,unknown,
+1072,ACME Flame Design (inverse),PSI-10,22035J3,unknown,unknown,unknown,
+1073,ACME Flame Design (inverse),PSI-10,22035J4,unknown,unknown,unknown,
+1074,ACME Flame Design (inverse),PSI-10,22035J5,unknown,unknown,unknown,
+1075,ACME Flame Design (inverse),PSI-10,22035J6,unknown,unknown,unknown,
+1076,ACME Flame Design (inverse),PSI-10,22035J7,unknown,unknown,unknown,
+1077,ACME CFI-G (normal),PSI-159,21088A1,yes,unknown,yes,Hot ignition; Self-ext
+1078,ACME CFI-G (normal),PSI-159,21088 B1,yes,unknown,yes,Hot ignition; Self-ext
+1079,ACME CFI-G (normal),PSI-159,21088 C1,yes,unknown,yes,Hot ignition; Self-ext
+1080,ACME CFI-G (normal),PSI-159,21088 D1,yes,unknown,unknown,Hot ignition
+1081,ACME CFI-G (normal),PSI-159,21088 F1,yes,unknown,unknown,Hot ignition
+1082,ACME CFI-G (normal),PSI-159,21088 G1,yes,unknown,yes,Hot ignition; Self-ext
+1083,ACME CFI-G (normal),PSI-159,21088 H1,yes,unknown,unknown,Hot ignition
+1084,ACME CFI-G (normal),PSI-159,21088 J1,yes,unknown,yes,Hot ignition; Self-ext
+1085,ACME CFI-G (normal),PSI-159,21088 K1,yes,unknown,unknown,Hot ignition
+1086,ACME CFI-G (normal),PSI-159,21088 H2,yes,unknown,unknown,Hot ignition
+1087,ACME CFI-G (normal),PSI-159,21088 M4,yes,unknown,yes,Hot ignition; Self-ext
+1088,ACME CFI-G (normal),PSI-159,21088 L1,yes,unknown,yes,Hot ignition; Self-ext
+1089,ACME CFI-G (normal),PSI-159,21088 N1,yes,unknown,yes,Hot ignition; Self-ext
+1090,ACME CFI-G (normal),PSI-159,21088 P1,yes,unknown,yes,Hot ignition; Self-ext
+1091,ACME CFI-G (normal),PSI-159,21102A1,yes,unknown,yes,Hot ignition; Self-ext
+1092,ACME CFI-G (normal),PSI-159,21102 C1,yes,unknown,yes,Hot ignition; Self-ext
+1093,ACME CFI-G (normal),PSI-159,21102 B1,yes,unknown,yes,Hot ignition; Self-ext
+1094,ACME CFI-G (normal),PSI-159,21102 C2,yes,unknown,unknown,Hot ignition
+1095,ACME CFI-G (normal),PSI-159,21102 C3,yes,unknown,yes,Hot ignition; Self-ext
+1096,ACME CFI-G (normal),PSI-159,21102 C4,no,unknown,unknown,Hot ignition
+1097,ACME CFI-G (normal),PSI-159,21102 C5,yes,unknown,unknown,Hot ignition
+1098,ACME CFI-G (normal),PSI-159,21102 C6,no,unknown,unknown,Hot ignition
+1099,ACME CFI-G (normal),PSI-159,21102 C7,yes,unknown,unknown,Hot ignition
+1100,ACME CFI-G (normal),PSI-159,21102 C8,no,unknown,unknown,Hot ignition
+1101,ACME CFI-G (normal),PSI-159,21102 M1,yes,unknown,yes,Hot ignition; Self-ext
+1102,ACME CFI-G (normal),PSI-159,21102 M2,yes,unknown,yes,Hot ignition; Self-ext
+1103,ACME CFI-G (normal),PSI-159,21102 M3,no,unknown,unknown,Hot ignition
+1104,ACME CFI-G (normal),PSI-159,21102 M4,no,unknown,unknown,Hot ignition
+1105,ACME CFI-G (normal),PSI-159,21102 M5,no,unknown,unknown,Hot ignition
+1106,ACME CFI-G (normal),PSI-159,21102 M6,no,unknown,unknown,Hot ignition
+1107,ACME CFI-G (normal),PSI-159,21106A4,yes,unknown,yes,Hot ignition; Self-ext
+1108,ACME CFI-G (normal),PSI-159,21106 B1,yes,unknown,yes,Hot ignition; Self-ext
+1109,ACME CFI-G (normal),PSI-159,21106 C1,yes,unknown,yes,Hot ignition; Self-ext
+1110,ACME CFI-G (normal),PSI-159,21106 D1,yes,unknown,yes,Hot ignition; Self-ext
+1111,ACME CFI-G (normal),PSI-159,21106 F1,yes,unknown,unknown,Hot ignition
+1112,ACME CFI-G (normal),PSI-159,21106 F2,no,unknown,unknown,Hot ignition
+1113,ACME CFI-G (normal),PSI-159,21106 F3,yes,unknown,unknown,Hot ignition
+1114,ACME CFI-G (normal),PSI-159,21106 F4,no,unknown,unknown,Hot ignition
+1115,ACME CFI-G (normal),PSI-159,21106 F5,no,unknown,unknown,Hot ignition
+1116,ACME CFI-G (normal),PSI-159,21106 G6,yes,unknown,yes,Hot ignition; Self-ext
+1117,ACME CFI-G (normal),PSI-159,21106 G7,yes,unknown,yes,Hot ignition; Self-ext
+1118,ACME CFI-G (normal),PSI-159,21106 G9,yes,unknown,yes,Hot ignition; Self-ext
+1119,ACME CFI-G (normal),PSI-159,21106 H1,no,unknown,unknown,Hot ignition
+1120,ACME CFI-G (normal),PSI-159,21106 H2,no,unknown,unknown,Hot ignition
+1121,ACME CFI-G (normal),PSI-159,21112A1,yes,unknown,unknown,Hot ignition
+1122,ACME CFI-G (normal),PSI-159,21112 A2,yes,unknown,yes,Hot ignition; Self-ext
+1123,ACME CFI-G (normal),PSI-159,21112 A3,yes,unknown,yes,Hot ignition; Self-ext
+1124,ACME CFI-G (normal),PSI-159,21112 A4,yes,unknown,unknown,Hot ignition
+1125,ACME CFI-G (normal),PSI-159,21112 A5,yes,unknown,yes,Hot ignition; Self-ext
+1126,ACME CFI-G (normal),PSI-159,21112 C1,yes,unknown,unknown,Hot ignition
+1127,ACME CFI-G (normal),PSI-159,21112 C2,yes,unknown,unknown,Hot ignition
+1128,ACME CFI-G (normal),PSI-159,21112 A6,yes,unknown,yes,Hot ignition; Self-ext
+1129,ACME CFI-G (normal),PSI-159,21112 C3,no,unknown,unknown,Hot ignition
+1130,ACME CFI-G (normal),PSI-159,21112 C4,no,unknown,unknown,Hot ignition
+1131,ACME CFI-G (normal),PSI-159,21112 C5,no,unknown,unknown,Hot ignition
+1132,ACME CFI-G (normal),PSI-159,21112 C6,no,unknown,unknown,Hot ignition
+1133,ACME CFI-G (normal),PSI-159,21112 F1,no,unknown,unknown,Hot ignition
+1134,ACME CFI-G (normal),PSI-159,21112 F2,yes,unknown,yes,Hot ignition; Self-ext
+1135,ACME CFI-G (normal),PSI-159,21112 F3,yes,unknown,yes,Hot ignition; Self-ext
+1136,ACME CFI-G (normal),PSI-159,21112 F4,yes,unknown,yes,Hot ignition; Self-ext
+1137,ACME CFI-G (normal),PSI-159,21112 F5,no,unknown,unknown,Hot ignition
+1138,ACME CFI-G (normal),PSI-159,21112 H1,yes,unknown,yes,Hot ignition; Self-ext
+1139,ACME CFI-G (normal),PSI-159,21112 H2,yes,unknown,yes,Hot ignition; Self-ext
+1140,ACME CFI-G (normal),PSI-159,21112 H3,no,unknown,unknown,Hot ignition
+1141,ACME CFI-G (normal),PSI-159,21125A1,no,unknown,unknown,Hot ignition
+1142,ACME CFI-G (normal),PSI-159,21125 A2,yes,unknown,yes,Hot ignition; Self-ext
+1143,ACME CFI-G (normal),PSI-159,21125 A3,no,unknown,unknown,Hot ignition
+1144,ACME CFI-G (normal),PSI-159,21125 A4,no,unknown,unknown,Hot ignition
+1145,ACME CFI-G (normal),PSI-159,21125 A5,no,unknown,unknown,Hot ignition
+1146,ACME CFI-G (normal),PSI-159,21125 A6,no,unknown,unknown,Hot ignition
+1147,ACME CFI-G (normal),PSI-159,21125 A7,no,unknown,unknown,Hot ignition
+1148,ACME CFI-G (normal),PSI-159,21125 A8,no,unknown,unknown,Hot ignition
+1149,ACME CFI-G (normal),PSI-159,21125 A9,no,unknown,unknown,Hot ignition
+1150,ACME CFI-G (normal),PSI-159,21125 H1,no,unknown,unknown,Hot ignition
+1151,ACME CFI-G (normal),PSI-159,21125 H2,no,unknown,unknown,Hot ignition
+1152,ACME CFI-G (normal),PSI-159,21125 H3,no,unknown,unknown,Hot ignition
+1153,ACME CFI-G (normal),PSI-159,21125 H4,no,unknown,unknown,Hot ignition
+1154,ACME CFI-G (normal),PSI-159,21125 J1,no,unknown,unknown,Hot ignition
+1155,ACME CFI-G (normal),PSI-159,21125 H5,no,unknown,unknown,Hot ignition
+1156,ACME CFI-G (normal),PSI-159,21125 K1,yes,unknown,yes,Hot ignition; Self-ext
+1157,ACME CFI-G (normal),PSI-159,21125 K2,yes,unknown,yes,Hot ignition; Self-ext
+1158,ACME CFI-G (normal),PSI-159,21125 K3,yes,unknown,unknown,Hot ignition
+1159,ACME CFI-G (normal),PSI-159,21125 D1,yes,unknown,yes,Hot ignition; Self-ext
+1160,ACME CFI-G (normal),PSI-159,21125 D2,yes,unknown,yes,Hot ignition; Self-ext
+1161,ACME CFI-G (normal),PSI-159,21125 D3,no,unknown,unknown,Hot ignition
+1162,ACME CFI-G (normal),PSI-159,21125 D4,no,unknown,unknown,Hot ignition
+1163,ACME CFI-G (normal),PSI-159,21125 D5,no,unknown,unknown,Hot ignition
+1164,ACME CFI-G (normal),PSI-159,21125 D6,no,unknown,unknown,Hot ignition
+1165,ACME CFI-G (normal),PSI-159,21130A1,yes,unknown,yes,Hot ignition; Self-ext
+1166,ACME CFI-G (normal),PSI-159,21130 A2,yes,unknown,yes,Hot ignition; Self-ext
+1167,ACME CFI-G (normal),PSI-159,21130 A3,no,unknown,unknown,Hot ignition
+1168,ACME CFI-G (normal),PSI-159,21130 A4,no,unknown,unknown,Hot ignition
+1169,ACME CFI-G (normal),PSI-159,21130 A5,yes,unknown,yes,Hot ignition; Self-ext
+1170,ACME CFI-G (normal),PSI-159,21130 A6,no,unknown,unknown,Hot ignition
+1171,ACME CFI-G (normal),PSI-159,21130 A7,no,unknown,unknown,Hot ignition
+1172,ACME CFI-G (normal),PSI-159,21130 A8,no,unknown,unknown,Hot ignition
+1173,ACME CFI-G (normal),PSI-159,21130 A9,yes,unknown,yes,Hot ignition; Self-ext
+1174,ACME CFI-G (normal),PSI-159,21130 M1,yes,unknown,yes,Hot ignition; Self-ext
+1175,ACME CFI-G (normal),PSI-159,21130 M2,yes,unknown,yes,Hot ignition; Self-ext
+1176,ACME CFI-G (normal),PSI-159,21130 M3,yes,unknown,yes,Hot ignition; Self-ext
+1177,ACME CFI-G (normal),PSI-159,21130 G1,no,unknown,unknown,Hot ignition
+1178,ACME CFI-G (normal),PSI-159,21130 G2,yes,unknown,yes,Hot ignition; Self-ext
+1179,ACME CFI-G (normal),PSI-159,21130 G3,yes,unknown,yes,Hot ignition; Self-ext
+1180,ACME CFI-G (normal),PSI-159,21130 G4,no,unknown,unknown,Hot ignition
+1181,ACME CFI-G (normal),PSI-159,21130 G5,no,unknown,unknown,Hot ignition
+1182,ACME CFI-G (normal),PSI-159,21130 G6,yes,unknown,yes,Hot ignition; Self-ext
+1183,ACME CFI-G (normal),PSI-159,21130 G7,yes,unknown,yes,Hot ignition; Self-ext
+1184,ACME CFI-G (normal),PSI-159,21130 N1,yes,unknown,yes,Hot ignition; Self-ext
+1185,ACME CFI-G (normal),PSI-159,21130 N2,yes,unknown,yes,Hot ignition; Self-ext
+1186,ACME CFI-G (normal),PSI-159,21130 N3,yes,unknown,yes,Hot ignition; Self-ext
+1187,ACME CFI-G (normal),PSI-159,21130 N4,yes,unknown,yes,Hot ignition; Self-ext
+1188,ACME CFI-G (normal),PSI-159,21130 N5,no,unknown,unknown,Hot ignition
+1189,ACME CFI-G (normal),PSI-159,21137A1,yes,unknown,yes,Hot ignition; Self-ext
+1190,ACME CFI-G (normal),PSI-159,21137 A2,yes,unknown,yes,Hot ignition; Self-ext
+1191,ACME CFI-G (normal),PSI-159,21137 A3,yes,unknown,yes,Hot ignition; Self-ext
+1192,ACME CFI-G (normal),PSI-159,21137 B1,yes,unknown,unknown,Hot ignition
+1193,ACME CFI-G (normal),PSI-159,21137 B2,yes,unknown,unknown,Hot ignition
+1194,ACME CFI-G (normal),PSI-159,21137 A4,yes,unknown,yes,Hot ignition; Self-ext
+1195,ACME CFI-G (normal),PSI-159,21137 A5,yes,unknown,yes,Hot ignition; Self-ext
+1196,ACME CFI-G (normal),PSI-159,21137 A6,yes,unknown,yes,Hot ignition; Self-ext
+1197,ACME CFI-G (normal),PSI-159,21137 A7,yes,unknown,yes,Hot ignition; Self-ext
+1198,ACME CFI-G (normal),PSI-159,21137 D1,yes,unknown,yes,Hot ignition; Self-ext
+1199,ACME CFI-G (normal),PSI-159,21137 D2,yes,unknown,yes,Hot ignition; Self-ext
+1200,ACME CFI-G (normal),PSI-159,21137 C1,yes,unknown,yes,Hot ignition; Self-ext
+1201,ACME CFI-G (normal),PSI-159,21153A1,yes,unknown,yes,Hot ignition; Self-ext
+1202,ACME CFI-G (normal),PSI-159,21153 A2,yes,unknown,yes,Hot ignition; Self-ext
+1203,ACME CFI-G (normal),PSI-159,21153 A3,yes,unknown,yes,Hot ignition; Self-ext
+1204,ACME CFI-G (normal),PSI-159,21153 F1,yes,unknown,yes,Hot ignition; Self-ext
+1205,ACME CFI-G (normal),PSI-159,21153 A4,yes,unknown,unknown,Hot ignition
+1206,ACME CFI-G (normal),PSI-159,21153 A5,yes,unknown,unknown,Hot ignition
+1207,ACME CFI-G (normal),PSI-159,21153 C1,yes,unknown,yes,Hot ignition; Self-ext
+1208,ACME CFI-G (normal),PSI-159,21153 C2,yes,unknown,yes,Hot ignition; Self-ext
+1209,ACME CFI-G (normal),PSI-159,21153 C3,yes,unknown,yes,Hot ignition; Self-ext
+1210,ACME CFI-G (normal),PSI-159,21153 G1,yes,unknown,yes,Hot ignition; Self-ext
+1211,ACME CFI-G (normal),PSI-159,21153 C4,yes,unknown,unknown,Hot ignition
+1212,ACME CFI-G (normal),PSI-159,21153 C5,yes,unknown,unknown,Hot ignition
+1213,ACME CFI-G (normal),PSI-159,21153 C6,yes,unknown,yes,Hot ignition; Self-ext
+1214,ACME CFI-G (normal),PSI-159,21153 C7,yes,unknown,unknown,Hot ignition
+1215,ACME CFI-G (normal),PSI-159,21162A1,yes,unknown,yes,Hot ignition; Self-ext
+1216,ACME CFI-G (normal),PSI-159,21162 A2,yes,unknown,yes,Hot ignition; Self-ext
+1217,ACME CFI-G (normal),PSI-159,21162 A3,yes,unknown,yes,Hot ignition; Self-ext
+1218,ACME CFI-G (normal),PSI-159,21162 B1,yes,unknown,yes,Hot ignition; Self-ext
+1219,ACME CFI-G (normal),PSI-159,21162 A4,yes,unknown,yes,Hot ignition; Self-ext
+1220,ACME CFI-G (normal),PSI-159,21162 C1,yes,unknown,yes,Hot ignition; Self-ext
+1221,ACME CFI-G (normal),PSI-159,21162 C2,yes,unknown,yes,Hot ignition; Self-ext
+1222,ACME CFI-G (normal),PSI-159,21162 C3,yes,unknown,yes,Hot ignition; Self-ext
+1223,ACME CFI-G (normal),PSI-159,21162 C4,yes,unknown,yes,Hot ignition; Self-ext
+1224,ACME CFI-G (normal),PSI-159,21162 C5,yes,unknown,yes,Hot ignition; Self-ext
+1225,ACME CFI-G (normal),PSI-159,21162 D1,yes,unknown,yes,Hot ignition; Self-ext
+1226,ACME CFI-G (normal),PSI-159,21162 F1,no,unknown,unknown,Hot ignition
+1227,ACME CFI-G (normal),PSI-159,21162 F2,yes,unknown,yes,Hot ignition; Self-ext
+1228,ACME CFI-G (normal),PSI-159,21174 A1,yes,unknown,yes,Hot ignition; Self-ext
+1229,ACME CFI-G (normal),PSI-159,21174 A2,yes,unknown,yes,Hot ignition; Self-ext
+1230,ACME CFI-G (normal),PSI-159,21174 A3,yes,unknown,yes,Hot ignition; Self-ext
+1231,ACME CFI-G (normal),PSI-159,21174 A4,yes,unknown,yes,Hot ignition; Self-ext
+1232,ACME CFI-G (normal),PSI-159,21174 B1,yes,unknown,yes,Hot ignition; Self-ext
+1233,ACME CFI-G (normal),PSI-159,21174 C1,yes,unknown,yes,Hot ignition; Self-ext
+1234,ACME CFI-G (normal),PSI-159,21174 C2,yes,unknown,yes,Hot ignition; Self-ext
+1235,ACME CFI-G (normal),PSI-159,21174 C3,yes,unknown,yes,Hot ignition; Self-ext
+1236,ACME CFI-G (normal),PSI-159,21174 C4,yes,unknown,yes,Hot ignition; Self-ext
+1237,ACME CFI-G (normal),PSI-159,21174 D1,yes,unknown,yes,Hot ignition; Self-ext
+1238,ACME CFI-G (normal),PSI-159,21174 F1,yes,unknown,yes,Hot ignition; Self-ext
+1239,ACME CFI-G (normal),PSI-159,21174 C5,yes,unknown,unknown,Hot ignition
+1240,ACME CFI-G (normal),PSI-159,21174 C6,yes,unknown,yes,Hot ignition; Self-ext
+1241,ACME CFI-G (normal),PSI-159,21174 F2,yes,unknown,unknown,Hot ignition
+1242,ACME CFI-G (normal),PSI-159,21174 F3,yes,unknown,unknown,Hot ignition
+1243,ACME CFI-G (normal),PSI-159,21174 F4,yes,unknown,unknown,Hot ignition
+1244,ACME CFI-G (normal),PSI-159,21291 A1,yes,unknown,unknown,Hot ignition
+1245,ACME CFI-G (normal),PSI-159,21291 C1,yes,unknown,unknown,Hot ignition
+1246,ACME CFI-G (normal),PSI-159,21291 C2,yes,unknown,yes,Hot ignition; Self-ext
+1247,ACME CFI-G (normal),PSI-159,21291 B1,yes,unknown,yes,Hot ignition; Self-ext
+1248,ACME CFI-G (normal),PSI-159,21291 H1,yes,unknown,yes,Hot ignition; Self-ext
+1249,ACME CFI-G (normal),PSI-159,21291 H2,yes,unknown,unknown,Hot ignition
+1250,ACME CFI-G (normal),PSI-159,21291 D1,yes,unknown,yes,Hot ignition; Self-ext
+1251,ACME CFI-G (normal),PSI-159,21291 G1,yes,unknown,yes,Hot ignition; Self-ext
+1252,ACME CFI-G (normal),PSI-159,21291 G2,yes,unknown,yes,Hot ignition; Self-ext
+1253,ACME CFI-G (normal),PSI-159,21291 J1,yes,unknown,unknown,Hot ignition
+1254,ACME CFI-G (normal),PSI-159,21291 J2,yes,unknown,yes,Hot ignition; Self-ext
+1255,ACME CFI-G (normal),PSI-159,21291 J3,yes,unknown,yes,Hot ignition; Self-ext
+1256,ACME CFI-G (inverse),PSI-159,21196 A1,no,unknown,unknown,Hot ignition
+1257,ACME CFI-G (inverse),PSI-159,21196 A2,yes,unknown,unknown,Hot ignition
+1258,ACME CFI-G (inverse),PSI-159,21196 F1,yes,unknown,unknown,Hot ignition
+1259,ACME CFI-G (inverse),PSI-159,21196 H1,no,unknown,unknown,Hot ignition
+1260,ACME CFI-G (inverse),PSI-159,21196 J1,unknown,unknown,yes,Self-ext
+1261,ACME CFI-G (inverse),PSI-159,21196 F2,yes,unknown,unknown,Hot ignition
+1262,ACME CFI-G (inverse),PSI-159,21196 F3,unknown,unknown,yes,Self-ext
+1263,ACME CFI-G (inverse),PSI-159,21196 F4,unknown,unknown,yes,Self-ext
+1264,ACME CFI-G (inverse),PSI-159,21196 F5,unknown,unknown,yes,Self-ext
+1265,ACME CFI-G (inverse),PSI-159,21196 F6,yes,unknown,unknown,Hot ignition
+1266,ACME CFI-G (inverse),PSI-159,21196 K1,unknown,unknown,yes,Self-ext
+1267,ACME CFI-G (inverse),PSI-159,21196 L1,unknown,unknown,yes,Self-ext
+1268,ACME CFI-G (inverse),PSI-159,21196 L2,yes,unknown,unknown,Hot ignition
+1269,ACME CFI-G (inverse),PSI-159,21196 M1,unknown,unknown,yes,Self-ext
+1270,ACME CFI-G (inverse),PSI-159,21196 M2,yes,unknown,unknown,Hot ignition
+1271,ACME CFI-G (inverse),PSI-159,21196 M2_1,yes,unknown,unknown,Hot ignition
+1272,ACME CFI-G (inverse),PSI-159,21202 A1,no,unknown,unknown,Hot ignition
+1273,ACME CFI-G (inverse),PSI-159,21202 A2,yes,unknown,yes,Hot ignition; Self-ext
+1274,ACME CFI-G (inverse),PSI-159,21202 A3,yes,unknown,yes,Hot ignition; Self-ext
+1275,ACME CFI-G (inverse),PSI-159,21202 A4,yes,unknown,yes,Hot ignition; Self-ext
+1276,ACME CFI-G (inverse),PSI-159,21202 H1,yes,unknown,yes,Hot ignition; Self-ext
+1277,ACME CFI-G (inverse),PSI-159,21202 H2,yes,unknown,yes,Hot ignition; Self-ext
+1278,ACME CFI-G (inverse),PSI-159,21202 H3,yes,unknown,unknown,Hot ignition
+1279,ACME CFI-G (inverse),PSI-159,21202 H4,yes,unknown,yes,Hot ignition; Self-ext
+1280,ACME CFI-G (inverse),PSI-159,21202 J1,yes,unknown,yes,Hot ignition; Self-ext
+1281,ACME CFI-G (inverse),PSI-159,21202 K1,yes,unknown,yes,Hot ignition; Self-ext
+1282,ACME CFI-G (inverse),PSI-159,21202 K2,yes,unknown,yes,Hot ignition; Self-ext
+1283,ACME CFI-G (inverse),PSI-159,21202 L1,yes,unknown,yes,Hot ignition; Self-ext
+1284,ACME CFI-G (inverse),PSI-159,21209 A1,yes,unknown,unknown,Hot ignition
+1285,ACME CFI-G (inverse),PSI-159,21209 A2,no,unknown,unknown,Hot ignition
+1286,ACME CFI-G (inverse),PSI-159,21209 A3,yes,unknown,unknown,Hot ignition
+1287,ACME CFI-G (inverse),PSI-159,21209 B1,yes,unknown,unknown,Hot ignition
+1288,ACME CFI-G (inverse),PSI-159,21209 A4,yes,unknown,unknown,Hot ignition
+1289,ACME CFI-G (inverse),PSI-159,21209 H1,yes,unknown,unknown,Hot ignition
+1290,ACME CFI-G (inverse),PSI-159,21209 J1,yes,unknown,unknown,Hot ignition
+1291,ACME CFI-G (inverse),PSI-159,21209 F1,yes,unknown,unknown,Hot ignition
+1292,ACME CFI-G (inverse),PSI-159,21209 F2,yes,unknown,unknown,Hot ignition
+1293,ACME CFI-G (inverse),PSI-159,21209 F3,yes,unknown,unknown,Hot ignition
+1294,ACME CFI-G (inverse),PSI-159,21209 B2,yes,unknown,unknown,Hot ignition
+1295,ACME CFI-G (inverse),PSI-159,21209 K1,yes,unknown,unknown,Hot ignition
+1296,ACME CFI-G (inverse),PSI-159,21216 A1,yes,unknown,yes,Hot ignition; Self-ext
+1297,ACME CFI-G (inverse),PSI-159,21216 A2,yes,unknown,yes,Hot ignition; Self-ext
+1298,ACME CFI-G (inverse),PSI-159,21216 A3,yes,unknown,yes,Hot ignition; Self-ext
+1299,ACME CFI-G (inverse),PSI-159,21216 A4,yes,unknown,yes,Hot ignition; Self-ext
+1300,ACME CFI-G (inverse),PSI-159,21216 A5,unknown,unknown,yes,Self-ext
+1301,ACME CFI-G (inverse),PSI-159,21216 A6,yes,unknown,unknown,Hot ignition
+1302,ACME CFI-G (inverse),PSI-159,21216 B1,yes,unknown,yes,Hot ignition; Self-ext
+1303,ACME CFI-G (inverse),PSI-159,21216 C1,yes,unknown,yes,Hot ignition; Self-ext
+1304,ACME CFI-G (inverse),PSI-159,21216 F1,yes,unknown,unknown,Hot ignition
+1305,ACME CFI-G (inverse),PSI-159,21216 H1,yes,unknown,yes,Hot ignition; Self-ext
+1306,ACME CFI-G (inverse),PSI-159,21216 H2,yes,unknown,yes,Hot ignition; Self-ext
+1307,ACME CFI-G (inverse),PSI-159,21216 J1,yes,unknown,yes,Hot ignition; Self-ext
+1308,ACME CFI-G (inverse),PSI-159,21216 K1,yes,unknown,unknown,Hot ignition
+1309,ACME CFI-G (inverse),PSI-159,21222 A1,yes,unknown,yes,Hot ignition; Self-ext
+1310,ACME CFI-G (inverse),PSI-159,21222 A2,yes,unknown,yes,Hot ignition; Self-ext
+1311,ACME CFI-G (inverse),PSI-159,21222 A3,yes,unknown,yes,Hot ignition; Self-ext
+1312,ACME CFI-G (inverse),PSI-159,21222 A4,yes,unknown,yes,Hot ignition; Self-ext
+1313,ACME CFI-G (inverse),PSI-159,21222 A5,yes,unknown,yes,Hot ignition; Self-ext
+1314,ACME CFI-G (inverse),PSI-159,21222 B1,yes,unknown,yes,Hot ignition; Self-ext
+1315,ACME CFI-G (inverse),PSI-159,21222 C1,yes,unknown,yes,Hot ignition; Self-ext
+1316,ACME CFI-G (inverse),PSI-159,21222 C2,yes,unknown,yes,Hot ignition; Self-ext
+1317,ACME CFI-G (inverse),PSI-159,21222 F1,yes,unknown,yes,Hot ignition; Self-ext
+1318,ACME CFI-G (inverse),PSI-159,21222 F2,no,unknown,unknown,Hot ignition
+1319,ACME CFI-G (inverse),PSI-159,21228 A1,yes,unknown,yes,Hot ignition; Self-ext
+1320,ACME CFI-G (inverse),PSI-159,21228 A2,yes,unknown,yes,Hot ignition; Self-ext
+1321,ACME CFI-G (inverse),PSI-159,21228 A3,yes,unknown,yes,Hot ignition; Self-ext
+1322,ACME CFI-G (inverse),PSI-159,21228 A4,yes,unknown,yes,Hot ignition; Self-ext
+1323,ACME CFI-G (inverse),PSI-159,21228 B1,yes,unknown,yes,Hot ignition; Self-ext
+1324,ACME CFI-G (inverse),PSI-159,21228 C1,yes,unknown,yes,Hot ignition; Self-ext
+1325,ACME CFI-G (inverse),PSI-159,21228 C2,yes,unknown,unknown,Hot ignition
+1326,ACME CFI-G (inverse),PSI-159,21228 C3,yes,unknown,yes,Hot ignition; Self-ext
+1327,ACME CFI-G (inverse),PSI-159,21228 C4,yes,unknown,yes,Hot ignition; Self-ext
+1328,ACME CFI-G (inverse),PSI-159,21228 F1,yes,unknown,unknown,Hot ignition
+1329,ACME CFI-G (inverse),PSI-159,21228 H1,yes,unknown,yes,Hot ignition; Self-ext
+1330,ACME CFI-G (inverse),PSI-159,21228 H2,yes,unknown,yes,Hot ignition; Self-ext
+1331,ACME CFI-G (inverse),PSI-159,21228 J1,yes,unknown,yes,Hot ignition; Self-ext
+1332,ACME CFI-G (inverse),PSI-159,21228 K1,yes,unknown,yes,Hot ignition; Self-ext
+1333,ACME CFI-G (inverse),PSI-159,21228 K2,yes,unknown,yes,Hot ignition; Self-ext
+1334,ACME CFI-G (inverse),PSI-159,21228 L1,yes,unknown,yes,Hot ignition; Self-ext
+1335,ACME CFI-G (inverse),PSI-159,21228 L2,yes,unknown,unknown,Hot ignition
+1336,ACME CFI-G (inverse),PSI-159,21235 A1,yes,unknown,unknown,Hot ignition
+1337,ACME CFI-G (inverse),PSI-159,21235 A2,yes,unknown,unknown,Hot ignition
+1338,ACME CFI-G (inverse),PSI-159,21235 C1,yes,unknown,unknown,Hot ignition
+1339,ACME CFI-G (inverse),PSI-159,21235 F1,yes,unknown,unknown,Hot ignition
+1340,ACME CFI-G (inverse),PSI-159,21235 F2,no,unknown,unknown,Hot ignition
+1341,ACME CFI-G (inverse),PSI-159,21235 H1,yes,unknown,yes,Hot ignition; Self-ext
+1342,ACME CFI-G (inverse),PSI-159,21235 J1,yes,unknown,unknown,Hot ignition
+1343,ACME CFI-G (inverse),PSI-159,21235 B1,yes,unknown,unknown,Hot ignition
+1344,ACME CFI-G (inverse),PSI-159,21235 K1,yes,unknown,unknown,Hot ignition
+1345,ACME CFI-G (inverse),PSI-159,21235 L1,yes,unknown,unknown,Hot ignition
+1346,ACME CFI-G (inverse),PSI-159,21242 A1,yes,unknown,unknown,Hot ignition
+1347,ACME CFI-G (inverse),PSI-159,21242 P1,yes,unknown,unknown,Hot ignition
+1348,ACME CFI-G (inverse),PSI-159,21242 F2,no,unknown,unknown,Hot ignition
+1349,ACME CFI-G (inverse),PSI-159,21242 F3,no,unknown,unknown,Hot ignition
+1350,ACME CFI-G (inverse),PSI-159,21242 F4,no,unknown,unknown,Hot ignition
+1351,ACME CFI-G (inverse),PSI-159,21242 P2,no,unknown,unknown,Hot ignition
+1352,ACME CFI-G (inverse),PSI-159,21256 A1,yes,unknown,yes,Hot ignition; Self-ext
+1353,ACME CFI-G (inverse),PSI-159,21256 A2,yes,unknown,yes,Hot ignition; Self-ext
+1354,ACME CFI-G (inverse),PSI-159,21256 A3,yes,unknown,yes,Hot ignition; Self-ext
+1355,ACME CFI-G (inverse),PSI-159,21256 A4,yes,unknown,yes,Hot ignition; Self-ext
+1356,ACME CFI-G (inverse),PSI-159,21256 A5,yes,unknown,yes,Hot ignition; Self-ext
+1357,ACME CFI-G (inverse),PSI-159,21256 C1,yes,unknown,yes,Hot ignition; Self-ext
+1358,ACME CFI-G (inverse),PSI-159,21256 F1,yes,unknown,unknown,Hot ignition
+1359,ACME CFI-G (inverse),PSI-159,21256 B1,yes,unknown,yes,Hot ignition; Self-ext
+1360,ACME CFI-G (inverse),PSI-159,21256 C2,yes,unknown,yes,Hot ignition; Self-ext
+1361,ACME CFI-G (inverse),PSI-159,21256 H1,yes,unknown,yes,Hot ignition; Self-ext
+1362,ACME CFI-G (inverse),PSI-159,21256 H2,yes,unknown,yes,Hot ignition; Self-ext
+1363,ACME CFI-G (inverse),PSI-159,21256 H3,yes,unknown,yes,Hot ignition; Self-ext
+1364,ACME CFI-G (inverse),PSI-159,21256 H4,yes,unknown,yes,Hot ignition; Self-ext
+1365,ACME CFI-G (inverse),PSI-159,21256 H5,yes,unknown,yes,Hot ignition; Self-ext
+1366,ACME CFI-G (inverse),PSI-159,21256 K1,yes,unknown,yes,Hot ignition; Self-ext
+1367,ACME CFI-G (inverse),PSI-159,21256 M1,yes,unknown,yes,Hot ignition; Self-ext
+1368,ACME CFI-G (inverse),PSI-159,21256 J1,yes,unknown,yes,Hot ignition; Self-ext
+1369,ACME CFI-G (inverse),PSI-159,21265 A1,yes,unknown,yes,Hot ignition; Self-ext
+1370,ACME CFI-G (inverse),PSI-159,21265 A2,yes,unknown,yes,Hot ignition; Self-ext
+1371,ACME CFI-G (inverse),PSI-159,21265 A3,yes,unknown,yes,Hot ignition; Self-ext
+1372,ACME CFI-G (inverse),PSI-159,21265 A4,yes,unknown,yes,Hot ignition; Self-ext
+1373,ACME CFI-G (inverse),PSI-159,21265 A5,yes,unknown,yes,Hot ignition; Self-ext
+1374,ACME CFI-G (inverse),PSI-159,21265 C1,yes,unknown,yes,Hot ignition; Self-ext
+1375,ACME CFI-G (inverse),PSI-159,21265 C2,yes,unknown,yes,Hot ignition; Self-ext
+1376,ACME CFI-G (inverse),PSI-159,21265 C3,yes,unknown,yes,Hot ignition; Self-ext
+1377,ACME CFI-G (inverse),PSI-159,21265 F1,yes,unknown,yes,Hot ignition; Self-ext
+1378,ACME CFI-G (inverse),PSI-159,21265 F2,yes,unknown,unknown,Hot ignition
+1379,ACME CFI-G (inverse),PSI-159,21265 F3,no,unknown,unknown,Hot ignition
+1380,ACME CFI-G (inverse),PSI-159,21265 F4,no,unknown,unknown,Hot ignition
+1381,ACME CFI-G (inverse),PSI-159,21265 H1,yes,unknown,yes,Hot ignition; Self-ext
+1382,ACME CFI-G (inverse),PSI-159,21265 H2,yes,unknown,unknown,Hot ignition
+1383,ACME CFI-G (inverse),PSI-159,21265 J1,yes,unknown,yes,Hot ignition; Self-ext
+1384,ACME CFI-G (inverse),PSI-159,21265 K1,yes,unknown,yes,Hot ignition; Self-ext
+1385,ACME CFI-G (inverse),PSI-159,21265 H3,yes,unknown,unknown,Hot ignition
+1386,ACME CFI-G (inverse),PSI-159,21270 A1,yes,unknown,unknown,Hot ignition
+1387,ACME CFI-G (inverse),PSI-159,21270 A2,yes,unknown,unknown,Hot ignition
+1388,ACME CFI-G (inverse),PSI-159,21270 A3,yes,unknown,unknown,Hot ignition
+1389,ACME CFI-G (inverse),PSI-159,21270 A4,yes,unknown,unknown,Hot ignition
+1390,ACME CFI-G (inverse),PSI-159,21270 C1,yes,unknown,unknown,Hot ignition
+1391,ACME CFI-G (inverse),PSI-159,21270 H1,yes,unknown,yes,Hot ignition; Self-ext
+1392,ACME CFI-G (inverse),PSI-159,21270 H2,yes,unknown,unknown,Hot ignition
+1393,ACME CFI-G (inverse),PSI-159,21270 H3,yes,unknown,unknown,Hot ignition
+1394,ACME CFI-G (inverse),PSI-159,21270 H4,yes,unknown,unknown,Hot ignition
+1395,ACME CFI-G (inverse),PSI-159,21270 H5,yes,unknown,yes,Hot ignition; Self-ext
+1396,ACME CFI-G (inverse),PSI-159,21277 A1,yes,unknown,unknown,Hot ignition
+1397,ACME CFI-G (inverse),PSI-159,21277 H1,yes,unknown,unknown,Hot ignition
+1398,ACME CFI-G (inverse),PSI-159,21277 J1,no,unknown,unknown,Hot ignition
+1399,ACME CFI-G (inverse),PSI-159,21277 K1,no,unknown,unknown,Hot ignition
+1400,ACME CFI-G (inverse),PSI-159,21277 K2,yes,unknown,unknown,Hot ignition
+1401,ACME CFI-G (inverse),PSI-159,21277 J2,no,unknown,unknown,Hot ignition
+1402,ACME CFI-G (inverse),PSI-159,21277 C1,yes,unknown,unknown,Hot ignition
+1403,ACME CFI-G (inverse),PSI-159,21277 C2,yes,unknown,unknown,Hot ignition
+1404,ACME CFI-G (inverse),PSI-159,21277 L1,yes,unknown,unknown,Hot ignition
+1405,ACME CFI-G (inverse),PSI-159,21277 F1,yes,unknown,unknown,Hot ignition
+1406,ACME CFI-G (inverse),PSI-159,21277 F2,yes,unknown,unknown,Hot ignition
+1407,ACME CFI-G (inverse),PSI-159,21277 M1,yes,unknown,unknown,Hot ignition
+1408,ACME CFI-G (inverse),PSI-159,21277 N1,yes,unknown,unknown,Hot ignition
+1409,ACME CFI-G (inverse),PSI-159,21277 P1,yes,unknown,unknown,Hot ignition
+1410,SPICE,PSI-107,d45_14:37:08,yes,unknown,yes,GMT ignition; GMT Flame Off
+1411,SPICE,PSI-107,d45_14:37:08,yes,unknown,yes,GMT ignition; GMT Flame Off
+1412,SPICE,PSI-107,d45_14:50:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1413,SPICE,PSI-107,d45_14:50:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1414,SPICE,PSI-107,d45_15:35:44,yes,unknown,yes,GMT ignition; GMT Flame Off
+1415,SPICE,PSI-107,d45_15:35:44,yes,unknown,yes,GMT ignition; GMT Flame Off
+1416,SPICE,PSI-107,d45_15:35:44,yes,unknown,yes,GMT ignition; GMT Flame Off
+1417,SPICE,PSI-107,d45_15:42:22,yes,unknown,yes,GMT ignition; GMT Flame Off
+1418,SPICE,PSI-107,d45_15:42:22,yes,unknown,yes,GMT ignition; GMT Flame Off
+1419,SPICE,PSI-107,d45_15:48:39,yes,unknown,yes,GMT ignition; GMT Flame Off
+1420,SPICE,PSI-107,d45_15:48:39,yes,unknown,yes,GMT ignition; GMT Flame Off
+1421,SPICE,PSI-107,d45_15:50:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1422,SPICE,PSI-107,d45_15:50:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1423,SPICE,PSI-107,d45_17:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1424,SPICE,PSI-107,d45_17:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1425,SPICE,PSI-107,d45_17:15:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1426,SPICE,PSI-107,d45_17:15:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1427,SPICE,PSI-107,d45_17:20:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1428,SPICE,PSI-107,d45_17:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1429,SPICE,PSI-107,d45_17:23:03,yes,unknown,yes,GMT ignition; GMT Flame Off
+1430,SPICE,PSI-107,d45_17:23:03,yes,unknown,yes,GMT ignition; GMT Flame Off
+1431,SPICE,PSI-107,d45_17:27:48,yes,unknown,yes,GMT ignition; GMT Flame Off
+1432,SPICE,PSI-107,d45_17:27:48,yes,unknown,yes,GMT ignition; GMT Flame Off
+1433,SPICE,PSI-107,d45_17:29:49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1434,SPICE,PSI-107,d45_17:29:48,yes,unknown,yes,GMT ignition; GMT Flame Off
+1435,SPICE,PSI-107,d48_14:32:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1436,SPICE,PSI-107,d48_14:33:57,yes,unknown,yes,GMT ignition; GMT Flame Off
+1437,SPICE,PSI-107,d48_14.34.57,yes,unknown,unknown,GMT ignition
+1438,SPICE,PSI-107,d48_14:43:57,yes,unknown,yes,GMT ignition; GMT Flame Off
+1439,SPICE,PSI-107,d48_14.43.58,yes,unknown,yes,GMT ignition; GMT Flame Off
+1440,SPICE,PSI-107,d48_14:48:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1441,SPICE,PSI-107,d48_14:48:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1442,SPICE,PSI-107,d48_14:48:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1443,SPICE,PSI-107,d48_14:48:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1444,SPICE,PSI-107,d48_14:48:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1445,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1446,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1447,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1448,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1449,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1450,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1451,SPICE,PSI-107,d48_14.48.19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1452,SPICE,PSI-107,d48_16:53:44,yes,unknown,yes,GMT ignition; GMT Flame Off
+1453,SPICE,PSI-107,d48_16.53.45,yes,unknown,yes,GMT ignition; GMT Flame Off
+1454,SPICE,PSI-107,d48_17:01:35,yes,unknown,yes,GMT ignition; GMT Flame Off
+1455,SPICE,PSI-107,d48_17:01:35,yes,unknown,yes,GMT ignition; GMT Flame Off
+1456,SPICE,PSI-107,d48_17.01.36,yes,unknown,yes,GMT ignition; GMT Flame Off
+1457,SPICE,PSI-107,d48_17.01.36,yes,unknown,yes,GMT ignition; GMT Flame Off
+1458,SPICE,PSI-107,d48_17:11:21,yes,unknown,yes,GMT ignition; GMT Flame Off
+1459,SPICE,PSI-107,d48_17:11:21,yes,unknown,yes,GMT ignition; GMT Flame Off
+1460,SPICE,PSI-107,d48_17.11.21,yes,unknown,yes,GMT ignition; GMT Flame Off
+1461,SPICE,PSI-107,d48_17.11.21,yes,unknown,yes,GMT ignition; GMT Flame Off
+1462,SPICE,PSI-107,d48_1744,yes,unknown,unknown,GMT ignition
+1463,SPICE,PSI-107,d48_1746,yes,unknown,unknown,GMT ignition
+1464,SPICE,PSI-107,d48_17.44.38,yes,unknown,yes,GMT ignition; GMT Flame Off
+1465,SPICE,PSI-107,d48_17.44.38,yes,unknown,yes,GMT ignition; GMT Flame Off
+1466,SPICE,PSI-107,d52_11:38:51,yes,unknown,yes,GMT ignition; GMT Flame Off
+1467,SPICE,PSI-107,d52_11:38:51,yes,unknown,yes,GMT ignition; GMT Flame Off
+1468,SPICE,PSI-107,d52_11.38.51,yes,unknown,yes,GMT ignition; GMT Flame Off
+1469,SPICE,PSI-107,d52_11.38.51,yes,unknown,yes,GMT ignition; GMT Flame Off
+1470,SPICE,PSI-107,d52_11:42:49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1471,SPICE,PSI-107,d52_11:42:49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1472,SPICE,PSI-107,d52_11.42.50,yes,unknown,yes,GMT ignition; GMT Flame Off
+1473,SPICE,PSI-107,d52_11.42.50,yes,unknown,yes,GMT ignition; GMT Flame Off
+1474,SPICE,PSI-107,d52_11:49:35,yes,unknown,yes,GMT ignition; GMT Flame Off
+1475,SPICE,PSI-107,d52_11:49:35,yes,unknown,yes,GMT ignition; GMT Flame Off
+1476,SPICE,PSI-107,d52_11.49.35,yes,unknown,yes,GMT ignition; GMT Flame Off
+1477,SPICE,PSI-107,d52_11.49.35,yes,unknown,yes,GMT ignition; GMT Flame Off
+1478,SPICE,PSI-107,d52_12.01.47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1479,SPICE,PSI-107,d52_12.01.47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1480,SPICE,PSI-107,d52_12:21:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1481,SPICE,PSI-107,d52_12:21:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1482,SPICE,PSI-107,d52_12.21.19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1483,SPICE,PSI-107,d52_12.21.19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1484,SPICE,PSI-107,d52_12:26:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1485,SPICE,PSI-107,d52_12:26:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1486,SPICE,PSI-107,d52_12.26.44,yes,unknown,yes,GMT ignition; GMT Flame Off
+1487,SPICE,PSI-107,d52_12.26.44,yes,unknown,yes,GMT ignition; GMT Flame Off
+1488,SPICE,PSI-107,d52_12.28.52,yes,unknown,yes,GMT ignition; GMT Flame Off
+1489,SPICE,PSI-107,d52_12.28.52,yes,unknown,yes,GMT ignition; GMT Flame Off
+1490,SPICE,PSI-107,d52_12:42:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1491,SPICE,PSI-107,d52_12:42:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1492,SPICE,PSI-107,d52_12.42.47,yes,unknown,unknown,GMT ignition
+1493,SPICE,PSI-107,d52_12.42.47,yes,unknown,unknown,GMT ignition
+1494,SPICE,PSI-107,d52_13:02:02,yes,unknown,yes,GMT ignition; GMT Flame Off
+1495,SPICE,PSI-107,d52_13:02:02,yes,unknown,yes,GMT ignition; GMT Flame Off
+1496,SPICE,PSI-107,d52_13.02.02,yes,unknown,yes,GMT ignition; GMT Flame Off
+1497,SPICE,PSI-107,d52_13.02.02,yes,unknown,yes,GMT ignition; GMT Flame Off
+1498,SPICE,PSI-107,d52_13:04:25,yes,unknown,yes,GMT ignition; GMT Flame Off
+1499,SPICE,PSI-107,d52_13:04:25,yes,unknown,yes,GMT ignition; GMT Flame Off
+1500,SPICE,PSI-107,d52_13.04.25,yes,unknown,yes,GMT ignition; GMT Flame Off
+1501,SPICE,PSI-107,d52_13.04.25,yes,unknown,yes,GMT ignition; GMT Flame Off
+1502,SPICE,PSI-107,d52_16:09:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1503,SPICE,PSI-107,d52_no ku,yes,unknown,yes,GMT ignition; GMT Flame Off
+1504,SPICE,PSI-107,d52_no ku,yes,unknown,yes,GMT ignition; GMT Flame Off
+1505,SPICE,PSI-107,d52_16.14.05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1506,SPICE,PSI-107,d52_16.14.05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1507,SPICE,PSI-107,d52_16.22.17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1508,SPICE,PSI-107,d52_16.22.17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1509,SPICE,PSI-107,d52_16.22.17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1510,SPICE,PSI-107,d52_Ku              LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
+1511,SPICE,PSI-107,d52_Ku              LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
+1512,SPICE,PSI-107,d52_Ku              LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
+1513,SPICE,PSI-107,d52_17:10:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1514,SPICE,PSI-107,d52_17:10:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1515,SPICE,PSI-107,d52_17:10:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1516,SPICE,PSI-107,d52_17:10:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1517,SPICE,PSI-107,d52_17:25:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1518,SPICE,PSI-107,d52_17:25:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1519,SPICE,PSI-107,d52_17:25:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1520,SPICE,PSI-107,d52_17.25.49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1521,SPICE,PSI-107,d52_17.25.49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1522,SPICE,PSI-107,d52_17.25.49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1523,SPICE,PSI-107,d52_17:30:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1524,SPICE,PSI-107,d52_17:30:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1525,SPICE,PSI-107,d52_17:30:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1526,SPICE,PSI-107,d52_17.30.18,yes,unknown,yes,GMT ignition; GMT Flame Off
+1527,SPICE,PSI-107,d52_17.30.18,yes,unknown,yes,GMT ignition; GMT Flame Off
+1528,SPICE,PSI-107,d52_17.30.18,yes,unknown,yes,GMT ignition; GMT Flame Off
+1529,SPICE,PSI-107,d52_17:47:11,yes,unknown,yes,GMT ignition; GMT Flame Off
+1530,SPICE,PSI-107,d52_17:47:11,yes,unknown,yes,GMT ignition; GMT Flame Off
+1531,SPICE,PSI-107,d52_17.47.12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1532,SPICE,PSI-107,d52_17.47.12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1533,SPICE,PSI-107,d52_17.47.12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1534,SPICE,PSI-107,d52_17:50:49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1535,SPICE,PSI-107,d52_17:50:49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1536,SPICE,PSI-107,d52_17.50.49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1537,SPICE,PSI-107,d52_17.50.49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1538,SPICE,PSI-107,d52_17.50.49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1539,SPICE,PSI-107,d52_17.50.49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1540,SPICE,PSI-107,d52_17.50.49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1541,SPICE,PSI-107,d52_17:58:09,yes,unknown,yes,GMT ignition; GMT Flame Off
+1542,SPICE,PSI-107,d52_17:58:09,yes,unknown,yes,GMT ignition; GMT Flame Off
+1543,SPICE,PSI-107,d52_17:58:09,yes,unknown,yes,GMT ignition; GMT Flame Off
+1544,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
+1545,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
+1546,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
+1547,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
+1548,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
+1549,SPICE,PSI-107,d52_17.58.10,yes,unknown,yes,GMT ignition; GMT Flame Off
+1550,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1551,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1552,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1553,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1554,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1555,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1556,SPICE,PSI-107,d55_8:56:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1557,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1558,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1559,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1560,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1561,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1562,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1563,SPICE,PSI-107,d55_9:00:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1564,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1565,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1566,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1567,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1568,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1569,SPICE,PSI-107,d55_9:36:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1570,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1571,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1572,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1573,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1574,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1575,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1576,SPICE,PSI-107,d55_9:39:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1577,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
+1578,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
+1579,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
+1580,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
+1581,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
+1582,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
+1583,SPICE,PSI-107,d55_9:49:56,yes,unknown,yes,GMT ignition; GMT Flame Off
+1584,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
+1585,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
+1586,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
+1587,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
+1588,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
+1589,SPICE,PSI-107,d55_9:53:36,yes,unknown,yes,GMT ignition; GMT Flame Off
+1590,SPICE,PSI-107,d55_10:01:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1591,SPICE,PSI-107,d55_10:01:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1592,SPICE,PSI-107,d55_10:01:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1593,SPICE,PSI-107,d55_10:01:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1594,SPICE,PSI-107,d55_10:15:39,yes,unknown,yes,GMT ignition; GMT Flame Off
+1595,SPICE,PSI-107,d55_10:15:39,yes,unknown,yes,GMT ignition; GMT Flame Off
+1596,SPICE,PSI-107,d55_10:15:39,yes,unknown,yes,GMT ignition; GMT Flame Off
+1597,SPICE,PSI-107,d55_10:15:39,yes,unknown,yes,GMT ignition; GMT Flame Off
+1598,SPICE,PSI-107,d55_10:25:40,yes,unknown,yes,GMT ignition; GMT Flame Off
+1599,SPICE,PSI-107,d55_10:25:40,yes,unknown,yes,GMT ignition; GMT Flame Off
+1600,SPICE,PSI-107,d55_10:25:40,yes,unknown,yes,GMT ignition; GMT Flame Off
+1601,SPICE,PSI-107,d55_10:25:40,yes,unknown,yes,GMT ignition; GMT Flame Off
+1602,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1603,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1604,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1605,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1606,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1607,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1608,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1609,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1610,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1611,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1612,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1613,SPICE,PSI-107,d55_10:34:07,yes,unknown,yes,GMT ignition; GMT Flame Off
+1614,SPICE,PSI-107,d55_10:52:20,yes,unknown,yes,GMT ignition; GMT Flame Off
+1615,SPICE,PSI-107,d55_10:52:20,yes,unknown,yes,GMT ignition; GMT Flame Off
+1616,SPICE,PSI-107,d55_10:52:20,yes,unknown,yes,GMT ignition; GMT Flame Off
+1617,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
+1618,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
+1619,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
+1620,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
+1621,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
+1622,SPICE,PSI-107,d55_11:12:41,yes,unknown,yes,GMT ignition; GMT Flame Off
+1623,SPICE,PSI-107,d58_9:37:52,yes,unknown,yes,GMT ignition; GMT Flame Off
+1624,SPICE,PSI-107,d58_9:37:52,yes,unknown,yes,GMT ignition; GMT Flame Off
+1625,SPICE,PSI-107,d58_9:37:52,yes,unknown,yes,GMT ignition; GMT Flame Off
+1626,SPICE,PSI-107,d58_9:37:52,yes,unknown,yes,GMT ignition; GMT Flame Off
+1627,SPICE,PSI-107,d58_9:44:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1628,SPICE,PSI-107,d58_9:44:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1629,SPICE,PSI-107,d58_9:44:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1630,SPICE,PSI-107,d58_9:44:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1631,SPICE,PSI-107,d58_9:44:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1632,SPICE,PSI-107,d58_9:47:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1633,SPICE,PSI-107,d58_9:47:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1634,SPICE,PSI-107,d58_9:47:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1635,SPICE,PSI-107,d58_9:47:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1636,SPICE,PSI-107,d58_9:47:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1637,SPICE,PSI-107,d58_9:55:18,yes,unknown,yes,GMT ignition; GMT Flame Off
+1638,SPICE,PSI-107,d58_9:55:18,yes,unknown,yes,GMT ignition; GMT Flame Off
+1639,SPICE,PSI-107,d58_9:55:18,yes,unknown,yes,GMT ignition; GMT Flame Off
+1640,SPICE,PSI-107,d58_9:55:18,yes,unknown,yes,GMT ignition; GMT Flame Off
+1641,SPICE,PSI-107,d58_9:55:18,yes,unknown,yes,GMT ignition; GMT Flame Off
+1642,SPICE,PSI-107,d58_Ku LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
+1643,SPICE,PSI-107,d58_Ku LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
+1644,SPICE,PSI-107,d58_Ku LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
+1645,SPICE,PSI-107,d58_10:13:22,yes,unknown,yes,GMT ignition; GMT Flame Off
+1646,SPICE,PSI-107,d58_10:13:22,yes,unknown,yes,GMT ignition; GMT Flame Off
+1647,SPICE,PSI-107,d58_10:13:22,yes,unknown,yes,GMT ignition; GMT Flame Off
+1648,SPICE,PSI-107,d58_10:18:27,yes,unknown,yes,GMT ignition; GMT Flame Off
+1649,SPICE,PSI-107,d58_10:18:27,yes,unknown,yes,GMT ignition; GMT Flame Off
+1650,SPICE,PSI-107,d58_10:18:27,yes,unknown,yes,GMT ignition; GMT Flame Off
+1651,SPICE,PSI-107,d58_10:36:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1652,SPICE,PSI-107,d58_10:36:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1653,SPICE,PSI-107,d58_10:36:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1654,SPICE,PSI-107,d58_10:41:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1655,SPICE,PSI-107,d58_10:41:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1656,SPICE,PSI-107,d58_10:41:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1657,SPICE,PSI-107,d58_11:23:08,yes,unknown,yes,GMT ignition; GMT Flame Off
+1658,SPICE,PSI-107,d58_11:23:08,yes,unknown,yes,GMT ignition; GMT Flame Off
+1659,SPICE,PSI-107,d58_11:25:49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1660,SPICE,PSI-107,d58_11:25:49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1661,SPICE,PSI-107,d58_11:25:49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1662,SPICE,PSI-107,d58_11:25:49,yes,unknown,yes,GMT ignition; GMT Flame Off
+1663,SPICE,PSI-107,d58_11:32:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1664,SPICE,PSI-107,d58_11:32:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1665,SPICE,PSI-107,d58_11:34:18,yes,unknown,yes,GMT ignition; GMT Flame Off
+1666,SPICE,PSI-107,d58_n/a,yes,unknown,yes,GMT ignition; GMT Flame Off
+1667,SPICE,PSI-107,d58_11:42:53,yes,unknown,yes,GMT ignition; GMT Flame Off
+1668,SPICE,PSI-107,d58_11:42:53,yes,unknown,yes,GMT ignition; GMT Flame Off
+1669,SPICE,PSI-107,d58_11:55:33,yes,unknown,yes,GMT ignition; GMT Flame Off
+1670,SPICE,PSI-107,d58_11:55:33,yes,unknown,yes,GMT ignition; GMT Flame Off
+1671,SPICE,PSI-107,d58_12:00:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1672,SPICE,PSI-107,d58_Ku LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
+1673,SPICE,PSI-107,d58_12:15:41,yes,unknown,yes,GMT ignition; GMT Flame Off
+1674,SPICE,PSI-107,d58_12:42:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1675,SPICE,PSI-107,d58_12:42:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1676,SPICE,PSI-107,d58_12:42:59,yes,unknown,unknown,GMT ignition
+1677,SPICE,PSI-107,d58_12:45:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1678,SPICE,PSI-107,d119_10:28:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1679,SPICE,PSI-107,d119_10:28:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1680,SPICE,PSI-107,d119_10:28:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1681,SPICE,PSI-107,d119_10:28:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1682,SPICE,PSI-107,d119_10:38:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1683,SPICE,PSI-107,d119_10:38:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1684,SPICE,PSI-107,d119_10:38:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1685,SPICE,PSI-107,d119_10:38:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1686,SPICE,PSI-107,d136_15:52:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1687,SPICE,PSI-107,d136_15:52:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1688,SPICE,PSI-107,d136_15:52:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1689,SPICE,PSI-107,d136_15:57:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1690,SPICE,PSI-107,d136_15:57:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1691,SPICE,PSI-107,d136_15:57:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1692,SPICE,PSI-107,d136_15:57:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1693,SPICE,PSI-107,d136_15:57:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1694,SPICE,PSI-107,d136_16:33:58,yes,unknown,yes,GMT ignition; GMT Flame Off
+1695,SPICE,PSI-107,d136_16:33:58,yes,unknown,yes,GMT ignition; GMT Flame Off
+1696,SPICE,PSI-107,d136_16:33:58,yes,unknown,yes,GMT ignition; GMT Flame Off
+1697,SPICE,PSI-107,d136_16:33:58,yes,unknown,yes,GMT ignition; GMT Flame Off
+1698,SPICE,PSI-107,d136_16:33:58,yes,unknown,yes,GMT ignition; GMT Flame Off
+1699,SPICE,PSI-107,d136_16:39:21,yes,unknown,yes,GMT ignition; GMT Flame Off
+1700,SPICE,PSI-107,d136_16:39:21,yes,unknown,yes,GMT ignition; GMT Flame Off
+1701,SPICE,PSI-107,d136_16:39:21,yes,unknown,yes,GMT ignition; GMT Flame Off
+1702,SPICE,PSI-107,d136_16:39:21,yes,unknown,yes,GMT ignition; GMT Flame Off
+1703,SPICE,PSI-107,d136_16:39:21,yes,unknown,yes,GMT ignition; GMT Flame Off
+1704,SPICE,PSI-107,d136_16:52:19,yes,unknown,yes,GMT ignition; GMT Flame Off
+1705,SPICE,PSI-107,d136_16:54:20,yes,unknown,unknown,GMT ignition
+1706,SPICE,PSI-107,d136_16:56:22,yes,unknown,unknown,GMT ignition
+1707,SPICE,PSI-107,d136_16:56:22,yes,unknown,unknown,GMT ignition
+1708,SPICE,PSI-107,d136_16:56:22,yes,unknown,unknown,GMT ignition
+1709,SPICE,PSI-107,d136_16:56:22,yes,unknown,unknown,GMT ignition
+1710,SPICE,PSI-107,d136_17:21:33,yes,unknown,yes,GMT ignition; GMT Flame Off
+1711,SPICE,PSI-107,d136_17:21:33,yes,unknown,yes,GMT ignition; GMT Flame Off
+1712,SPICE,PSI-107,d136_17:21:33,yes,unknown,yes,GMT ignition; GMT Flame Off
+1713,SPICE,PSI-107,d136_17:21:33,yes,unknown,yes,GMT ignition; GMT Flame Off
+1714,SPICE,PSI-107,d167_9:20:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1715,SPICE,PSI-107,d167_9:20:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1716,SPICE,PSI-107,d167_9:20:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1717,SPICE,PSI-107,d167_9:31:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1718,SPICE,PSI-107,d167_9:31:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1719,SPICE,PSI-107,d167_9:31:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1720,SPICE,PSI-107,d167_9:39:28,yes,unknown,yes,GMT ignition; GMT Flame Off
+1721,SPICE,PSI-107,d167_9:39:28,yes,unknown,yes,GMT ignition; GMT Flame Off
+1722,SPICE,PSI-107,d167_9:39:28,yes,unknown,yes,GMT ignition; GMT Flame Off
+1723,SPICE,PSI-107,d167_9:44:52,yes,unknown,yes,GMT ignition; GMT Flame Off
+1724,SPICE,PSI-107,d167_9:44:52,yes,unknown,yes,GMT ignition; GMT Flame Off
+1725,SPICE,PSI-107,d167_9:44:52,yes,unknown,yes,GMT ignition; GMT Flame Off
+1726,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1727,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1728,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1729,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1730,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1731,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1732,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1733,SPICE,PSI-107,d167_9:59:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1734,SPICE,PSI-107,d167_10:06:06,yes,unknown,yes,GMT ignition; GMT Flame Off
+1735,SPICE,PSI-107,d167_10:12:03,yes,unknown,yes,GMT ignition; GMT Flame Off
+1736,SPICE,PSI-107,d167_10:12:03,yes,unknown,yes,GMT ignition; GMT Flame Off
+1737,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1738,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1739,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1740,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1741,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1742,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1743,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1744,SPICE,PSI-107,d167_11:04:59,yes,unknown,yes,GMT ignition; GMT Flame Off
+1745,SPICE,PSI-107,d167_LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
+1746,SPICE,PSI-107,d167_LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
+1747,SPICE,PSI-107,d167_LOS,yes,unknown,yes,GMT ignition; GMT Flame Off
+1748,SPICE,PSI-107,d168_8:50:41,yes,unknown,yes,GMT ignition; GMT Flame Off
+1749,SPICE,PSI-107,d168_8:50:41,yes,unknown,yes,GMT ignition; GMT Flame Off
+1750,SPICE,PSI-107,d168_8:50:41,yes,unknown,yes,GMT ignition; GMT Flame Off
+1751,SPICE,PSI-107,d168_9:03:26,yes,unknown,yes,GMT ignition; GMT Flame Off
+1752,SPICE,PSI-107,d168_9:49:13,yes,unknown,yes,GMT ignition; GMT Flame Off
+1753,SPICE,PSI-107,d168_9:49:13,yes,unknown,yes,GMT ignition; GMT Flame Off
+1754,SPICE,PSI-107,d168_9:49:13,yes,unknown,yes,GMT ignition; GMT Flame Off
+1755,SPICE,PSI-107,d168_9:52:25,yes,unknown,yes,GMT ignition; GMT Flame Off
+1756,SPICE,PSI-107,d168_9:56:09,yes,unknown,yes,GMT ignition; GMT Flame Off
+1757,SPICE,PSI-107,d168_10:42:48,yes,unknown,yes,GMT ignition; GMT Flame Off
+1758,SPICE,PSI-107,d168_11:16:48,yes,unknown,yes,GMT ignition; GMT Flame Off
+1759,SPICE,PSI-107,d168_11:30:21,yes,unknown,yes,GMT ignition; GMT Flame Off
+1760,SPICE,PSI-107,d168_11:41:18,yes,unknown,yes,GMT ignition; GMT Flame Off
+1761,SPICE,PSI-107,d173_10:37:43,yes,unknown,yes,GMT ignition; GMT Flame Off
+1762,SPICE,PSI-107,d173_10:37:43,yes,unknown,yes,GMT ignition; GMT Flame Off
+1763,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1764,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1765,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1766,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1767,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1768,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1769,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1770,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1771,SPICE,PSI-107,d173_10:41:34,yes,unknown,yes,GMT ignition; GMT Flame Off
+1772,SPICE,PSI-107,d173_11:08:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1773,SPICE,PSI-107,d173_11:08:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1774,SPICE,PSI-107,d173_11:08:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1775,SPICE,PSI-107,d173_11:08:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1776,SPICE,PSI-107,d173_11:08:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1777,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
+1778,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
+1779,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
+1780,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
+1781,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
+1782,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
+1783,SPICE,PSI-107,d173_11:21:38,yes,unknown,yes,GMT ignition; GMT Flame Off
+1784,SPICE,PSI-107,d173_11:48:23,yes,unknown,yes,GMT ignition; GMT Flame Off
+1785,SPICE,PSI-107,d173_11:48:23,yes,unknown,yes,GMT ignition; GMT Flame Off
+1786,SPICE,PSI-107,d173_11:48:23,yes,unknown,yes,GMT ignition; GMT Flame Off
+1787,SPICE,PSI-107,d173_11:48:23,yes,unknown,yes,GMT ignition; GMT Flame Off
+1788,SPICE,PSI-107,d173_11:48:23,yes,unknown,yes,GMT ignition; GMT Flame Off
+1789,SPICE,PSI-107,d173_12:00:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1790,SPICE,PSI-107,d173_12:00:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1791,SPICE,PSI-107,d173_12:00:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1792,SPICE,PSI-107,d173_12:00:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1793,SPICE,PSI-107,d173_12:00:14,yes,unknown,yes,GMT ignition; GMT Flame Off
+1794,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1795,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1796,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1797,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1798,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1799,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1800,SPICE,PSI-107,d173_12:11:46,yes,unknown,yes,GMT ignition; GMT Flame Off
+1801,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
+1802,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
+1803,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
+1804,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
+1805,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
+1806,SPICE,PSI-107,d173_12:23:30,yes,unknown,yes,GMT ignition; GMT Flame Off
+1807,SPICE,PSI-107,d173_12:39:29,yes,unknown,yes,GMT ignition; GMT Flame Off
+1808,SPICE,PSI-107,d173_12:39:29,yes,unknown,yes,GMT ignition; GMT Flame Off
+1809,SPICE,PSI-107,d173_12:39:29,yes,unknown,yes,GMT ignition; GMT Flame Off
+1810,SPICE,PSI-107,d173_12:39:29,yes,unknown,yes,GMT ignition; GMT Flame Off
+1811,SPICE,PSI-107,d174_10:02:10,yes,unknown,yes,GMT ignition; GMT Flame Off
+1812,SPICE,PSI-107,d174_10:33:23,yes,unknown,yes,GMT ignition; GMT Flame Off
+1813,SPICE,PSI-107,d174_10:33:23,yes,unknown,yes,GMT ignition; GMT Flame Off
+1814,SPICE,PSI-107,d174_10:45:25,yes,unknown,yes,GMT ignition; GMT Flame Off
+1815,SPICE,PSI-107,d174_10:45:25,yes,unknown,yes,GMT ignition; GMT Flame Off
+1816,SPICE,PSI-107,d174_10:45:25,yes,unknown,yes,GMT ignition; GMT Flame Off
+1817,SPICE,PSI-107,d174_10:48:31,yes,unknown,yes,GMT ignition; GMT Flame Off
+1818,SPICE,PSI-107,d174_10:48:31,yes,unknown,yes,GMT ignition; GMT Flame Off
+1819,SPICE,PSI-107,d174_11:04:43,yes,unknown,yes,GMT ignition; GMT Flame Off
+1820,SPICE,PSI-107,d174_11:04:43,yes,unknown,yes,GMT ignition; GMT Flame Off
+1821,SPICE,PSI-107,d174_11:04:43,yes,unknown,yes,GMT ignition; GMT Flame Off
+1822,SPICE,PSI-107,d174_11:13:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1823,SPICE,PSI-107,d174_11:13:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1824,SPICE,PSI-107,d174_11:13:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1825,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1826,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1827,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1828,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1829,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1830,SPICE,PSI-107,d174_11:20:47,yes,unknown,yes,GMT ignition; GMT Flame Off
+1831,SPICE,PSI-107,d174_11:24:30,yes,unknown,yes,GMT ignition; GMT Flame Off
+1832,SPICE,PSI-107,d174_11:24:30,yes,unknown,yes,GMT ignition; GMT Flame Off
+1833,SPICE,PSI-107,d174_11:24:30,yes,unknown,yes,GMT ignition; GMT Flame Off
+1834,SPICE,PSI-107,d174_11:24:30,yes,unknown,yes,GMT ignition; GMT Flame Off
+1835,SPICE,PSI-107,d174_11:34:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1836,SPICE,PSI-107,d174_11:34:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1837,SPICE,PSI-107,d174_11:34:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1838,SPICE,PSI-107,d174_11:34:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1839,SPICE,PSI-107,d174_11:34:16,yes,unknown,yes,GMT ignition; GMT Flame Off
+1840,SPICE,PSI-107,d174_11:38:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1841,SPICE,PSI-107,d174_11:38:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1842,SPICE,PSI-107,d174_11:38:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1843,SPICE,PSI-107,d174_11:38:05,yes,unknown,yes,GMT ignition; GMT Flame Off
+1844,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
+1845,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
+1846,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
+1847,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
+1848,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
+1849,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
+1850,SPICE,PSI-107,d174_11:46:06,yes,unknown,yes,GMT ignition; GMT Flame Off
+1851,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1852,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1853,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1854,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1855,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1856,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1857,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1858,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1859,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1860,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1861,SPICE,PSI-107,d174_11:50:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1862,SPICE,PSI-107,d174_12:06:43,yes,unknown,yes,GMT ignition; GMT Flame Off
+1863,SPICE,PSI-107,d174_12:11:20,yes,unknown,yes,GMT ignition; GMT Flame Off
+1864,SPICE,PSI-107,d174_12:34:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1865,SPICE,PSI-107,d174_12:34:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1866,SPICE,PSI-107,d174_12:34:00,yes,unknown,yes,GMT ignition; GMT Flame Off
+1867,SPICE,PSI-107,d174_12:36:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1868,SPICE,PSI-107,d174_12:36:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1869,SPICE,PSI-107,d174_12:36:12,yes,unknown,yes,GMT ignition; GMT Flame Off
+1870,SPICE,PSI-107,d174_12:43:03,yes,unknown,yes,GMT ignition; GMT Flame Off
+1871,SPICE,PSI-107,d174_12:43:03,yes,unknown,yes,GMT ignition; GMT Flame Off
+1872,SPICE,PSI-107,d174_12:43:03,yes,unknown,yes,GMT ignition; GMT Flame Off
+1873,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1874,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1875,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1876,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1877,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1878,SPICE,PSI-107,d174_12:46:17,yes,unknown,yes,GMT ignition; GMT Flame Off
+1879,ACME BRE,PSI-20,2019-Feb-8,unknown,unknown,unknown,
+1880,ACME BRE,PSI-20,2019-Feb-20,unknown,unknown,unknown,
+1881,ACME BRE,PSI-20,2019-Feb-25,unknown,unknown,unknown,
+1882,ACME BRE,PSI-20,2019-March-4,unknown,unknown,unknown,
+1883,ACME BRE,PSI-20,2019-March-7,unknown,unknown,unknown,
+1884,ACME BRE,PSI-20,2019-March-11,unknown,unknown,unknown,
+1885,ACME BRE,PSI-20,2019-March-28,unknown,unknown,unknown,
+1886,ACME BRE,PSI-20,2019-April-1,unknown,unknown,unknown,
+1887,ACME BRE,PSI-20,2019-April-4,unknown,unknown,unknown,
+1888,ACME BRE,PSI-20,2020-Sept-3,unknown,unknown,unknown,
+1889,ACME BRE,PSI-20,2020-Oct-17,unknown,unknown,unknown,
+1890,ACME BRE,PSI-20,2020-Dec-5,unknown,unknown,unknown,
+1891,ACME BRE,PSI-20,2020-Dec-4,unknown,unknown,unknown,
+1892,ACME BRE,PSI-20,2020-Dec-11,unknown,unknown,unknown,
+1893,ACME BRE,PSI-20,2020-Dec-17,unknown,unknown,unknown,
+1894,ACME BRE,PSI-20,2020-Dec-23,unknown,unknown,unknown,
+1895,ACME BRE,PSI-20,2021-Jan-20,unknown,unknown,unknown,
+1896,ACME BRE,PSI-20,2021-Jan-28,unknown,unknown,unknown,
+1897,ACME CLD Flame,PSI-21,17319,unknown,unknown,unknown,
+1898,ACME CLD Flame,PSI-21,17324,unknown,unknown,unknown,
+1899,ACME CLD Flame,PSI-21,17342,unknown,unknown,unknown,
+1900,ACME CLD Flame,PSI-21,17356,unknown,unknown,unknown,
+1901,ACME CLD Flame,PSI-21,18003,unknown,unknown,unknown,
+1902,ACME CLD Flame,PSI-21,18005,unknown,unknown,unknown,
+1903,ACME CLD Flame,PSI-21,18008,unknown,unknown,unknown,
+1904,ACME CLD Flame,PSI-21,18011,unknown,unknown,unknown,
+1905,ACME CLD Flame,PSI-21,18022,unknown,unknown,unknown,
+1906,ACME CLD Flame,PSI-21,18026,unknown,unknown,unknown,
+1907,ACME CLD Flame,PSI-21,18032,unknown,unknown,unknown,
+1908,ACME CLD Flame,PSI-21,18039,unknown,unknown,unknown,
+1909,ACME CLD Flame,PSI-21,18043,unknown,unknown,unknown,
+1910,ACME CLD Flame,PSI-21,18053,unknown,unknown,unknown,
+1911,ACME CLD Flame,PSI-21,18145,unknown,unknown,unknown,
+1912,ACME CLD Flame,PSI-21,18151,unknown,unknown,unknown,
+1913,ACME CLD Flame,PSI-21,18177,unknown,unknown,unknown,
+1914,ACME CLD Flame,PSI-21,18186,unknown,unknown,unknown,
+1915,ACME CLD Flame,PSI-21,18192,unknown,unknown,unknown,
+1916,ACME CLD Flame,PSI-21,18199,unknown,unknown,unknown,
+1917,ACME CLD Flame,PSI-21,18214,unknown,unknown,unknown,
+1918,ACME CLD Flame,PSI-21,18218,unknown,unknown,unknown,
+1919,ACME CLD Flame,PSI-21,18235,unknown,unknown,unknown,
+1920,ACME CLD Flame,PSI-21,18239,unknown,unknown,unknown,
+1921,ACME CLD Flame,PSI-21,18241,unknown,unknown,unknown,
+1922,ACME CLD Flame,PSI-21,18249,unknown,unknown,unknown,
+1923,ACME CLD Flame,PSI-21,18253,unknown,unknown,unknown,
+1924,ACME CLD Flame,PSI-21,18257,unknown,unknown,unknown,
+1925,ACME CLD Flame,PSI-21,21041,unknown,unknown,unknown,
+1926,ACME CLD Flame,PSI-21,21046,unknown,unknown,unknown,
+1927,ACME CLD Flame,PSI-21,21050,unknown,unknown,unknown,
+1928,ACME CLD Flame,PSI-21,21062,unknown,unknown,unknown,
