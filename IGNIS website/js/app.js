@@ -617,9 +617,61 @@ async function mapHeaders(e){
     list.innerHTML = '';
     put(`Method: ${j.method === 'llm' ? 'AI' : 'rules'}`);
     for (const [field, header] of Object.entries(j.mapping)) put(`${field} → ${header || '(not found)'}`);
+    await rankCsv(file, j.mapping);
   } catch (err){
     list.innerHTML = '';
     put(`Mapping unavailable (${err.message}).`);
+  }
+}
+// Rank the file's rows against the current scenario, in the browser. Data rows are never sent anywhere.
+const CSV_PENALTY = 2.25;
+function csvRows(text){
+  const rows = []; let row = [], cell = '', q = false;
+  for (let i = 0; i < text.length; i++){
+    const ch = text[i];
+    if (q){ if (ch === '"'){ if (text[i+1] === '"'){ cell += '"'; i++; } else q = false; } else cell += ch; }
+    else if (ch === '"') q = true;
+    else if (ch === ','){ row.push(cell); cell = ''; }
+    else if (ch === '\n' || ch === '\r'){ if (ch === '\r' && text[i+1] === '\n') i++; row.push(cell); rows.push(row); row = []; cell = ''; }
+    else cell += ch;
+  }
+  if (cell || row.length){ row.push(cell); rows.push(row); }
+  return rows;
+}
+function gravityOf(text){
+  const t = (text || '').toLowerCase();
+  if (/micro|orbit|iss|space|flight/.test(t)) return 1e-6;
+  if (/lunar|moon/.test(t)) return .166;
+  if (/mars|martian/.test(t)) return .38;
+  if (/earth|normal|ground|1\s*g/.test(t)) return 1;
+  const n = parseFloat(t);
+  return isNaN(n) ? null : n;
+}
+async function rankCsv(file, mapping){
+  const list = $('csvTop');
+  list.innerHTML = '';
+  const rows = csvRows(await file.text()).filter(r => r.some(c => c.trim() !== ''));
+  if (rows.length < 2) return;
+  const header = rows[0].map(h => h.trim()), body = rows.slice(1, 20001);
+  const idx = f => mapping[f] ? header.indexOf(mapping[f]) : -1;
+  const io = idx('o2'), ifl = idx('airflow'), ig = idx('gravity'), ip = idx('pressure'), im = idx('material'), io2out = idx('outcome');
+  const pScale = /atm/i.test(mapping.pressure || '') ? 101.325 : /psi/i.test(mapping.pressure || '') ? 6.89476 : 1;
+  const num = (r, i) => { if (i < 0) return NaN; const m = String(r[i] || '').match(/-?\d*\.?\d+(?:[eE][+-]?\d+)?/); return m ? parseFloat(m[0]) : NaN; };
+  const fuel = S.fuel !== 'any' && FUELS[S.fuel] ? FUELS[S.fuel].name.toLowerCase().split(/[ (]/)[0] : '';
+  const put = msg => { const li = document.createElement('li'); li.textContent = msg; list.appendChild(li); };
+  const scored = body.map((r, k) => {
+    let cost = 0;
+    if (io >= 0 && !isNaN(num(r, io))) cost += ((num(r, io) - S.o2) / 5) ** 2;
+    if (ifl >= 0 && S.dir !== 'quiescent' && !isNaN(num(r, ifl))) cost += ((num(r, ifl) - S.flow) / 10) ** 2;
+    if (ip >= 0 && S.p && !isNaN(num(r, ip))) cost += ((num(r, ip) * pScale - S.p) / 20) ** 2;
+    if (ig >= 0){ const g = gravityOf(r[ig]); if (g != null && !isNaN(g)) cost += .5 * (Math.log10(Math.max(S.g, 1e-6)) - Math.log10(Math.max(g, 1e-6))) ** 2; }
+    if (im >= 0 && fuel && !String(r[im] || '').toLowerCase().includes(fuel)) cost += CSV_PENALTY;
+    return { r, k, cost };
+  }).sort((a, b) => a.cost - b.cost).slice(0, 5);
+  put(`Closest rows to the current scenario (${body.length} rows checked in your browser):`);
+  for (const x of scored){
+    const cell = i => i >= 0 && String(x.r[i] || '').trim() !== '' ? String(x.r[i]).trim() : '—';
+    put(`Row ${x.k + 1} · cost ${x.cost.toFixed(2)} · material ${cell(im)} · O₂ ${cell(io)} · airflow ${cell(ifl)} · pressure ${cell(ip)} · gravity ${cell(ig)} · outcome ${cell(io2out)}`);
   }
 }
 $('csvHead').addEventListener('change', mapHeaders);
@@ -726,9 +778,10 @@ function fillStats(){
 /* ---------- Routing ---------- */
 function route(){
   const h = location.hash.slice(1);
-  const view = h === 'results' || h === 'compare' ? 'results' : h === 'about' ? 'about' : 'home';
+  // No hash (first visit) opens About. The scenario builder lives at #home.
+  const view = h === 'results' || h === 'compare' ? 'results' : h === 'home' ? 'home' : 'about';
   ['home','results','about'].forEach(v => $('view-' + v).hidden = v !== view);
-  document.querySelectorAll('[data-nav]').forEach(a => { if (a.dataset.nav === (h || 'home') || (view === 'home' && a.dataset.nav === 'home')) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
+  document.querySelectorAll('[data-nav]').forEach(a => { if (a.dataset.nav === (h || 'about') || (view === 'home' && a.dataset.nav === 'home')) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
   if (view === 'results') renderResults();
   requestAnimationFrame(() => { const el = h === 'compare' ? $('compare') : null; if (el) el.scrollIntoView({block:'start'}); else scrollTo(0,0); if (view === 'results') drawChart(); });
 }
