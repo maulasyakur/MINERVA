@@ -116,6 +116,21 @@ minute, 10 for reports), and return `429` when exceeded.
 - `ai-engine/scripts/extract_outcomes.py` labels each run's outcome. Explicit recorded fields come first (for
   FLEX, `Test end`). The model is used only for rows without such a field. Its output is a review file, not a
   training target until a person has checked it. `dataset-psi/derived/outcomes_flex.csv` holds the FLEX labels.
+- `ai-engine/scripts/label_rules.py` labels outcomes from explicit recorded fields only, with no model. It writes
+  `dataset-psi/derived/outcomes_rules.csv`, and each label records the field it came from.
+
+### Where the outcome labels come from
+
+| Dataset | Field | Meaning | Source |
+|---------|-------|---------|--------|
+| FLEX | `Test end` | Extinction (flame went out), Disruption (droplet broke apart), Completion (burned to completion; no extinction) | [NASA/TP-2015-216046](https://ntrs.nasa.gov/citations/20150023456) |
+| CFI-G | `Type of extinction` (`SE`, `FT`) | SE = self-extinction; FT = flow terminated, so not a natural extinction | [CFI-G thesis, UMD](https://api.drum.lib.umd.edu/server/api/core/bitstreams/278c77a3-6e86-4dc5-8413-c0381ebe74a9/content), Table E.2–E.4 |
+| CFI-G | `Hot ignition` | Yes / No | [CFI-G thesis, UMD](https://api.drum.lib.umd.edu/server/api/core/bitstreams/278c77a3-6e86-4dc5-8413-c0381ebe74a9/content) |
+| SAFFIRE-II | `1-g Burn Length` | Complete (burned the full length) or ~0 (no meaningful burn) | [GRC-E-DAA-TN44517](https://ntrs.nasa.gov/citations/20170008805), Table I |
+| ACME BRE / CLD | `Flames Ignited` | Count of flames ignited in the test; above zero means ignition | [ACME CSSCI report](https://ntrs.nasa.gov/api/citations/20220007191/downloads/ACME%20CSSCI%2020220509.pdf?attachment=true) (counts "flames ignited") |
+| SPICE | `GMT ignition` | Ignition time; ignition yes | Used as ignition only. `GMT Flame Off` is not used as extinction: the [SPICE thesis, UMD](https://drum.lib.umd.edu/handle/1903/13569), Ch. 2, turns the fuel off at the end of each run. |
+
+Not labelled: CFI-G `FT` and `-`, SAFFIRE-II lengths in cm, and any value a rule does not recognise.
 
 Input is validated with Pydantic at the boundary. Out-of-range values return `422`. If the model is not
 configured or the request fails, the response is `503` with a generic message. Details go to the server log
