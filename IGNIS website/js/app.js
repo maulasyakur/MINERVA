@@ -196,7 +196,7 @@ function fmtRate(v){ return v >= 10 ? v.toFixed(0) : v >= 1 ? v.toFixed(1) : v >
 // Approximate limiting oxygen index (% O2, 1 g, ambient pressure) from the flammability literature, for the solids in the dataset.
 const PHYS = {
   pmma:{cls:'thick', loi:17.3}, pmma_like:{cls:'thick', loi:17.3, note:'treated as PMMA'},
-  ultem:{cls:'thick', loi:47},   // silicone removed: the only LOI found (30%) is for an additive-filled foam, not neat silicone
+  // Silicone and Ultem are not listed: no primary source gives a neat-material LOI for them (silicone: only an additive-filled foam at 30%; Ultem: only a modified PEI at 51%).
   sibal:{cls:'thin', loi:19}, nomex:{cls:'thin', loi:28}
 };
 const BASE = {thin:{opp:[1,4], con:[10,50]}, thick:{opp:[0.05,0.2], con:[1,10]}};   // Earth, 21% O2, still air, mm/s
@@ -208,14 +208,15 @@ function estimate(s){
     const DROP = {methanol:{k21:.482, slope:.0135, pf:1.34, n:154},
                   heptane:{k21:.515, slope:.0139, pf:1.72, n:113}};
     const d = DROP[s.fuel];
-    const gfac = s.g < .01 ? 1 : (.85 + .15*Math.sqrt(s.g));
+    // No reduced-gravity adjustment: the FLEX data are microgravity only, and the sign of the gravity effect on K is not settled.
+    const gfac = 1;
     const scale = Math.pow(10, (d ? d.slope : .0136) * (s.o2 - 21)) * gfac;
     if (d){
       const mid = d.k21*scale;
       basis.push(`Burning-rate constant K from ${d.n} recorded FLEX runs of ${FUELS[s.fuel].name.toLowerCase()}, fitted on the log scale against oxygen.`);
       basis.push(`At 21% O₂ the fit gives K ≈ ${d.k21.toFixed(2)} mm²/s; each extra point of oxygen raises K by about ${((Math.pow(10, d.slope)-1)*100).toFixed(1)}%.`);
       basis.push(`The range is the 90% spread of individual recorded runs around the fit (factor ${d.pf} either way), so a single real run can fall outside the fit's central value.`);
-      basis.push(s.g < .01 ? 'These runs were all in microgravity, so this value is a microgravity fit.' : 'The FLEX runs were all in microgravity; the reduced-gravity adjustment here is an approximation.');
+      basis.push(s.g < .01 ? 'These runs were all in microgravity, so this value is a microgravity fit.' : 'The FLEX runs were all in microgravity, so the value is not adjusted for other gravity levels. The effect of gravity on K is not settled in the literature.');
       return {kind:'K', unit:'mm²/s', lo:mid/d.pf, hi:mid*d.pf, mid, rel:scale, relText:`${scale.toFixed(2)}× the 21% O₂ value`, ext:false, margin:99, basis, limit:null};
     }
     basis.push('Droplet fires are rated by their burning-rate constant K (how fast the droplet\'s diameter² shrinks), not by surface spread.');
