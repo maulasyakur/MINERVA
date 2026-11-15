@@ -565,6 +565,25 @@ async function askAI(){
 }
 $('r-ai-btn').addEventListener('click', askAI);
 
+/* ---------- Word report for the current scenario (ai-engine /report, via /api/report) ---------- */
+async function downloadReport(){
+  const btn = $('r-report'), label = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Preparing…';
+  try {
+    const narrative = $('r-ai').innerText || '';
+    const r = await fetch('/api/report', {method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({scenario:{env:S.env, g:S.g, o2:S.o2, flow:S.flow, mat:S.fuel, p:S.p, dir:S.dir}, narrative: narrative.slice(0, 4000)})});
+    if (!r.ok){ const j = await r.json().catch(() => ({})); throw new Error(j.error || 'HTTP ' + r.status); }
+    const url = URL.createObjectURL(await r.blob());
+    const a = document.createElement('a'); a.href = url; a.download = 'minerva-scenario.docx';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  } catch (err){
+    alert(`Report unavailable (${err.message}).`);
+  } finally { btn.disabled = false; btn.textContent = label; }
+}
+$('r-report').addEventListener('click', downloadReport);
+
 /* ---------- Ask the dataset (ai-engine /ask, via /api/ask) ---------- */
 async function askDataset(e){
   e.preventDefault();
@@ -668,6 +687,21 @@ async function rankCsv(file, mapping){
     if (im >= 0 && fuel && !String(r[im] || '').toLowerCase().includes(fuel)) cost += CSV_PENALTY;
     return { r, k, cost };
   }).sort((a, b) => a.cost - b.cost).slice(0, 5);
+  // Data checks, run here in the browser. Flags values that are likely wrong or unit mix-ups.
+  const checks = [];
+  const flagCol = (label, i, test, why) => {
+    if (i < 0) return;
+    const bad = body.filter(r => { const v = num(r, i); return !isNaN(v) && test(v); }).length;
+    const blank = body.filter(r => String(r[i] || '').trim() === '').length;
+    if (bad) checks.push(`${label}: ${bad} value(s) ${why}`);
+    if (blank > body.length / 2) checks.push(`${label}: ${blank} of ${body.length} rows are blank`);
+  };
+  flagCol('O₂', io, v => v < 0 || v > 100, 'outside 0–100 %');
+  flagCol('Airflow', ifl, v => v < 0, 'negative (check the sign convention)');
+  flagCol('Pressure', ip, v => v * pScale < 20 || v * pScale > 300, 'outside 20–300 kPa after unit conversion');
+  if (io < 0 && ifl < 0 && ip < 0) checks.push('No O₂, airflow, or pressure column was matched, so rows cannot be scored on those.');
+  if (checks.length){ put('Data checks:'); checks.forEach(c => put(`• ${c}`)); }
+  else put('Data checks: no problems found.');
   put(`Closest rows to the current scenario (${body.length} rows checked in your browser):`);
   for (const x of scored){
     const cell = i => i >= 0 && String(x.r[i] || '').trim() !== '' ? String(x.r[i]).trim() : '—';
@@ -675,6 +709,27 @@ async function rankCsv(file, mapping){
   }
 }
 $('csvHead').addEventListener('change', mapHeaders);
+
+/* ---------- Coverage gaps (ai-engine /coverage, via /api/coverage) ---------- */
+async function showGaps(){
+  const list = $('gapList'), note = $('gapNote'), btn = $('gapBtn');
+  list.innerHTML = ''; note.textContent = 'Checking…'; btn.disabled = true;
+  try {
+    const r = await fetch('/api/coverage');
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(j.error || 'HTTP ' + r.status);
+    const name = g => g.replace('moon_0.17g','Moon 0.17 g').replace('mars_0.38g','Mars 0.38 g').replace('earth_1g','Earth 1 g').replace('microgravity','Microgravity');
+    note.textContent = `${j.gaps.length} of ${j.total_cells} combinations have no recorded run. ${j.runs_without_o2} runs have no O₂ value and are not placed in the grid.`;
+    for (const c of j.gaps){
+      const li = document.createElement('li');
+      li.textContent = `${name(c.gravity)} · ${c.fuel} · O₂ ${c.o2_band}`;
+      list.appendChild(li);
+    }
+  } catch (err){
+    note.textContent = `Coverage unavailable (${err.message}).`;
+  } finally { btn.disabled = false; }
+}
+$('gapBtn').addEventListener('click', showGaps);
 if (window.claude && typeof window.claude.use === 'function'){
   window.claude.use('sample').then(fn => { if (fn){ sampleFn = fn; if (!$('view-results').hidden) $('r-ai-btn').hidden = false; } }).catch(() => {});
 } else if (location.protocol.startsWith('http')){

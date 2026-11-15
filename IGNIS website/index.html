@@ -143,6 +143,13 @@
         <ul class="ask-sources" id="csvTop"></ul>
       </div>
     </div>
+    <div class="panel" aria-labelledby="gap-h" style="margin-top:16px">
+      <div class="panel-title"><h3 id="gap-h">Where the data has no runs</h3><span class="tag info">Gravity × fuel × O₂</span></div>
+      <p class="hint">Counted from recorded runs. Empty combinations are the experiments that would fill the gaps.</p>
+      <button type="button" class="btn small" id="gapBtn">Show gaps</button>
+      <p class="hint" id="gapNote"></p>
+      <ul class="ask-sources" id="gapList"></ul>
+    </div>
   </section>
 </div>
 
@@ -169,6 +176,7 @@
         <div class="ai-foot">
           <span class="ai-src" id="r-ai-src">Rule-based interpretation</span>
           <button type="button" class="btn small" id="r-ai-btn" hidden>Ask MINERVA AI</button>
+          <button type="button" class="btn small" id="r-report">Download Word report</button>
         </div>
         <details class="notes">
           <summary>Data and physics notes</summary>

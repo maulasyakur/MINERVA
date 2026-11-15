@@ -1,8 +1,10 @@
 """MINERVA AI engine: FastAPI service wrapping the OpenAI SDK (OpenAI or a vLLM server on RunPod)."""
 from fastapi import FastAPI
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, Response
 
 from . import ask as ask_mod
+from . import coverage as coverage_mod
+from .report import ReportRequest, build_report
 from . import columns as columns_mod
 from . import explain as explain_mod
 from .config import settings
@@ -59,3 +61,19 @@ def generate(req: GenerateRequest):
 def dataset_summary():
     rows = load_rows()
     return {"runs": len(rows), "path": str(settings.dataset_path)}
+
+
+@app.post("/report")
+def report(req: ReportRequest):
+    data = build_report(req)
+    return Response(
+        content=data,
+        media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        headers={"Content-Disposition": 'attachment; filename="minerva-scenario.docx"'},
+    )
+
+
+@app.get("/coverage")
+def experiment_coverage():
+    # Counts recorded runs per gravity x fuel class x oxygen band; no model involved.
+    return coverage_mod.coverage()

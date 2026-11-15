@@ -1,0 +1,275 @@
+row_index,dataset,psi_id,test_id,ignition,sustained_burn,spread_observed,extinguished,evidence
+0,FLEX,PSI-69,1 / 20CAL08,unknown,unknown,unknown,no,Test end: Disruption
+1,FLEX,PSI-69,2 / 20CAL10,unknown,unknown,unknown,yes,Test end: Extinction
+2,FLEX,PSI-69,3 / 20CAL12,unknown,unknown,unknown,yes,Test end: Extinction
+3,FLEX,PSI-69,4 / 30CAL02,unknown,unknown,unknown,yes,Test end: Extinction
+4,FLEX,PSI-69,5 / 30CAL03,unknown,unknown,unknown,yes,Test end: Extinction
+5,FLEX,PSI-69,6 / 40CAL01,unknown,unknown,unknown,yes,Test end: Extinction
+6,FLEX,PSI-69,7 / 20CAL13,unknown,unknown,unknown,no,Test end: Disruption
+7,FLEX,PSI-69,8 / 30CAL06,unknown,unknown,unknown,no,Test end: Disruption
+8,FLEX,PSI-69,9 / 30CAL07,unknown,unknown,unknown,no,Test end: Disruption
+9,FLEX,PSI-69,10 / 256F002,unknown,unknown,unknown,yes,Test end: Extinction
+10,FLEX,PSI-69,11 / 256R001,unknown,unknown,unknown,yes,Test end: Extinction
+11,FLEX,PSI-69,12 / 264F003,unknown,unknown,unknown,no,Test end: Disruption
+12,FLEX,PSI-69,13 / 256R002,unknown,unknown,unknown,yes,Test end: Extinction
+13,FLEX,PSI-69,14 / 256F007,unknown,unknown,unknown,yes,Test end: Extinction
+14,FLEX,PSI-69,15 / 256F008,unknown,unknown,unknown,yes,Test end: Extinction
+15,FLEX,PSI-69,16 / 256F009,unknown,unknown,unknown,yes,Test end: Extinction
+16,FLEX,PSI-69,17 / 240R003,unknown,unknown,unknown,no,Test end: Disruption
+17,FLEX,PSI-69,18 / 248F001,unknown,unknown,unknown,yes,Test end: Extinction
+18,FLEX,PSI-69,19 / 196F001,unknown,unknown,unknown,no,Test end: Disruption
+19,FLEX,PSI-69,20 / 192F001,yes,yes,unknown,yes,"Burn time; s: 17.4, Test end: Completion"
+20,FLEX,PSI-69,21 / 192F002,unknown,unknown,unknown,no,Test end: Disruption
+21,FLEX,PSI-69,22 / 192F003,unknown,unknown,unknown,no,Test end: Disruption
+22,FLEX,PSI-69,23 / 196F002,unknown,unknown,unknown,no,Test end: Disruption
+23,FLEX,PSI-69,24 / 196F003,unknown,unknown,unknown,no,Test end: Disruption
+24,FLEX,PSI-69,25 / 191R001,yes,yes,unknown,yes,"Burn time; s: 10.3, Test end: Completion"
+25,FLEX,PSI-69,26 / 191F001,unknown,unknown,unknown,no,Test end: Disruption
+26,FLEX,PSI-69,27 / 195F001,unknown,unknown,unknown,no,Test end: Disruption
+27,FLEX,PSI-69,28 / 195F002,unknown,unknown,unknown,no,Test end: Disruption
+28,FLEX,PSI-69,29 / 178R001,yes,yes,unknown,yes,"Burn time; s: 10.4, Test end: Completion"
+29,FLEX,PSI-69,30 / 178F001,unknown,unknown,unknown,yes,Test end: Extinction
+30,FLEX,PSI-69,31 / 182F001,unknown,unknown,unknown,no,Test end: Disruption
+31,FLEX,PSI-69,32 / 182F002,yes,yes,unknown,unknown,Burn time; s: 14
+32,FLEX,PSI-69,33 / 177R002,unknown,unknown,unknown,yes,Test end: Extinction
+33,FLEX,PSI-69,34 / 177F001,unknown,unknown,unknown,yes,Test end: Extinction
+34,FLEX,PSI-69,35 / 181F001,unknown,unknown,unknown,yes,Test end: Extinction
+35,FLEX,PSI-69,36 / 190R002,unknown,unknown,unknown,yes,Test end: Extinction
+36,FLEX,PSI-69,37 / 220R001,unknown,unknown,unknown,no,Test end: Disruption
+37,FLEX,PSI-69,38 / 220R002,unknown,unknown,unknown,no,Test end: Disruption
+38,FLEX,PSI-69,39 / 224F001,unknown,unknown,unknown,no,Test end: Disruption
+39,FLEX,PSI-69,40 / 219R001,unknown,unknown,unknown,no,Test end: Disruption
+40,FLEX,PSI-69,41 / 219F001,unknown,unknown,unknown,no,Test end: Disruption
+41,FLEX,PSI-69,42 / 223F001,unknown,unknown,unknown,no,Test end: Disruption
+42,FLEX,PSI-69,43 / 223F002,unknown,unknown,unknown,no,Test end: Disruption
+43,FLEX,PSI-69,44 / 206F001,unknown,unknown,unknown,no,Test end: Disruption
+44,FLEX,PSI-69,45 / 206R001,unknown,unknown,unknown,yes,Test end: Extinction
+45,FLEX,PSI-69,46 / 205R001,unknown,unknown,unknown,no,Test end: Disruption
+46,FLEX,PSI-69,47 / 209F001,yes,yes,unknown,no,"Burn time; s: 17.1, Test end: Completion"
+47,FLEX,PSI-69,48 / 205F001,unknown,unknown,unknown,no,Test end: Disruption
+48,FLEX,PSI-69,49 / 209F003,unknown,unknown,unknown,yes,Test end: Extinction
+49,FLEX,PSI-69,50 / 209F004,unknown,unknown,unknown,yes,Test end: Extinction
+50,FLEX,PSI-69,51 / 209F005,yes,yes,unknown,yes,"Burn time; s: 8.2, Test end: Completion"
+51,FLEX,PSI-69,52 / 210F002,unknown,unknown,unknown,no,Test end: Disruption
+52,FLEX,PSI-69,53 / 209F002,unknown,unknown,unknown,no,Test end: Disruption
+53,FLEX,PSI-69,54 / 190F003,unknown,unknown,unknown,yes,Test end: Extinction
+54,FLEX,PSI-69,55 / 218F001,unknown,unknown,unknown,no,Test end: Disruption
+55,FLEX,PSI-69,56 / 194F001,yes,yes,unknown,no,"Burn time; s: 7.9, Test end: Completion"
+56,FLEX,PSI-69,57 / 303F001,unknown,unknown,unknown,yes,Test end: Extinction
+57,FLEX,PSI-69,58 / 176F001,unknown,unknown,unknown,yes,Test end: Extinction
+58,FLEX,PSI-69,59 / 176R001,unknown,unknown,unknown,yes,Test end: Extinction
+59,FLEX,PSI-69,60 / 204F001,unknown,unknown,unknown,yes,Test end: Extinction
+60,FLEX,PSI-69,61 / 204R001,unknown,unknown,unknown,yes,Test end: Extinction
+61,FLEX,PSI-69,62 / 301F001,unknown,unknown,unknown,yes,Test end: Extinction
+62,FLEX,PSI-69,63 / 301F002,yes,yes,unknown,no,"Burn time; s: 9.6, Test end: Completion"
+63,FLEX,PSI-69,64 / 302F001,unknown,unknown,unknown,yes,Test end: Extinction
+64,FLEX,PSI-69,65 / 189R001,unknown,unknown,unknown,yes,Test end: Extinction
+65,FLEX,PSI-69,66 / 189F001,unknown,unknown,unknown,yes,Test end: Extinction
+66,FLEX,PSI-69,67 / 189F002,unknown,unknown,unknown,yes,Test end: Extinction
+67,FLEX,PSI-69,68 / 189R003,unknown,unknown,unknown,yes,Test end: Extinction
+68,FLEX,PSI-69,69 / 193R002,yes,yes,unknown,no,"Burn time; s: 1.3, Test end: Completion"
+69,FLEX,PSI-69,70 / 193F001,unknown,unknown,unknown,yes,Test end: Extinction
+70,FLEX,PSI-69,71 / 189R002,unknown,unknown,unknown,yes,Test end: Extinction
+71,FLEX,PSI-69,72 / 193R001,yes,yes,unknown,no,"Burning rate; mm: 0.52, Burn time; s: 2.5, Test end: Completion"
+72,FLEX,PSI-69,73 / 193F001,unknown,unknown,unknown,yes,Test end: Extinction
+73,FLEX,PSI-69,74 / 221F001,yes,yes,unknown,unknown,"Burning rate; mm"": ""0.77"", ""Burn time; s"": ""2.3"""
+74,FLEX,PSI-69,75 / 203R002,unknown,unknown,unknown,yes,Test end: Extinction
+75,FLEX,PSI-69,76 / 203F001,unknown,unknown,unknown,yes,Test end: Extinction
+76,FLEX,PSI-69,77 / 175R001,unknown,unknown,unknown,yes,Test end: Extinction
+77,FLEX,PSI-69,78 / 175F001,unknown,unknown,unknown,yes,Test end: Extinction
+78,FLEX,PSI-69,79 / 179F001,unknown,unknown,unknown,yes,Test end: Extinction
+79,FLEX,PSI-69,80 / 207F001,unknown,unknown,unknown,yes,Test end: Extinction
+80,FLEX,PSI-69,81 / 207F002,unknown,unknown,unknown,yes,Test end: Extinction
+81,FLEX,PSI-69,82 / 304F001,unknown,unknown,unknown,yes,Test end: Extinction
+82,FLEX,PSI-69,83 / 304F002,unknown,unknown,unknown,yes,Test end: Extinction
+83,FLEX,PSI-69,84 / 304R001,unknown,unknown,unknown,yes,Test end: Extinction
+84,FLEX,PSI-69,85 / 304R002,unknown,unknown,unknown,yes,Test end: Extinction
+85,FLEX,PSI-69,86 / 305F002,unknown,unknown,unknown,yes,Test end: Extinction
+86,FLEX,PSI-69,87 / 305F003,unknown,unknown,unknown,yes,Test end: Extinction
+87,FLEX,PSI-69,88 / 053R001,unknown,unknown,unknown,no,Test end: Disruption
+88,FLEX,PSI-69,89 / 053F001,unknown,unknown,unknown,no,Test end: Disruption
+89,FLEX,PSI-69,90 / 141R001,unknown,unknown,unknown,no,Test end: Disruption
+90,FLEX,PSI-69,91 / 141F001,unknown,unknown,unknown,no,Test end: Disruption
+91,FLEX,PSI-69,92 / 061F002,unknown,unknown,unknown,no,Test end: Disruption
+92,FLEX,PSI-69,93 / 149F001,unknown,unknown,unknown,no,Test end: Disruption
+93,FLEX,PSI-69,94 / C08H101,unknown,unknown,unknown,yes,Test end: Extinction
+94,FLEX,PSI-69,95 / C08H201,unknown,unknown,unknown,yes,Test end: Extinction
+95,FLEX,PSI-69,96 / C08H301,unknown,unknown,unknown,no,Test end: Disruption
+96,FLEX,PSI-69,97 / C08M101,yes,yes,unknown,yes,"Burn time; s: 26.5, Test end: Completion"
+97,FLEX,PSI-69,98 / C09M201,unknown,unknown,unknown,yes,Test end: Extinction
+98,FLEX,PSI-69,99 / C09M101,unknown,unknown,unknown,yes,Test end: Extinction
+99,FLEX,PSI-69,100 / C09H101,unknown,unknown,unknown,yes,Test end: Extinction
+100,FLEX,PSI-69,101 / C09H201,unknown,unknown,unknown,yes,Test end: Extinction
+101,FLEX,PSI-69,102 / C10H101,unknown,unknown,unknown,yes,Test end: Extinction
+102,FLEX,PSI-69,103 / C10H201,unknown,unknown,unknown,yes,Test end: Extinction
+103,FLEX,PSI-69,104 / C08M201,unknown,unknown,unknown,yes,Test end: Extinction
+104,FLEX,PSI-69,105 / C08M301,unknown,unknown,unknown,no,Test end: Disruption
+105,FLEX,PSI-69,106 / C09M401,unknown,unknown,unknown,no,Test end: Disruption
+106,FLEX,PSI-69,107 / C08M401,unknown,unknown,unknown,no,Test end: Disruption
+107,FLEX,PSI-69,108 / C09M301,yes,yes,unknown,no,"Burn time; s: 24.3, Test end: Completion"
+108,FLEX,PSI-69,109 / C10M102,unknown,unknown,unknown,yes,Test end: Extinction
+109,FLEX,PSI-69,110 / C10M201,unknown,unknown,unknown,yes,Test end: Extinction
+110,FLEX,PSI-69,111 / C10M303,yes,yes,unknown,no,"Burn time; s: 16.4, Test end: Completion"
+111,FLEX,PSI-69,112 / C10M401,yes,yes,unknown,no,"Burn time; s: 25.2, Test end: Completion"
+112,FLEX,PSI-69,113 / C11M101,unknown,unknown,unknown,yes,Test end: Extinction
+113,FLEX,PSI-69,114 / C11M201,unknown,unknown,unknown,yes,Test end: Extinction
+114,FLEX,PSI-69,115 / C11M301,unknown,unknown,unknown,yes,Test end: Extinction
+115,FLEX,PSI-69,116 / C11M401,unknown,unknown,unknown,yes,Test end: Extinction
+116,FLEX,PSI-69,117 / C11H101,unknown,unknown,unknown,yes,Test end: Extinction
+117,FLEX,PSI-69,118 / C11H201,unknown,unknown,unknown,yes,Test end: Extinction
+118,FLEX,PSI-69,119 / C12H103,unknown,unknown,unknown,yes,Test end: Extinction
+119,FLEX,PSI-69,120 / C12H201,unknown,unknown,unknown,yes,Test end: Extinction
+120,FLEX,PSI-69,121 / C12M101,unknown,unknown,unknown,yes,Test end: Extinction
+121,FLEX,PSI-69,122 / C12M201,unknown,unknown,unknown,yes,Test end: Extinction
+122,FLEX,PSI-69,123 / C12M301,unknown,unknown,unknown,yes,Test end: Extinction
+123,FLEX,PSI-69,124 / C12M401,unknown,unknown,unknown,yes,Test end: Extinction
+124,FLEX,PSI-69,125 / C13M103,unknown,unknown,unknown,yes,Test end: Extinction
+125,FLEX,PSI-69,126 / C13M201,unknown,unknown,unknown,yes,Test end: Extinction
+126,FLEX,PSI-69,127 / C13M301,unknown,unknown,unknown,yes,Test end: Extinction
+127,FLEX,PSI-69,128 / C13M401,unknown,unknown,unknown,yes,Test end: Extinction
+128,FLEX,PSI-69,129 / C13H102,unknown,unknown,unknown,yes,Test end: Extinction
+129,FLEX,PSI-69,130 / C13H201,unknown,unknown,unknown,yes,Test end: Extinction
+130,FLEX,PSI-69,131 / C21H101,unknown,unknown,unknown,no,Test end: Disruption
+131,FLEX,PSI-69,132 / C21H201,unknown,unknown,unknown,no,Test end: Disruption
+132,FLEX,PSI-69,133 / C21H301,unknown,unknown,unknown,no,Test end: Disruption
+133,FLEX,PSI-69,134 / C21H401,unknown,unknown,unknown,yes,Test end: Extinction
+134,FLEX,PSI-69,135 / C21H501,yes,yes,unknown,no,"Burn time; s: 10.8, Test end: Completion"
+135,FLEX,PSI-69,136 / C21H302,yes,yes,unknown,no,"Burn time; s: 17, Test end: Completion"
+136,FLEX,PSI-69,137 / C21H303,unknown,unknown,unknown,no,Test end: Disruption
+137,FLEX,PSI-69,138 / C21H304,unknown,unknown,unknown,no,Test end: Disruption
+138,FLEX,PSI-69,139 / C21H305,unknown,unknown,unknown,no,Test end: Disruption
+139,FLEX,PSI-69,140 / C14M101,unknown,unknown,unknown,yes,Test end: Extinction
+140,FLEX,PSI-69,141 / C14M201,unknown,unknown,unknown,yes,Test end: Extinction
+141,FLEX,PSI-69,142 / C14M301,unknown,unknown,unknown,yes,Test end: Extinction
+142,FLEX,PSI-69,143 / C14M302,unknown,unknown,unknown,yes,Test end: Extinction
+143,FLEX,PSI-69,144 / C01M101,unknown,unknown,unknown,yes,Test end: Extinction
+144,FLEX,PSI-69,145 / C01M201,unknown,unknown,unknown,yes,Test end: Extinction
+145,FLEX,PSI-69,146 / C01M301,unknown,unknown,unknown,yes,Test end: Extinction
+146,FLEX,PSI-69,147 / C13M102,unknown,unknown,unknown,yes,Test end: Extinction
+147,FLEX,PSI-69,148 / C01H101,unknown,unknown,unknown,no,Test end: Disruption
+148,FLEX,PSI-69,149 / C01H201,unknown,unknown,unknown,no,Test end: Disruption
+149,FLEX,PSI-69,150 / C01H302,unknown,unknown,unknown,yes,Test end: Extinction
+150,FLEX,PSI-69,151 / C03M101,yes,yes,unknown,no,"Burn time; s: 31.3, Test end: Completion"
+151,FLEX,PSI-69,152 / C03M201,unknown,unknown,unknown,yes,Test end: Extinction
+152,FLEX,PSI-69,153 / C03M301,unknown,unknown,unknown,yes,Test end: Extinction
+153,FLEX,PSI-69,154 / C03H101,unknown,unknown,unknown,yes,Test end: Extinction
+154,FLEX,PSI-69,155 / C03H201,unknown,unknown,unknown,yes,Test end: Extinction
+155,FLEX,PSI-69,156 / C03H401,yes,yes,unknown,no,"Burn time; s: 3.2, Test end: Completion"
+156,FLEX,PSI-69,157 / C05M101,unknown,unknown,unknown,yes,Test end: Extinction
+157,FLEX,PSI-69,158 / C05M201,unknown,unknown,unknown,yes,Test end: Extinction
+158,FLEX,PSI-69,159 / C05M301,unknown,unknown,unknown,yes,Test end: Extinction
+159,FLEX,PSI-69,160 / C05M401,unknown,unknown,unknown,yes,Test end: Extinction
+160,FLEX,PSI-69,161 / C06M101,unknown,unknown,unknown,yes,Test end: Extinction
+161,FLEX,PSI-69,162 / C06M201,unknown,unknown,unknown,yes,Test end: Extinction
+162,FLEX,PSI-69,163 / C06M301,unknown,unknown,unknown,yes,Test end: Extinction
+163,FLEX,PSI-69,164 / C06M401,unknown,unknown,unknown,yes,Test end: Extinction
+164,FLEX,PSI-69,165 / C03H302,unknown,unknown,unknown,yes,Test end: Extinction
+165,FLEX,PSI-69,166 / C07M101,unknown,unknown,unknown,yes,Test end: Extinction
+166,FLEX,PSI-69,167 / C07M201,unknown,unknown,unknown,yes,Test end: Extinction
+167,FLEX,PSI-69,168 / C15M101,unknown,unknown,unknown,no,Test end: Disruption
+168,FLEX,PSI-69,169 / C15M201,unknown,unknown,unknown,yes,Test end: Extinction
+169,FLEX,PSI-69,170 / C15M301,unknown,unknown,unknown,yes,Test end: Extinction
+170,FLEX,PSI-69,171 / C03H501,unknown,unknown,unknown,yes,Test end: Extinction
+171,FLEX,PSI-69,172 / C03H601,unknown,unknown,unknown,yes,Test end: Extinction
+172,FLEX,PSI-69,173 / C03H701,unknown,unknown,unknown,no,Test end: Disruption
+173,FLEX,PSI-69,174 / C08H502,unknown,unknown,unknown,no,Test end: Disruption
+174,FLEX,PSI-69,175 / C08H601,unknown,unknown,unknown,no,Test end: Disruption
+175,FLEX,PSI-69,176 / C08M501,unknown,unknown,unknown,yes,Test end: Extinction
+176,FLEX,PSI-69,177 / C08M601,unknown,unknown,unknown,yes,Test end: Extinction
+177,FLEX,PSI-69,178 / C09H501,unknown,unknown,unknown,yes,Test end: Extinction
+178,FLEX,PSI-69,179 / C09H601,unknown,unknown,unknown,no,Test end: Disruption
+179,FLEX,PSI-69,180 / C02H101,unknown,unknown,unknown,yes,Test end: Extinction
+180,FLEX,PSI-69,181 / C02H201,unknown,unknown,unknown,yes,Test end: Extinction
+181,FLEX,PSI-69,182 / C02H202,unknown,unknown,unknown,no,Test end: Disruption
+182,FLEX,PSI-69,183 / C09M501,unknown,unknown,unknown,yes,Test end: Extinction
+183,FLEX,PSI-69,184 / C09M502,unknown,unknown,unknown,yes,Test end: Extinction
+184,FLEX,PSI-69,185 / C09M601,unknown,unknown,unknown,yes,Test end: Extinction
+185,FLEX,PSI-69,186 / C09M701,unknown,unknown,unknown,yes,Test end: Extinction
+186,FLEX,PSI-69,187 / C02M101,unknown,unknown,unknown,yes,Test end: Extinction
+187,FLEX,PSI-69,188 / C02M201,unknown,unknown,unknown,yes,Test end: Extinction
+188,FLEX,PSI-69,189 / C03M501,unknown,unknown,unknown,yes,Test end: Extinction
+189,FLEX,PSI-69,190 / C03M601,unknown,unknown,unknown,yes,Test end: Extinction
+190,FLEX,PSI-69,191 / C03M701,unknown,unknown,unknown,yes,Test end: Extinction
+191,FLEX,PSI-69,192 / C04M101,unknown,unknown,unknown,yes,Test end: Extinction
+192,FLEX,PSI-69,193 / C04M201,unknown,unknown,unknown,yes,Test end: Extinction
+193,FLEX,PSI-69,194 / C04H101,unknown,unknown,unknown,yes,Test end: Extinction
+194,FLEX,PSI-69,195 / C04H201,unknown,unknown,unknown,yes,Test end: Extinction
+195,FLEX,PSI-69,196 / C01H501,unknown,unknown,unknown,yes,Test end: Extinction
+196,FLEX,PSI-69,197 / C01H601,unknown,unknown,unknown,yes,Test end: Extinction
+197,FLEX,PSI-69,198 / C01H701,unknown,unknown,unknown,no,Test end: Disruption
+198,FLEX,PSI-69,199 / C01M501,unknown,unknown,unknown,yes,Test end: Extinction
+199,FLEX,PSI-69,200 / C01M602,unknown,unknown,unknown,yes,Test end: Extinction
+200,FLEX,PSI-69,201 / C01M603,unknown,unknown,unknown,yes,Test end: Extinction
+201,FLEX,PSI-69,202 / N01M101,unknown,unknown,unknown,yes,Test end: Extinction
+202,FLEX,PSI-69,203 / N01M201,unknown,unknown,unknown,yes,Test end: Extinction
+203,FLEX,PSI-69,204 / N01H101,unknown,unknown,unknown,no,Test end: Disruption
+204,FLEX,PSI-69,205 / N01H102,unknown,unknown,unknown,no,Test end: Disruption
+205,FLEX,PSI-69,206 / N01H201,unknown,unknown,unknown,no,Test end: Disruption
+206,FLEX,PSI-69,207 / N01H202,yes,yes,unknown,no,"Burn time; s: 11.5, Test end: Completion"
+207,FLEX,PSI-69,208 / N01H301,yes,yes,unknown,no,"Burn time; s: 12.8, Test end: Completion"
+208,FLEX,PSI-69,209 / N02H101,unknown,unknown,unknown,yes,Test end: Extinction
+209,FLEX,PSI-69,210 / N02H201,unknown,unknown,unknown,yes,Test end: Extinction
+210,FLEX,PSI-69,211 / N02H203,unknown,unknown,unknown,yes,Test end: Extinction
+211,FLEX,PSI-69,212 / N03H101,unknown,unknown,unknown,yes,Test end: Extinction
+212,FLEX,PSI-69,213 / N04H101,unknown,unknown,unknown,yes,Test end: Extinction
+213,FLEX,PSI-69,214 / N04H201,unknown,unknown,unknown,yes,Test end: Extinction
+214,FLEX,PSI-69,215 / N04M101,unknown,unknown,unknown,yes,Test end: Extinction
+215,FLEX,PSI-69,216 / N04M201,unknown,unknown,unknown,yes,Test end: Extinction
+216,FLEX,PSI-69,217 / N05M101,unknown,unknown,unknown,yes,Test end: Extinction
+217,FLEX,PSI-69,218 / N05M201,unknown,unknown,unknown,yes,Test end: Extinction
+218,FLEX,PSI-69,219 / N06M101,unknown,unknown,unknown,yes,Test end: Extinction
+219,FLEX,PSI-69,220 / N06M201,unknown,unknown,unknown,yes,Test end: Extinction
+220,FLEX,PSI-69,221 / N06M202,unknown,unknown,unknown,yes,Test end: Extinction
+221,FLEX,PSI-69,222 / H01M102,unknown,unknown,unknown,yes,Test end: Extinction
+222,FLEX,PSI-69,223 / H01M104,unknown,unknown,unknown,yes,Test end: Extinction
+223,FLEX,PSI-69,224 / H01H102,yes,yes,unknown,unknown,"Burning rate; mm"": ""0.57"", ""Burn time; s"": ""~9"""
+224,FLEX,PSI-69,225 / H02M101,unknown,unknown,unknown,yes,Test end: Extinction
+225,FLEX,PSI-69,226 / H03M101,unknown,unknown,unknown,yes,Test end: Extinction
+226,FLEX,PSI-69,227 / H03M201,unknown,unknown,unknown,yes,Test end: Extinction
+227,FLEX,PSI-69,228 / N01H401,unknown,unknown,unknown,yes,Test end: Extinction
+228,FLEX,PSI-69,229 / N01H502,unknown,unknown,unknown,no,Test end: Disruption
+229,FLEX,PSI-69,230 / N01H601,unknown,unknown,unknown,yes,Test end: Extinction
+230,FLEX,PSI-69,231 / H02H101,unknown,unknown,unknown,no,Test end: Disruption
+231,FLEX,PSI-69,232 / H03H101,unknown,unknown,unknown,yes,Test end: Extinction
+232,FLEX,PSI-69,233 / H03H201,yes,yes,unknown,unknown,"Burning rate; mm: 0.49, Burn time; s: 9.1"
+233,FLEX,PSI-69,234 / H03H202,yes,yes,unknown,yes,"Burn time; s: 8.6, Test end: Completion"
+234,FLEX,PSI-69,235 / H04H101,unknown,unknown,unknown,yes,Test end: Extinction
+235,FLEX,PSI-69,236 / H04H201,unknown,unknown,unknown,yes,Test end: Extinction
+236,FLEX,PSI-69,237 / H04H302,unknown,unknown,unknown,no,Test end: Disruption
+237,FLEX,PSI-69,238 / H04H303,yes,yes,unknown,yes,"Burn time; s: 2.7, Test end: Completion"
+238,FLEX,PSI-69,239 / H04M101,unknown,unknown,unknown,yes,Test end: Extinction
+239,FLEX,PSI-69,240 / H04M202,unknown,unknown,unknown,yes,Test end: Extinction
+240,FLEX,PSI-69,241 / H05M102,unknown,unknown,unknown,yes,Test end: Extinction
+241,FLEX,PSI-69,242 / H05M202,unknown,unknown,unknown,yes,Test end: Extinction
+242,FLEX,PSI-69,243 / H05H103,unknown,unknown,unknown,yes,Test end: Extinction
+243,FLEX,PSI-69,244 / H06M102,unknown,unknown,unknown,yes,Test end: Extinction
+244,FLEX,PSI-69,245 / H06M201,unknown,unknown,unknown,yes,Test end: Extinction
+245,FLEX,PSI-69,246 / H07M101,unknown,unknown,unknown,yes,Test end: Extinction
+246,FLEX,PSI-69,247 / H07M202,unknown,unknown,unknown,yes,Test end: Extinction
+247,FLEX,PSI-69,248 / H08M101,unknown,unknown,unknown,yes,Test end: Extinction
+248,FLEX,PSI-69,249 / H10H101,unknown,unknown,unknown,yes,Test end: Extinction
+249,FLEX,PSI-69,250 / H11H101,yes,yes,unknown,yes,"Burn time; s: 11.4, Test end: Completion"
+250,FLEX,PSI-69,251 / H10M101,unknown,unknown,unknown,yes,Test end: Extinction
+251,FLEX,PSI-69,252 / H10M102,unknown,unknown,unknown,no,Test end: Disruption
+252,FLEX,PSI-69,253 / H11M101,unknown,unknown,unknown,yes,Test end: Extinction
+253,FLEX,PSI-69,254 / H11M102,unknown,unknown,unknown,no,Test end: Disruption
+254,FLEX,PSI-69,255 / H12M101,unknown,unknown,unknown,yes,Test end: Extinction
+255,FLEX,PSI-69,256 / H12M102,unknown,unknown,unknown,yes,Test end: Extinction
+256,FLEX,PSI-69,257 / H12M201,unknown,unknown,unknown,yes,Test end: Extinction
+257,FLEX,PSI-69,258 / H12H101,unknown,unknown,unknown,yes,Test end: Extinction
+258,FLEX,PSI-69,259 / H12H201,unknown,unknown,unknown,yes,Test end: Extinction
+259,FLEX,PSI-69,260 / H13H101,unknown,unknown,unknown,yes,Test end: Extinction
+260,FLEX,PSI-69,261 / H13H201,unknown,unknown,unknown,yes,Test end: Extinction
+261,FLEX,PSI-69,262 / H13M102,unknown,unknown,unknown,yes,Test end: Extinction
+262,FLEX,PSI-69,263 / H13M201,unknown,unknown,unknown,yes,Test end: Extinction
+263,FLEX,PSI-69,264 / H14M101,unknown,unknown,unknown,yes,Test end: Extinction
+264,FLEX,PSI-69,265 / H14M201,unknown,unknown,unknown,yes,Test end: Extinction
+265,FLEX,PSI-69,266 / H14M202,unknown,unknown,unknown,yes,Test end: Extinction
+266,FLEX,PSI-69,267 / H14H101,unknown,unknown,unknown,yes,Test end: Extinction
+267,FLEX,PSI-69,268 / H14H201,unknown,unknown,unknown,yes,Test end: Extinction
+268,FLEX,PSI-69,269 / H15H101,unknown,unknown,unknown,yes,Test end: Extinction
+269,FLEX,PSI-69,270 / H15H201,yes,yes,unknown,no,"Burn time; s: 1.4, Test end: Completion"
+270,FLEX,PSI-69,271 / H15M102,unknown,unknown,unknown,yes,Test end: Extinction
+271,FLEX,PSI-69,272 / H15M201,unknown,unknown,unknown,yes,Test end: Extinction
+272,FLEX,PSI-69,273 / H19H101,unknown,unknown,unknown,yes,Test end: Extinction
+273,FLEX,PSI-69,274 / H19H201,unknown,unknown,unknown,yes,Test end: Extinction

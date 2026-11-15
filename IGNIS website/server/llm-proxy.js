@@ -148,6 +148,49 @@ async function handleColumns(req, res) {
   }
 }
 
+// Word report for a scenario: forwarded to the ai-engine /report endpoint; the .docx is passed through.
+async function handleReport(req, res) {
+  let body;
+  try { body = JSON.parse(await readBody(req)); }
+  catch (e) { return send(res, 400, { error: 'invalid request body' }); }
+  const scenario = body && body.scenario;
+  const narrative = body && body.narrative == null ? '' : body && body.narrative;
+  if (!scenario || typeof scenario !== 'object') return send(res, 400, { error: 'scenario is required' });
+  if (typeof narrative !== 'string' || narrative.length > 4000) return send(res, 400, { error: 'narrative must be a string of at most 4000 characters' });
+  if (!AI_ENGINE_URL) return send(res, 503, { error: 'AI engine is not configured' });
+  try {
+    const r = await fetch(`${AI_ENGINE_URL}/report`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ scenario, narrative }), signal: AbortSignal.timeout(60000)
+    });
+    if (!r.ok) return send(res, 502, { error: 'report unavailable' });
+    const buf = Buffer.from(await r.arrayBuffer());
+    res.writeHead(200, {
+      'Content-Type': r.headers.get('content-type') || 'application/octet-stream',
+      'Content-Disposition': 'attachment; filename="minerva-scenario.docx"',
+      'Cache-Control': 'no-store'
+    });
+    res.end(buf);
+  } catch (e) {
+    console.error('[report]', e.message);
+    send(res, 502, { error: 'report unavailable' });
+  }
+}
+
+// Coverage counts: forwarded to the ai-engine /coverage endpoint (needs AI_ENGINE_URL).
+async function handleCoverage(res) {
+  if (!AI_ENGINE_URL) return send(res, 503, { error: 'AI engine is not configured' });
+  try {
+    const r = await fetch(`${AI_ENGINE_URL}/coverage`, { signal: AbortSignal.timeout(30000) });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) return send(res, 502, { error: 'coverage unavailable' });
+    send(res, 200, j);
+  } catch (e) {
+    console.error('[coverage]', e.message);
+    send(res, 502, { error: 'coverage unavailable' });
+  }
+}
+
 function serveStatic(req, res) {
   const url = new URL(req.url, 'http://localhost');
   let p = decodeURIComponent(url.pathname);
@@ -165,6 +208,8 @@ http.createServer((req, res) => {
   if (req.method === 'POST' && req.url === '/api/generate') return handleGenerate(req, res);
   if (req.method === 'POST' && req.url === '/api/ask') return handleAsk(req, res);
   if (req.method === 'POST' && req.url === '/api/columns/map') return handleColumns(req, res);
+  if (req.method === 'POST' && req.url === '/api/report') return handleReport(req, res);
+  if (req.method === 'GET' && req.url === '/api/coverage') return handleCoverage(res);
   if (req.method === 'GET' || req.method === 'HEAD') return serveStatic(req, res);
   send(res, 405, 'method not allowed', 'text/plain');
 }).listen(PORT, HOST, () => {
