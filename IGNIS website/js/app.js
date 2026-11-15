@@ -227,11 +227,13 @@ function estimate(s){
   const m = PHYS[s.fuel];
   if (!m) return {none: s.fuel === 'any' ? 'Choose a specific material to get a spread-rate approximation.' : `No oxygen-limit value is on file for ${FUELS[s.fuel].name.toLowerCase()}, so no spread-rate approximation is made.`};
   const name = FUELS[s.fuel].name;
+  basis.push('The base rates and oxygen limits are typical values for each material class, not measured values for this exact sample.');
   let L = m.loi; const lowg = 1 - Math.sqrt(s.g);
   basis.push(`Starts from the approximate oxygen limit of ${name.toLowerCase()} in Earth tests (about ${m.loi}% O₂${m.note ? ', ' + m.note : ''}).`);
   if (ue < 2){ L += 5; basis.push('Near-zero total flow: oxygen arrives only by diffusion, so the effective limit is raised by about 5 points (oxygen starvation).'); }
   else if (ue <= 30 && lowg > .1){ L -= 3*lowg; basis.push(`Gentle flow in ${s.g < .01 ? 'microgravity' : 'reduced gravity'} lets some materials burn below their Earth limit, so the limit is lowered by about ${(3*lowg).toFixed(1)} points.`); }
-  if (s.p && s.p < 100){ L += .03*(101.3 - s.p); basis.push(`Reduced pressure (${s.p} kPa) raises the limit slightly, by about ${(.03*(101.3-s.p)).toFixed(1)} points.`); }
+  // Pressure: the literature does not agree on the direction of the oxygen-limit change at reduced pressure, so no adjustment is applied.
+  if (s.p && s.p < 100) basis.push(`Pressure (${s.p} kPa) is recorded but does not change the estimated oxygen limit here, because its effect is not settled in the literature.`);
   const margin = s.o2 - L;
   const dirs = s.dir === 'concurrent' ? ['con'] : s.dir === 'opposed' ? ['opp'] : ['opp','con'];
   if (!s.dir) basis.push('Flow direction not given, so the band spans opposed (slow) to concurrent (fast) spread.');
@@ -242,7 +244,7 @@ function estimate(s){
   const ref = Math.max(21 - m.loi, 3), n = m.cls === 'thick' ? 2 : 1, earthMargin = s.o2 - m.loi;
   let fo;
   if (earthMargin > 0){ fo = Math.min(Math.pow(earthMargin/ref, n), 6);
-    basis.push(`Oxygen is ${earthMargin.toFixed(1)} points above the Earth limit; spread scales roughly ${n === 2 ? 'with the square of that margin (thick fuel)' : 'linearly with that margin (thin fuel)'} in de Ris flame-spread theory, relative to Earth air.`); }
+    basis.push(`Oxygen is ${earthMargin.toFixed(1)} points above the Earth limit; spread scales roughly ${n === 2 ? 'with the square of that margin (thick fuel)' : 'linearly with that margin (thin fuel)'} in an empirical scaling used here (not a derivation from de Ris theory), relative to Earth air.`); }
   else { fo = Math.min(Math.pow(margin/ref, n), 1)*.5; basis.push('The material would not burn at this oxygen level on Earth; it only burns here because of the low-gravity limit shift, so the flame is weak and slow.'); }
   if (margin < 2){ fo *= Math.max(margin/2, .15); basis.push(`Only ${margin.toFixed(1)} points above the estimated limit (${L.toFixed(1)}%), so the flame is near extinction and slows down.`); }
   const pf = (m.cls === 'thick' && s.p) ? s.p/101.3 : 1;
@@ -389,7 +391,7 @@ function renderSpread(ev){
   $('sr-tag').textContent = 'Physics approximation'; $('sr-tag').className = 'tag warn';
   if (e.ext){ $('sr-big').innerHTML = '≈ 0 <small>mm/s</small>'; $('sr-range').textContent = `Likely self-extinguishing · estimated limit ${e.limit.toFixed(1)}% O₂`; $('sr-method').textContent = 'Oxygen-limit check with gravity, flow and pressure corrections.'; }
   else { $('sr-big').innerHTML = `≈ ${fmtRate(e.mid)} <small>${e.unit}</small>`; $('sr-range').textContent = `Likely range ${fmtRate(e.lo)}–${fmtRate(e.hi)} ${e.unit}`;
-    $('sr-method').textContent = e.kind === 'K' ? 'Droplet burning-rate scaling.' : 'Thermal flame-spread scaling (de Ris) with oxygen-limit, buoyancy and flow corrections.'; }
+    $('sr-method').textContent = e.kind === 'K' ? 'Droplet burning-rate scaling.' : 'Empirical flame-spread approximation with oxygen-limit, buoyancy and flow corrections. Order-of-magnitude only.'; }
   $('sr-rel').textContent = e.relText;
   // compare the approximation with what the nearest runs recorded
   let chk = 'No recorded rate among the nearest runs to compare with.';
