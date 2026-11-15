@@ -1,0 +1,9 @@
+.git/
+.claude/
+.claude-flow/
+docs/
+.env
+.env.*
+clamp*
+typeof
+x.startsWith*

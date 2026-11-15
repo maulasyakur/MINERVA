@@ -1,0 +1,28 @@
+# MINERVA stack: ai-engine (FastAPI + OpenAI SDK) and the IGNIS website (static site + proxy).
+# Run from this folder:  docker compose up --build
+# Put secrets in ai-engine/.env (copy from ai-engine/.env.example). Never commit that file.
+
+services:
+  ai-engine:
+    build: ./ai-engine
+    env_file:
+      - path: ./ai-engine/.env
+        required: false
+    environment:
+      DATASET_PATH: /srv/dataset-psi/merged_psi_combustion_v2.csv
+    volumes:
+      - ./dataset-psi:/srv/dataset-psi:ro
+    ports:
+      - "127.0.0.1:8000:8000"
+    restart: unless-stopped
+
+  web:
+    build: "./IGNIS website"
+    environment:
+      AI_ENGINE_URL: http://ai-engine:8000
+    depends_on:
+      ai-engine:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:8765:8765"
+    restart: unless-stopped

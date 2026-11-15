@@ -530,7 +530,7 @@ Why: the physics (gravity, oxygen, airflow, pressure, material).
 Safety meaning for the crew: practical implications for the habitat.
 Evidence and uncertainty: which recorded runs are closest, what they measured, and what is extrapolated.
 
-Rules: Base claims on the recorded runs first and the physics indicators second, and say which is which. If the gravity level was not tested, say the result is extrapolated from microgravity. Use only the numbers given above and do not invent experiment results, dates or measurements. No markdown, bullets or asterisks.`;
+Rules: Base claims on the recorded runs first and the physics indicators second, and say which is which. Never write that there is no evidence while RECORDED NASA TEST RUNS lists runs: compare the parameters that match (oxygen, airflow, pressure, flow direction, material) and state what differs. If the gravity level was not tested, say the result is extrapolated from microgravity. Use only the numbers given above and do not invent experiment results, dates or measurements. No markdown, bullets or asterisks.`;
 }
 async function askAI(){
   if (!sampleFn || !lastEval) return;
@@ -540,7 +540,7 @@ async function askAI(){
   try {
     const res = await sampleFn(buildPrompt(), {signal: aiCtl.signal, onText: ({text}) => { if (text && text !== 'Thinking...') renderAI(text); }});
     renderAI(res.text);
-    $('r-ai-src').textContent = 'Written by MINERVA AI (Claude) from the evidence below · check key claims';
+    $('r-ai-src').textContent = 'Written by MINERVA AI from the evidence below · check key claims';
   } catch (err){
     if (err && err.name === 'AbortError') return;
     $('r-ai-src').textContent = err && err.code === 'rate_limited' ? 'AI is busy; showing the rule-based interpretation. Try again in a minute.'
@@ -552,6 +552,15 @@ async function askAI(){
 $('r-ai-btn').addEventListener('click', askAI);
 if (window.claude && typeof window.claude.use === 'function'){
   window.claude.use('sample').then(fn => { if (fn){ sampleFn = fn; if (!$('view-results').hidden) $('r-ai-btn').hidden = false; } }).catch(() => {});
+} else if (location.protocol.startsWith('http')){
+  // Not on claude.ai: use the local Gemma proxy (server/llm-proxy.js) when the page is served by it.
+  sampleFn = gemmaSample;
+}
+async function gemmaSample(prompt, {signal} = {}){
+  const r = await fetch('/api/generate', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({prompt}), signal});
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok){ const e = new Error(j.error || 'HTTP ' + r.status); e.code = r.status === 503 ? 'not_configured' : 'failed'; throw e; }
+  return {text: j.text};
 }
 
 /* ---------- Compare ---------- */
