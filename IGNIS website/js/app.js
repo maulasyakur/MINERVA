@@ -755,6 +755,12 @@ function fillStats(){
   document.querySelectorAll('[data-stat]').forEach(el => el.textContent = fmtInt(M[el.dataset.stat]));
   ['solid','droplet','gas'].forEach(c => $('catN-'+c).textContent = `${M.cats[c]} runs`);
   $('rangeO2').textContent = `${fmtNum(M.o2[0])}–${fmtNum(M.o2[1])}%`; $('rangeP').textContent = `${kpa(M.p[0])}–${kpa(M.p[1])}`;
+  // Runs per environment, counted from the gravity labels in the bundled data (not typed in by hand).
+  const GRAV = {mars:/mars|martian/i, moon:/lunar|moon/i, earth:/earth|normal|ground|1\s*g\b/i};
+  const runsAt = env => Object.entries(M.gravity).reduce((a, [label, n]) => a + (GRAV[env].test(label) ? n : 0), 0);
+  $('tel-mars').textContent = fmtInt(runsAt('mars'));
+  $('tel-moon').textContent = fmtInt(runsAt('moon'));
+  $('tel-earth').textContent = fmtInt(runsAt('earth'));
   $('factFlexN').textContent = `${F.flexExt} of ${F.flexN}`;
   $('factFlex').textContent = `FLEX droplet flames ended in extinction; ${F.flexDis} ended with the droplet breaking apart and ${F.flexComp} burned to completion.`;
   $('factSaffN').textContent = `${fmtNum(F.saffireConc,0)} s vs ${fmtNum(F.saffireOpp,0)} s`;
