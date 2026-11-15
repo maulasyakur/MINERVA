@@ -104,6 +104,16 @@ test('columns map rejects empty or oversized header lists', async () => {
   assert.equal((await post(base, '/api/columns/map', { headers: Array(201).fill('a') })).status, 400);
 });
 
+test('model-backed routes are rate limited per client', async () => {
+  // columns/map allows 30 per minute per client; 40 quick requests must hit the limit.
+  const statuses = [];
+  for (let i = 0; i < 40; i++) {
+    statuses.push((await post(base, '/api/columns/map', { headers: ['O2 (%)'] })).status);
+  }
+  assert.ok(statuses.includes(429), 'expected at least one 429');
+  assert.equal(statuses[statuses.length - 1], 429);
+});
+
 test('static server does not serve the proxy source', async () => {
   const r = await fetch(`${base}/server/llm-proxy.js`);
   assert.equal(r.status, 404);

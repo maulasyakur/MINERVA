@@ -204,7 +204,31 @@ function serveStatic(req, res) {
   });
 }
 
+// Per-client rate limit for the endpoints that spend model credits. Fixed window, in memory.
+// Behind nginx, the client address comes from X-Forwarded-For (nginx sets it); otherwise the socket address.
+const RATE = { windowMs: 60_000, limits: { '/api/generate': 20, '/api/ask': 30, '/api/report': 10, '/api/columns/map': 30 } };
+const hits = new Map();
+function rateLimited(req, route) {
+  const limit = RATE.limits[route];
+  if (!limit) return false;
+  const fwd = String(req.headers['x-forwarded-for'] || '').split(',')[0].trim();
+  const ip = fwd || req.socket.remoteAddress || 'unknown';
+  const key = `${ip}|${route}`;
+  const now = Date.now();
+  const entry = hits.get(key);
+  if (!entry || now - entry.start >= RATE.windowMs) { hits.set(key, { start: now, count: 1 }); return false; }
+  entry.count += 1;
+  return entry.count > limit;
+}
+setInterval(() => {  // keep the map small
+  const now = Date.now();
+  for (const [k, v] of hits) if (now - v.start >= RATE.windowMs) hits.delete(k);
+}, RATE.windowMs).unref();
+
 http.createServer((req, res) => {
+  if (req.method === 'POST' && RATE.limits[req.url] && rateLimited(req, req.url)) {
+    return send(res, 429, { error: 'too many requests, try again in a minute' });
+  }
   if (req.method === 'POST' && req.url === '/api/generate') return handleGenerate(req, res);
   if (req.method === 'POST' && req.url === '/api/ask') return handleAsk(req, res);
   if (req.method === 'POST' && req.url === '/api/columns/map') return handleColumns(req, res);

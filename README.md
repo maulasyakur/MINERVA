@@ -104,6 +104,18 @@ API. Only the environment variables change.
 | POST | `/columns/map` | Maps CSV headers to standard fields (`o2`, `airflow`, `gravity`, `pressure`, `material`, `outcome`). Uses the model when available, otherwise rules. Any header the model invents is rejected. |
 | POST | `/ask` | Answers a question about the dataset using the most relevant rows, and returns those rows as sources. Body: `question`, `top_k` (1 to 10). |
 | GET | `/dataset/summary` | Number of rows in the configured dataset and its path. |
+| POST | `/report` | Word (`.docx`) report for one scenario: inputs, the 10 closest recorded runs, the interpretation text, and limits. Body: `scenario` (`env`, `g`, `o2`, `flow`, `mat`, `p`, `dir`) and `narrative`. No model call. |
+| GET | `/coverage` | Recorded runs per gravity × fuel class × O₂ band, plus the empty combinations. No model call. |
+
+The website reaches these through `server/llm-proxy.js`: `/api/generate`, `/api/ask`, `/api/columns/map`,
+`/api/report`, and `/api/coverage`. The model-backed routes are rate limited per client (20 to 30 requests a
+minute, 10 for reports), and return `429` when exceeded.
+
+### Scripts
+
+- `ai-engine/scripts/extract_outcomes.py` labels each run's outcome. Explicit recorded fields come first (for
+  FLEX, `Test end`). The model is used only for rows without such a field. Its output is a review file, not a
+  training target until a person has checked it. `dataset-psi/derived/outcomes_flex.csv` holds the FLEX labels.
 
 Input is validated with Pydantic at the boundary. Out-of-range values return `422`. If the model is not
 configured or the request fails, the response is `503` with a generic message. Details go to the server log

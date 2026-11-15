@@ -86,11 +86,14 @@ def main():
     ap.add_argument("--csv", default=str(Path(settings.dataset_path)))
     ap.add_argument("--limit", type=int, default=10)
     ap.add_argument("--dataset", default="", help="only rows whose dataset column equals this, e.g. FLEX")
+    ap.add_argument("--exclude", default="", help="skip rows whose dataset column equals this, e.g. FLEX")
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
 
     with open(args.csv, encoding="utf-8-sig", newline="") as f:
-        rows = [r for r in csv.DictReader(f) if not args.dataset or r.get("dataset") == args.dataset][: args.limit]
+        rows = [r for r in csv.DictReader(f)
+                if (not args.dataset or r.get("dataset") == args.dataset)
+                and (not args.exclude or r.get("dataset") != args.exclude)][: args.limit]
 
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
