@@ -196,7 +196,7 @@ function fmtRate(v){ return v >= 10 ? v.toFixed(0) : v >= 1 ? v.toFixed(1) : v >
 // Approximate limiting oxygen index (% O2, 1 g, ambient pressure) from the flammability literature, for the solids in the dataset.
 const PHYS = {
   pmma:{cls:'thick', loi:17.3}, pmma_like:{cls:'thick', loi:17.3, note:'treated as PMMA'},
-  silicone:{cls:'thick', loi:25}, ultem:{cls:'thick', loi:47},
+  ultem:{cls:'thick', loi:47},   // silicone removed: the only LOI found (30%) is for an additive-filled foam, not neat silicone
   sibal:{cls:'thin', loi:19}, nomex:{cls:'thin', loi:28}
 };
 const BASE = {thin:{opp:[1,4], con:[10,50]}, thick:{opp:[0.05,0.2], con:[1,10]}};   // Earth, 21% O2, still air, mm/s
@@ -244,7 +244,7 @@ function estimate(s){
   const ref = Math.max(21 - m.loi, 3), n = m.cls === 'thick' ? 2 : 1, earthMargin = s.o2 - m.loi;
   let fo;
   if (earthMargin > 0){ fo = Math.min(Math.pow(earthMargin/ref, n), 6);
-    basis.push(`Oxygen is ${earthMargin.toFixed(1)} points above the Earth limit; spread scales roughly ${n === 2 ? 'with the square of that margin (thick fuel)' : 'linearly with that margin (thin fuel)'} in an empirical scaling used here (not a derivation from de Ris theory), relative to Earth air.`); }
+    basis.push(`Oxygen is ${earthMargin.toFixed(1)} points above the Earth limit; the oxygen margin is mapped to a spread factor with an assumed empirical form (${n === 2 ? 'stronger dependence assumed for thick fuel' : 'weaker dependence assumed for thin fuel'}). This form is not derived from theory or validated against data, so treat the result as an order-of-magnitude guide, relative to Earth air.`); }
   else { fo = Math.min(Math.pow(margin/ref, n), 1)*.5; basis.push('The material would not burn at this oxygen level on Earth; it only burns here because of the low-gravity limit shift, so the flame is weak and slow.'); }
   if (margin < 2){ fo *= Math.max(margin/2, .15); basis.push(`Only ${margin.toFixed(1)} points above the estimated limit (${L.toFixed(1)}%), so the flame is near extinction and slows down.`); }
   const pf = (m.cls === 'thick' && s.p) ? s.p/101.3 : 1;
