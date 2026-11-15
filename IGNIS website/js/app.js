@@ -203,11 +203,25 @@ const BASE = {thin:{opp:[1,4], con:[10,50]}, thick:{opp:[0.05,0.2], con:[1,10]}}
 function estimate(s){
   const u = uForced(s), b = ub(s.g), ue = Math.hypot(u, b), basis = [];
   if (s.cat === 'droplet'){
-    const f = Math.sqrt(s.o2/21) * (.85 + .15*Math.sqrt(s.g));
+    // Fitted to the recorded FLEX droplet runs (log10 K vs O2, 21% O2 reference). Microgravity data only.
+    // pf = 90% prediction factor for a single run (scatter between recorded runs), not the confidence interval of the fit.
+    const DROP = {methanol:{k21:.482, slope:.0135, pf:1.34, n:154},
+                  heptane:{k21:.515, slope:.0139, pf:1.72, n:113}};
+    const d = DROP[s.fuel];
+    const gfac = s.g < .01 ? 1 : (.85 + .15*Math.sqrt(s.g));
+    const scale = Math.pow(10, (d ? d.slope : .0136) * (s.o2 - 21)) * gfac;
+    if (d){
+      const mid = d.k21*scale;
+      basis.push(`Burning-rate constant K from ${d.n} recorded FLEX runs of ${FUELS[s.fuel].name.toLowerCase()}, fitted on the log scale against oxygen.`);
+      basis.push(`At 21% O₂ the fit gives K ≈ ${d.k21.toFixed(2)} mm²/s; each extra point of oxygen raises K by about ${((Math.pow(10, d.slope)-1)*100).toFixed(1)}%.`);
+      basis.push(`The range is the 90% spread of individual recorded runs around the fit (factor ${d.pf} either way), so a single real run can fall outside the fit's central value.`);
+      basis.push(s.g < .01 ? 'These runs were all in microgravity, so this value is a microgravity fit.' : 'The FLEX runs were all in microgravity; the reduced-gravity adjustment here is an approximation.');
+      return {kind:'K', unit:'mm²/s', lo:mid/d.pf, hi:mid*d.pf, mid, rel:scale, relText:`${scale.toFixed(2)}× the 21% O₂ value`, ext:false, margin:99, basis, limit:null};
+    }
     basis.push('Droplet fires are rated by their burning-rate constant K (how fast the droplet\'s diameter² shrinks), not by surface spread.');
-    basis.push('Baseline K of about 0.5–1.0 mm²/s for a hydrocarbon droplet in air, scaled with the square root of oxygen concentration.');
-    basis.push(s.g < .01 ? 'Microgravity droplet burning is the best-studied case (FLEX), so the measured K in the nearest runs is the better guide.' : 'Buoyancy slightly increases K above microgravity values.');
-    return {kind:'K', unit:'mm²/s', lo:.5*f, hi:1.0*f, mid:.707*f, rel:f, relText:`${f.toFixed(2)}× an Earth-air droplet`, ext:false, margin:99, basis, limit:null};
+    basis.push('No recorded runs for this droplet fuel: a rough baseline of about 0.5–1.0 mm²/s is used, scaled with the square root of oxygen concentration. Treat as uncalibrated.');
+    const f = Math.sqrt(s.o2/21) * gfac;
+    return {kind:'K', unit:'mm²/s', lo:.5*f, hi:1.0*f, mid:.707*f, rel:f, relText:`${f.toFixed(2)}× an Earth-air droplet (uncalibrated)`, ext:false, margin:99, basis, limit:null};
   }
   if (s.cat === 'gas') return {none:'No spread-rate approximation for gas-jet flames: they do not spread over a surface. Use the recorded ignition and burn-time outcomes above.'};
   const m = PHYS[s.fuel];
