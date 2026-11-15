@@ -216,7 +216,7 @@ function estimate(s){
       basis.push(`Burning-rate constant K from ${d.n} recorded FLEX runs of ${FUELS[s.fuel].name.toLowerCase()}, fitted on the log scale against oxygen.`);
       basis.push(`At 21% O₂ the fit gives K ≈ ${d.k21.toFixed(2)} mm²/s; each extra point of oxygen raises K by about ${((Math.pow(10, d.slope)-1)*100).toFixed(1)}%.`);
       basis.push(`The range is the 90% spread of individual recorded runs around the fit (factor ${d.pf} either way), so a single real run can fall outside the fit's central value.`);
-      basis.push(s.g < .01 ? 'These runs were all in microgravity, so this value is a microgravity fit.' : 'The FLEX runs were all in microgravity, so the value is not adjusted for other gravity levels. The effect of gravity on K is not settled in the literature.');
+      // Gravity coverage is stated once, in the notes section; not repeated here.
       return {kind:'K', unit:'mm²/s', lo:mid/d.pf, hi:mid*d.pf, mid, rel:scale, relText:`${scale.toFixed(2)}× the 21% O₂ value`, ext:false, margin:99, basis, limit:null};
     }
     basis.push('Droplet fires are rated by their burning-rate constant K (how fast the droplet\'s diameter² shrinks), not by surface spread.');
@@ -358,7 +358,8 @@ function renderResults(){
   const P = [['Gravity', fmtG(s.g) + ' g'], ['Fuel', fuelName(s)], ['Oxygen concentration', s.o2 + '%'], ['Airflow speed', s.flow + ' cm/s'],
     ['Pressure', s.p ? s.p + ' kPa' : null], ['Flow direction', s.dir ? s.dir[0].toUpperCase() + s.dir.slice(1) : null]];
   $('r-params').innerHTML = P.map(([k,v]) => `<div><div class="k">${k}</div><div class="v ${v ? '' : 'unset'}">${v ? esc(v) : 'Not set · not matched'}</div></div>`).join('');
-  $('r-verdict').className = 'verdict ' + hz.cls; $('r-hz').className = 'tag ' + hz.cls; $('r-hz').textContent = hz.tag; $('r-hzt').textContent = hz.text;
+  $('r-verdict').className = 'verdict ' + hz.cls; $('r-hz').className = 'tag ' + hz.cls; $('r-hz').textContent = hz.tag;
+  $('r-hz').title = 'A qualitative label from the evidence shown below. It is not a fire-risk assessment.'; $('r-hzt').textContent = hz.text;
 
   Object.assign(main.params, flameParams(ev));
   $('hudG').textContent = fmtG(s.g); $('hudO2').textContent = s.o2 + '%';
@@ -391,7 +392,9 @@ function renderSpread(ev){
   $('sr-body').hidden = none; $('sr-none').hidden = !none;
   if (none){ $('sr-none').textContent = e.none; $('sr-tag').textContent = 'Not available'; $('sr-tag').className = 'tag'; return; }
   $('sr-label').textContent = e.kind === 'K' ? 'Burning-rate constant (droplet)' : 'Estimated spread rate';
-  $('sr-tag').textContent = 'Physics approximation'; $('sr-tag').className = 'tag warn';
+  // Say what kind of number this is: a fit to recorded droplet runs, or an unvalidated empirical estimate.
+  $('sr-tag').textContent = e.kind === 'K' ? 'Fitted to recorded runs' : 'Empirical estimate, not validated';
+  $('sr-tag').className = 'tag warn';
   if (e.ext){ $('sr-big').innerHTML = '≈ 0 <small>mm/s</small>'; $('sr-range').textContent = `Likely self-extinguishing · estimated limit ${e.limit.toFixed(1)}% O₂`; $('sr-method').textContent = 'Oxygen-limit check with gravity, flow and pressure corrections.'; }
   else { $('sr-big').innerHTML = `≈ ${fmtRate(e.mid)} <small>${e.unit}</small>`; $('sr-range').textContent = `Likely range ${fmtRate(e.lo)}–${fmtRate(e.hi)} ${e.unit}`;
     $('sr-method').textContent = e.kind === 'K' ? 'Droplet burning-rate scaling.' : 'Empirical flame-spread approximation with oxygen-limit, buoyancy and flow corrections. Order-of-magnitude only.'; }
