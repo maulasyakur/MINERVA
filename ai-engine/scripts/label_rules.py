@@ -43,6 +43,10 @@ def label(raw: dict, dataset: str, row: dict) -> dict:
     if "extinction" in end:
         set_("extinguished", "yes", "Test end")
     elif "disruption" in end:
+        # NASA/TP-2015-216046: a disruption ended the test before the flame went out.
+        set_("extinguished", "no", "Test end")
+    elif "completion" in end:
+        # NASA/TP-2015-216046: the droplet burned to completion, so no visible flame extinction occurred.
         set_("extinguished", "no", "Test end")
 
     # ACME CFI-G: hot ignition and self-extinguishing (SE). FT is ambiguous, so it is left unknown.

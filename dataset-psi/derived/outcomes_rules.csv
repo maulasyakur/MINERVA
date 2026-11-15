@@ -282,19 +282,19 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 280,FLEX,PSI-69,17 / 240R003,unknown,unknown,no,Test end
 281,FLEX,PSI-69,18 / 248F001,unknown,unknown,yes,Test end
 282,FLEX,PSI-69,19 / 196F001,unknown,unknown,no,Test end
-283,FLEX,PSI-69,20 / 192F001,unknown,unknown,unknown,
+283,FLEX,PSI-69,20 / 192F001,unknown,unknown,no,Test end
 284,FLEX,PSI-69,21 / 192F002,unknown,unknown,no,Test end
 285,FLEX,PSI-69,22 / 192F003,unknown,unknown,no,Test end
 286,FLEX,PSI-69,23 / 196F002,unknown,unknown,no,Test end
 287,FLEX,PSI-69,24 / 196F003,unknown,unknown,no,Test end
-288,FLEX,PSI-69,25 / 191R001,unknown,unknown,unknown,
+288,FLEX,PSI-69,25 / 191R001,unknown,unknown,no,Test end
 289,FLEX,PSI-69,26 / 191F001,unknown,unknown,no,Test end
 290,FLEX,PSI-69,27 / 195F001,unknown,unknown,no,Test end
 291,FLEX,PSI-69,28 / 195F002,unknown,unknown,no,Test end
-292,FLEX,PSI-69,29 / 178R001,unknown,unknown,unknown,
+292,FLEX,PSI-69,29 / 178R001,unknown,unknown,no,Test end
 293,FLEX,PSI-69,30 / 178F001,unknown,unknown,yes,Test end
 294,FLEX,PSI-69,31 / 182F001,unknown,unknown,no,Test end
-295,FLEX,PSI-69,32 / 182F002,unknown,unknown,unknown,
+295,FLEX,PSI-69,32 / 182F002,unknown,unknown,no,Test end
 296,FLEX,PSI-69,33 / 177R002,unknown,unknown,yes,Test end
 297,FLEX,PSI-69,34 / 177F001,unknown,unknown,yes,Test end
 298,FLEX,PSI-69,35 / 181F001,unknown,unknown,yes,Test end
@@ -309,34 +309,34 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 307,FLEX,PSI-69,44 / 206F001,unknown,unknown,no,Test end
 308,FLEX,PSI-69,45 / 206R001,unknown,unknown,yes,Test end
 309,FLEX,PSI-69,46 / 205R001,unknown,unknown,no,Test end
-310,FLEX,PSI-69,47 / 209F001,unknown,unknown,unknown,
+310,FLEX,PSI-69,47 / 209F001,unknown,unknown,no,Test end
 311,FLEX,PSI-69,48 / 205F001,unknown,unknown,no,Test end
 312,FLEX,PSI-69,49 / 209F003,unknown,unknown,yes,Test end
 313,FLEX,PSI-69,50 / 209F004,unknown,unknown,yes,Test end
-314,FLEX,PSI-69,51 / 209F005,unknown,unknown,unknown,
+314,FLEX,PSI-69,51 / 209F005,unknown,unknown,no,Test end
 315,FLEX,PSI-69,52 / 210F002,unknown,unknown,no,Test end
 316,FLEX,PSI-69,53 / 209F002,unknown,unknown,no,Test end
 317,FLEX,PSI-69,54 / 190F003,unknown,unknown,yes,Test end
 318,FLEX,PSI-69,55 / 218F001,unknown,unknown,no,Test end
-319,FLEX,PSI-69,56 / 194F001,unknown,unknown,unknown,
+319,FLEX,PSI-69,56 / 194F001,unknown,unknown,no,Test end
 320,FLEX,PSI-69,57 / 303F001,unknown,unknown,yes,Test end
 321,FLEX,PSI-69,58 / 176F001,unknown,unknown,yes,Test end
 322,FLEX,PSI-69,59 / 176R001,unknown,unknown,yes,Test end
 323,FLEX,PSI-69,60 / 204F001,unknown,unknown,yes,Test end
 324,FLEX,PSI-69,61 / 204R001,unknown,unknown,yes,Test end
 325,FLEX,PSI-69,62 / 301F001,unknown,unknown,yes,Test end
-326,FLEX,PSI-69,63 / 301F002,unknown,unknown,unknown,
+326,FLEX,PSI-69,63 / 301F002,unknown,unknown,no,Test end
 327,FLEX,PSI-69,64 / 302F001,unknown,unknown,yes,Test end
 328,FLEX,PSI-69,65 / 189R001,unknown,unknown,yes,Test end
 329,FLEX,PSI-69,66 / 189F001,unknown,unknown,yes,Test end
 330,FLEX,PSI-69,67 / 189F002,unknown,unknown,yes,Test end
 331,FLEX,PSI-69,68 / 189R003,unknown,unknown,yes,Test end
-332,FLEX,PSI-69,69 / 193R002,unknown,unknown,unknown,
+332,FLEX,PSI-69,69 / 193R002,unknown,unknown,no,Test end
 333,FLEX,PSI-69,70 / 193F001,unknown,unknown,yes,Test end
 334,FLEX,PSI-69,71 / 189R002,unknown,unknown,yes,Test end
-335,FLEX,PSI-69,72 / 193R001,unknown,unknown,unknown,
+335,FLEX,PSI-69,72 / 193R001,unknown,unknown,no,Test end
 336,FLEX,PSI-69,73 / 193F001,unknown,unknown,yes,Test end
-337,FLEX,PSI-69,74 / 221F001,unknown,unknown,unknown,
+337,FLEX,PSI-69,74 / 221F001,unknown,unknown,no,Test end
 338,FLEX,PSI-69,75 / 203R002,unknown,unknown,yes,Test end
 339,FLEX,PSI-69,76 / 203F001,unknown,unknown,yes,Test end
 340,FLEX,PSI-69,77 / 175R001,unknown,unknown,yes,Test end
@@ -359,7 +359,7 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 357,FLEX,PSI-69,94 / C08H101,unknown,unknown,yes,Test end
 358,FLEX,PSI-69,95 / C08H201,unknown,unknown,yes,Test end
 359,FLEX,PSI-69,96 / C08H301,unknown,unknown,no,Test end
-360,FLEX,PSI-69,97 / C08M101,unknown,unknown,unknown,
+360,FLEX,PSI-69,97 / C08M101,unknown,unknown,no,Test end
 361,FLEX,PSI-69,98 / C09M201,unknown,unknown,yes,Test end
 362,FLEX,PSI-69,99 / C09M101,unknown,unknown,yes,Test end
 363,FLEX,PSI-69,100 / C09H101,unknown,unknown,yes,Test end
@@ -370,11 +370,11 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 368,FLEX,PSI-69,105 / C08M301,unknown,unknown,no,Test end
 369,FLEX,PSI-69,106 / C09M401,unknown,unknown,no,Test end
 370,FLEX,PSI-69,107 / C08M401,unknown,unknown,no,Test end
-371,FLEX,PSI-69,108 / C09M301,unknown,unknown,unknown,
+371,FLEX,PSI-69,108 / C09M301,unknown,unknown,no,Test end
 372,FLEX,PSI-69,109 / C10M102,unknown,unknown,yes,Test end
 373,FLEX,PSI-69,110 / C10M201,unknown,unknown,yes,Test end
-374,FLEX,PSI-69,111 / C10M303,unknown,unknown,unknown,
-375,FLEX,PSI-69,112 / C10M401,unknown,unknown,unknown,
+374,FLEX,PSI-69,111 / C10M303,unknown,unknown,no,Test end
+375,FLEX,PSI-69,112 / C10M401,unknown,unknown,no,Test end
 376,FLEX,PSI-69,113 / C11M101,unknown,unknown,yes,Test end
 377,FLEX,PSI-69,114 / C11M201,unknown,unknown,yes,Test end
 378,FLEX,PSI-69,115 / C11M301,unknown,unknown,yes,Test end
@@ -397,8 +397,8 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 395,FLEX,PSI-69,132 / C21H201,unknown,unknown,no,Test end
 396,FLEX,PSI-69,133 / C21H301,unknown,unknown,no,Test end
 397,FLEX,PSI-69,134 / C21H401,unknown,unknown,yes,Test end
-398,FLEX,PSI-69,135 / C21H501,unknown,unknown,unknown,
-399,FLEX,PSI-69,136 / C21H302,unknown,unknown,unknown,
+398,FLEX,PSI-69,135 / C21H501,unknown,unknown,no,Test end
+399,FLEX,PSI-69,136 / C21H302,unknown,unknown,no,Test end
 400,FLEX,PSI-69,137 / C21H303,unknown,unknown,no,Test end
 401,FLEX,PSI-69,138 / C21H304,unknown,unknown,no,Test end
 402,FLEX,PSI-69,139 / C21H305,unknown,unknown,no,Test end
@@ -413,12 +413,12 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 411,FLEX,PSI-69,148 / C01H101,unknown,unknown,no,Test end
 412,FLEX,PSI-69,149 / C01H201,unknown,unknown,no,Test end
 413,FLEX,PSI-69,150 / C01H302,unknown,unknown,yes,Test end
-414,FLEX,PSI-69,151 / C03M101,unknown,unknown,unknown,
+414,FLEX,PSI-69,151 / C03M101,unknown,unknown,no,Test end
 415,FLEX,PSI-69,152 / C03M201,unknown,unknown,yes,Test end
 416,FLEX,PSI-69,153 / C03M301,unknown,unknown,yes,Test end
 417,FLEX,PSI-69,154 / C03H101,unknown,unknown,yes,Test end
 418,FLEX,PSI-69,155 / C03H201,unknown,unknown,yes,Test end
-419,FLEX,PSI-69,156 / C03H401,unknown,unknown,unknown,
+419,FLEX,PSI-69,156 / C03H401,unknown,unknown,no,Test end
 420,FLEX,PSI-69,157 / C05M101,unknown,unknown,yes,Test end
 421,FLEX,PSI-69,158 / C05M201,unknown,unknown,yes,Test end
 422,FLEX,PSI-69,159 / C05M301,unknown,unknown,yes,Test end
@@ -469,8 +469,8 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 467,FLEX,PSI-69,204 / N01H101,unknown,unknown,no,Test end
 468,FLEX,PSI-69,205 / N01H102,unknown,unknown,no,Test end
 469,FLEX,PSI-69,206 / N01H201,unknown,unknown,no,Test end
-470,FLEX,PSI-69,207 / N01H202,unknown,unknown,unknown,
-471,FLEX,PSI-69,208 / N01H301,unknown,unknown,unknown,
+470,FLEX,PSI-69,207 / N01H202,unknown,unknown,no,Test end
+471,FLEX,PSI-69,208 / N01H301,unknown,unknown,no,Test end
 472,FLEX,PSI-69,209 / N02H101,unknown,unknown,yes,Test end
 473,FLEX,PSI-69,210 / N02H201,unknown,unknown,yes,Test end
 474,FLEX,PSI-69,211 / N02H203,unknown,unknown,yes,Test end
@@ -486,7 +486,7 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 484,FLEX,PSI-69,221 / N06M202,unknown,unknown,yes,Test end
 485,FLEX,PSI-69,222 / H01M102,unknown,unknown,yes,Test end
 486,FLEX,PSI-69,223 / H01M104,unknown,unknown,yes,Test end
-487,FLEX,PSI-69,224 / H01H102,unknown,unknown,unknown,
+487,FLEX,PSI-69,224 / H01H102,unknown,unknown,no,Test end
 488,FLEX,PSI-69,225 / H02M101,unknown,unknown,yes,Test end
 489,FLEX,PSI-69,226 / H03M101,unknown,unknown,yes,Test end
 490,FLEX,PSI-69,227 / H03M201,unknown,unknown,yes,Test end
@@ -495,12 +495,12 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 493,FLEX,PSI-69,230 / N01H601,unknown,unknown,yes,Test end
 494,FLEX,PSI-69,231 / H02H101,unknown,unknown,no,Test end
 495,FLEX,PSI-69,232 / H03H101,unknown,unknown,yes,Test end
-496,FLEX,PSI-69,233 / H03H201,unknown,unknown,unknown,
-497,FLEX,PSI-69,234 / H03H202,unknown,unknown,unknown,
+496,FLEX,PSI-69,233 / H03H201,unknown,unknown,no,Test end
+497,FLEX,PSI-69,234 / H03H202,unknown,unknown,no,Test end
 498,FLEX,PSI-69,235 / H04H101,unknown,unknown,yes,Test end
 499,FLEX,PSI-69,236 / H04H201,unknown,unknown,yes,Test end
 500,FLEX,PSI-69,237 / H04H302,unknown,unknown,no,Test end
-501,FLEX,PSI-69,238 / H04H303,unknown,unknown,unknown,
+501,FLEX,PSI-69,238 / H04H303,unknown,unknown,no,Test end
 502,FLEX,PSI-69,239 / H04M101,unknown,unknown,yes,Test end
 503,FLEX,PSI-69,240 / H04M202,unknown,unknown,yes,Test end
 504,FLEX,PSI-69,241 / H05M102,unknown,unknown,yes,Test end
@@ -512,7 +512,7 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 510,FLEX,PSI-69,247 / H07M202,unknown,unknown,yes,Test end
 511,FLEX,PSI-69,248 / H08M101,unknown,unknown,yes,Test end
 512,FLEX,PSI-69,249 / H10H101,unknown,unknown,yes,Test end
-513,FLEX,PSI-69,250 / H11H101,unknown,unknown,unknown,
+513,FLEX,PSI-69,250 / H11H101,unknown,unknown,no,Test end
 514,FLEX,PSI-69,251 / H10M101,unknown,unknown,yes,Test end
 515,FLEX,PSI-69,252 / H10M102,unknown,unknown,no,Test end
 516,FLEX,PSI-69,253 / H11M101,unknown,unknown,yes,Test end
@@ -532,7 +532,7 @@ row_index,dataset,psi_id,test_id,ignition,sustained_burn,extinguished,source
 530,FLEX,PSI-69,267 / H14H101,unknown,unknown,yes,Test end
 531,FLEX,PSI-69,268 / H14H201,unknown,unknown,yes,Test end
 532,FLEX,PSI-69,269 / H15H101,unknown,unknown,yes,Test end
-533,FLEX,PSI-69,270 / H15H201,unknown,unknown,unknown,
+533,FLEX,PSI-69,270 / H15H201,unknown,unknown,no,Test end
 534,FLEX,PSI-69,271 / H15M102,unknown,unknown,yes,Test end
 535,FLEX,PSI-69,272 / H15M201,unknown,unknown,yes,Test end
 536,FLEX,PSI-69,273 / H19H101,unknown,unknown,yes,Test end
