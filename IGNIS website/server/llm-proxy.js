@@ -98,6 +98,56 @@ async function handleGenerate(req, res) {
   }
 }
 
+// Dataset Q&A: forwarded to the ai-engine /ask endpoint (needs AI_ENGINE_URL).
+async function handleAsk(req, res) {
+  let body;
+  try { body = JSON.parse(await readBody(req)); }
+  catch (e) { return send(res, 400, { error: 'invalid request body' }); }
+  const question = body && body.question;
+  const topK = body && body.top_k == null ? 5 : body && body.top_k;
+  if (typeof question !== 'string' || question.length < 3 || question.length > 500) {
+    return send(res, 400, { error: 'question must be 3 to 500 characters' });
+  }
+  if (!Number.isInteger(topK) || topK < 1 || topK > 10) return send(res, 400, { error: 'top_k must be 1 to 10' });
+  if (!AI_ENGINE_URL) return send(res, 503, { error: 'AI engine is not configured' });
+  try {
+    const r = await fetch(`${AI_ENGINE_URL}/ask`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question, top_k: topK }), signal: AbortSignal.timeout(90000)
+    });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) return send(res, r.status === 503 ? 503 : 502, { error: 'AI unavailable' });
+    send(res, 200, j);
+  } catch (e) {
+    console.error('[ask]', e.message);
+    send(res, 502, { error: 'AI unavailable' });
+  }
+}
+
+// CSV header mapping: forwarded to the ai-engine /columns/map endpoint (needs AI_ENGINE_URL).
+async function handleColumns(req, res) {
+  let body;
+  try { body = JSON.parse(await readBody(req)); }
+  catch (e) { return send(res, 400, { error: 'invalid request body' }); }
+  const headers = body && body.headers;
+  const ok = Array.isArray(headers) && headers.length >= 1 && headers.length <= 200 &&
+    headers.every(h => typeof h === 'string' && h.length >= 1 && h.length <= 100);
+  if (!ok) return send(res, 400, { error: 'headers must be 1 to 200 strings of 1 to 100 characters' });
+  if (!AI_ENGINE_URL) return send(res, 503, { error: 'AI engine is not configured' });
+  try {
+    const r = await fetch(`${AI_ENGINE_URL}/columns/map`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ headers, use_llm: body.use_llm !== false }), signal: AbortSignal.timeout(90000)
+    });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) return send(res, 502, { error: 'mapping unavailable' });
+    send(res, 200, j);
+  } catch (e) {
+    console.error('[columns]', e.message);
+    send(res, 502, { error: 'mapping unavailable' });
+  }
+}
+
 function serveStatic(req, res) {
   const url = new URL(req.url, 'http://localhost');
   let p = decodeURIComponent(url.pathname);
@@ -113,6 +163,8 @@ function serveStatic(req, res) {
 
 http.createServer((req, res) => {
   if (req.method === 'POST' && req.url === '/api/generate') return handleGenerate(req, res);
+  if (req.method === 'POST' && req.url === '/api/ask') return handleAsk(req, res);
+  if (req.method === 'POST' && req.url === '/api/columns/map') return handleColumns(req, res);
   if (req.method === 'GET' || req.method === 'HEAD') return serveStatic(req, res);
   send(res, 405, 'method not allowed', 'text/plain');
 }).listen(PORT, HOST, () => {

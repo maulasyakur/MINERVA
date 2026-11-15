@@ -550,6 +550,65 @@ async function askAI(){
   } finally { $('r-ai-btn').disabled = false; $('r-ai-btn').textContent = 'Regenerate AI answer'; }
 }
 $('r-ai-btn').addEventListener('click', askAI);
+
+/* ---------- Ask the dataset (ai-engine /ask, via /api/ask) ---------- */
+async function askDataset(e){
+  e.preventDefault();
+  const q = $('askQ').value.trim();
+  if (q.length < 3) return;
+  const btn = $('askBtn'), out = $('askAns'), src = $('askSrc');
+  btn.disabled = true; out.textContent = 'Searching the dataset…'; src.innerHTML = '';
+  try {
+    const r = await fetch('/api/ask', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({question: q, top_k: 5})});
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(j.error || 'HTTP ' + r.status);
+    out.textContent = j.answer;
+    for (const s of j.sources || []){
+      const li = document.createElement('li');
+      li.textContent = `row ${s.row_index} · ${s.dataset || ''} ${s.psi_id || ''} · ${s.fuel_material || ''} · O₂ ${s.o2_pct || '—'}% · airflow ${s.airflow_cm_s || '—'} cm/s · ${s.gravity_level || ''}`;
+      src.appendChild(li);
+    }
+  } catch (err){
+    out.textContent = `Dataset question unavailable (${err.message}).`;
+  } finally { btn.disabled = false; }
+}
+$('askForm').addEventListener('submit', askDataset);
+
+/* ---------- Map CSV headers (ai-engine /columns/map, via /api/columns/map). Only the header row leaves the browser. ---------- */
+function splitHeader(line){
+  const out = []; let cell = '', q = false;
+  for (let i = 0; i < line.length; i++){
+    const ch = line[i];
+    if (q){ if (ch === '"'){ if (line[i+1] === '"'){ cell += '"'; i++; } else q = false; } else cell += ch; }
+    else if (ch === '"') q = true;
+    else if (ch === ','){ out.push(cell.trim()); cell = ''; }
+    else cell += ch;
+  }
+  out.push(cell.trim());
+  return out.map(h => h.replace(/^﻿/, '')).filter(Boolean);
+}
+async function mapHeaders(e){
+  const file = e.target.files[0], list = $('colMap');
+  list.innerHTML = '';
+  if (!file) return;
+  const head = await file.slice(0, 65536).text();
+  const headers = splitHeader(head.split(/\r?\n/)[0] || '').slice(0, 200).map(h => h.slice(0, 100));
+  const put = msg => { const li = document.createElement('li'); li.textContent = msg; list.appendChild(li); };
+  if (!headers.length){ put('No header row found in this file.'); return; }
+  put('Mapping…');
+  try {
+    const r = await fetch('/api/columns/map', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({headers, use_llm: true})});
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(j.error || 'HTTP ' + r.status);
+    list.innerHTML = '';
+    put(`Method: ${j.method === 'llm' ? 'AI' : 'rules'}`);
+    for (const [field, header] of Object.entries(j.mapping)) put(`${field} → ${header || '(not found)'}`);
+  } catch (err){
+    list.innerHTML = '';
+    put(`Mapping unavailable (${err.message}).`);
+  }
+}
+$('csvHead').addEventListener('change', mapHeaders);
 if (window.claude && typeof window.claude.use === 'function'){
   window.claude.use('sample').then(fn => { if (fn){ sampleFn = fn; if (!$('view-results').hidden) $('r-ai-btn').hidden = false; } }).catch(() => {});
 } else if (location.protocol.startsWith('http')){

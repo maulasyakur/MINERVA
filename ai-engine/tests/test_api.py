@@ -86,6 +86,32 @@ def test_ask_without_matches_does_not_call_model(monkeypatch):
     assert "No matching runs" in text
 
 
+def test_ask_endpoint_returns_answer_and_sources(monkeypatch):
+    monkeypatch.setattr(ask_mod, "chat", lambda *a, **k: "stub answer")
+    r = client.post("/ask", json={"question": "Which runs used PMMA?", "top_k": 3})
+    assert r.status_code == 200
+    body = r.json()
+    assert body["answer"] == "stub answer"
+    assert all("row_index" in s for s in body["sources"])
+
+
+def test_ask_endpoint_validates_input():
+    assert client.post("/ask", json={"question": "ab"}).status_code == 422
+    assert client.post("/ask", json={"question": "valid question", "top_k": 50}).status_code == 422
+
+
+def test_columns_endpoint_rejects_empty_headers():
+    assert client.post("/columns/map", json={"headers": []}).status_code == 422
+
+
+def test_columns_endpoint_rule_path(monkeypatch):
+    monkeypatch.setattr(columns_mod, "chat", lambda *a, **k: (_ for _ in ()).throw(LLMError("no key")))
+    r = client.post("/columns/map", json={"headers": ["O2 (%)", "Material", "Spread rate"]})
+    assert r.status_code == 200
+    assert r.json()["method"] == "rules"
+    assert r.json()["mapping"]["o2"] == "O2 (%)"
+
+
 @pytest.mark.parametrize("path", ["/health", "/dataset/summary"])
 def test_read_only_endpoints_ok(path):
     assert client.get(path).status_code == 200

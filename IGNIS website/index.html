@@ -116,6 +116,33 @@
       <p class="hint" style="margin:0">Swipe sideways or use the arrows to see every habitat. Picking one sets the gravity preset. Every run in the dataset was done in microgravity.</p>
     </div>
   </section>
+
+  <section class="dataset-tools" aria-labelledby="dt-h" style="margin-top:48px">
+    <div class="sec-head">
+      <p class="eyebrow">Dataset tools</p>
+      <h2 id="dt-h">Ask the NASA dataset</h2>
+      <p class="lede">Questions are answered from the matching PSI runs, and each answer lists the runs it used.</p>
+    </div>
+    <div class="grid-2">
+      <div class="panel" aria-labelledby="ask-h">
+        <div class="panel-title"><h3 id="ask-h">Ask a question</h3><span class="tag info">Answers cite real runs</span></div>
+        <form id="askForm" style="display:flex;gap:8px;flex-wrap:wrap">
+          <label for="askQ" class="sr-only">Question about the dataset</label>
+          <input id="askQ" type="text" maxlength="500" required minlength="3" style="flex:1;min-width:200px"
+                 placeholder="e.g. Which runs used PMMA at 21% O2?">
+          <button type="submit" class="btn small" id="askBtn">Ask</button>
+        </form>
+        <div class="ai-text" id="askAns" aria-live="polite"></div>
+        <ul class="ask-sources" id="askSrc"></ul>
+      </div>
+      <div class="panel" aria-labelledby="map-h">
+        <div class="panel-title"><h3 id="map-h">Map a CSV's columns</h3><span class="tag info">Headers only</span></div>
+        <p class="hint">Choose a CSV. Only its header row is sent to the AI; the data rows stay in your browser.</p>
+        <input type="file" id="csvHead" accept=".csv,text/csv">
+        <ul class="ask-sources" id="colMap"></ul>
+      </div>
+    </div>
+  </section>
 </div>
 
 <!-- ================= RESULTS ================= -->
